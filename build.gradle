@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application' version '8.6.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
+}
+
+tasks.register('verifyExtensions') {
+    dependsOn ':src:ar:mangarabi:testReleaseUnitTest', ':src:ar:hikayateam:testReleaseUnitTest',
+        ':src:ar:mangarabi:lintRelease', ':src:ar:hikayateam:lintRelease'
+}
+
+tasks.register('buildExtensions') {
+    dependsOn ':src:ar:mangarabi:assembleRelease', ':src:ar:hikayateam:assembleRelease',
+        ':src:ar:mangarabi:extensionJar', ':src:ar:hikayateam:extensionJar'
+}

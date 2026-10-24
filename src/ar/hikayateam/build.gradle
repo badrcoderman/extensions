@@ -1,0 +1,6 @@
+ext {
+    extName = 'HikayaTeam'
+    extClass = '.HikayaTeam'
+    extVersionCode = 1
+}
+apply from: "$rootDir/common.gradle"

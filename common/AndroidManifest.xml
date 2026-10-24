@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:name="tachiyomi.extension" android:required="false" />
+    <application
+        android:allowBackup="false"
+        android:hasCode="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tachiyomi: ${extName}"
+        android:supportsRtl="true">
+        <meta-data android:name="tachiyomi.extension.class" android:value="${extClass}" />
+        <meta-data android:name="tachiyomi.extension.nsfw" android:value="1" />
+        <meta-data android:name="tachiyomix.name" android:value="${extName}" />
+        <meta-data android:name="tachiyomix.extensionLib" android:value="1.4" />
+        <meta-data android:name="tachiyomix.contentWarning" android:value="1" />
+    </application>
+</manifest>

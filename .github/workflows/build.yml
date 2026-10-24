@@ -1,0 +1,79 @@
+name: Build Arabic extensions
+
+on:
+  push:
+    branches: [repo]
+    paths:
+      - 'src/**'
+      - 'common/**'
+      - 'scripts/**'
+      - '*.gradle'
+      - 'gradle.properties'
+      - 'gradle/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+    inputs:
+      live_tests:
+        description: Also test the live websites and download sample chapter images
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arabic-extension-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install build dependencies
+        run: |
+          sdkmanager 'platforms;android-34' 'build-tools;34.0.0'
+          python -m pip install 'protobuf>=7.35.1,<8'
+      - name: Test, lint and build APK and JAR classes
+        env:
+          RUN_LIVE_TESTS: ${{ inputs.live_tests && '1' || '0' }}
+        run: |
+          ./gradlew verifyExtensions buildExtensions --console=plain
+      - name: Sign and verify packages
+        env:
+          EXTENSION_KEYSTORE_BASE64: ${{ secrets.EXTENSION_KEYSTORE_BASE64 }}
+          EXTENSION_KEYSTORE_PASSWORD: ${{ secrets.EXTENSION_KEYSTORE_PASSWORD }}
+        run: |
+          export EXTENSION_KEYSTORE="$RUNNER_TEMP/extensions.p12"
+          python - <<'PY'
+          import base64, os
+          from pathlib import Path
+          key = Path(os.environ['EXTENSION_KEYSTORE'])
+          key.write_bytes(base64.b64decode(os.environ['EXTENSION_KEYSTORE_BASE64'], validate=True))
+          key.chmod(0o600)
+          PY
+          python scripts/package_repository.py
+          rm "$EXTENSION_KEYSTORE"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arabic-extensions
+          path: build/repository/
+      - name: Publish verified repository
+        run: |
+          rm -rf apk jar icon
+          cp -r build/repository/. .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add apk jar icon index.pb index.json index.min.json repo.json SHA256SUMS
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update MangaRabi and HikayaTeam packages'
+            git push
+          fi

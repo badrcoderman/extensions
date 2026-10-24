@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    namespace "eu.kanade.tachiyomi.extension.ar.${project.name}"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId namespace
+        minSdk 21
+        targetSdk 32
+        versionCode project.ext.extVersionCode
+        versionName "1.4.${project.ext.extVersionCode}"
+        manifestPlaceholders = [extName: project.ext.extName, extClass: project.ext.extClass]
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile "$rootDir/common/AndroidManifest.xml"
+            java.srcDirs = ['src', "$rootDir/common/src"]
+            res.srcDirs = ['res']
+        }
+        test {
+            java.srcDirs = ["$rootDir/common/test", 'test']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions { jvmTarget = '1.8' }
+    buildFeatures { buildConfig = false }
+    lint { abortOnError = true }
+}
+
+def hostLibraries = [
+    'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21',
+    'org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0',
+    'org.jsoup:jsoup:1.15.1',
+    'com.squareup.okhttp3:okhttp:4.10.0',
+    'io.reactivex:rxjava:1.3.8',
+    'com.github.keiyoushi:extensions-lib:v1.4.2.1',
+]
+dependencies {
+    hostLibraries.each {
+        compileOnly it
+        testImplementation it
+    }
+    testImplementation 'junit:junit:4.13.2'
+}
+
+tasks.withType(Test).configureEach {
+    def liveTests = providers.environmentVariable('RUN_LIVE_TESTS').getOrElse('0')
+    inputs.property('liveTests', liveTests)
+    environment 'RUN_LIVE_TESTS', liveTests
+}
+
+tasks.register('extensionJar', Jar) {
+    dependsOn 'compileReleaseKotlin'
+    archiveFileName = "tachiyomi-ar.${project.name}-v1.4.${project.ext.extVersionCode}-classes.jar"
+    destinationDirectory = layout.buildDirectory.dir('outputs/jar')
+    from layout.buildDirectory.dir('tmp/kotlin-classes/release')
+    exclude '**/R.class', '**/R$*.class', '**/BuildConfig.class', 'META-INF/*.kotlin_module'
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
