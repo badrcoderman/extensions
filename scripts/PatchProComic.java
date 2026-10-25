@@ -10,6 +10,7 @@ class PatchProComic {
         int[] removed = {0};
         int[] hooks = {0};
         int[] messages = {0};
+        int[] stitchers = {0};
         try (JarFile input = new JarFile(args[0]);
              JarOutputStream output = new JarOutputStream(Files.newOutputStream(Path.of(args[1])))) {
             for (JarEntry entry : Collections.list(input.entries())) {
@@ -18,6 +19,30 @@ class PatchProComic {
                 ClassWriter writer = new ClassWriter(0);
                 new ClassReader(bytes).accept(new ClassVisitor(Opcodes.ASM9, writer) {
                     @Override public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
+                        if (entry.getName().equals("eu/kanade/tachiyomi/a/a/a/af.class") && name.equals("a") && desc.equals("(Lokhttp3/HttpUrl;Lokhttp3/Call;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;")) {
+                            stitchers[0]++;
+                            MethodVisitor target = super.visitMethod(access, name, desc, signature, exceptions);
+                            return new MethodVisitor(Opcodes.ASM9) {
+                                @Override public void visitCode() {
+                                    target.visitCode();
+                                    target.visitVarInsn(Opcodes.ALOAD, 0);
+                                    target.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "keiyoushi/source/a", "getClient", "()Lokhttp3/OkHttpClient;", false);
+                                    target.visitVarInsn(Opcodes.ALOAD, 0);
+                                    target.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "eu/kanade/tachiyomi/source/online/HttpSource", "getHeaders", "()Lokhttp3/Headers;", false);
+                                    target.visitVarInsn(Opcodes.ALOAD, 0);
+                                    target.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "eu/kanade/tachiyomi/source/online/HttpSource", "getBaseUrl", "()Ljava/lang/String;", false);
+                                    target.visitVarInsn(Opcodes.ALOAD, 1);
+                                    target.visitVarInsn(Opcodes.ALOAD, 2);
+                                    target.visitMethodInsn(Opcodes.INVOKESTATIC, "eu/kanade/tachiyomi/extension/ar/shared/ProComicStitcher", "stitch", "(Lokhttp3/OkHttpClient;Lokhttp3/Headers;Ljava/lang/String;Lokhttp3/HttpUrl;Lokhttp3/Call;)Lokio/Buffer;", false);
+                                    target.visitInsn(Opcodes.ARETURN);
+                                    target.visitMaxs(5, 4);
+                                }
+                                @Override public void visitMethodInsn(int opcode, String owner, String method, String descriptor, boolean isInterface) {
+                                    if (owner.equals("android/graphics/Canvas") && method.equals("drawColor") && descriptor.equals("(I)V")) removed[0]++;
+                                }
+                                @Override public void visitEnd() { target.visitEnd(); }
+                            };
+                        }
                         return new MethodVisitor(Opcodes.ASM9, super.visitMethod(access, name, desc, signature, exceptions)) {
                             @Override public void visitLdcInsn(Object value) {
                                 if ("No decoder could read the image".equals(value)) {
@@ -49,7 +74,7 @@ class PatchProComic {
             }
         }
         if (removed[0] != 1) throw new IllegalStateException("Expected exactly one drawColor call, found " + removed[0]);
-        if (hooks[0] != 1 || messages[0] != 1) throw new IllegalStateException("ProComic network/Arabic error patch no longer matches upstream");
+        if (hooks[0] != 1 || messages[0] != 1 || stitchers[0] != 1) throw new IllegalStateException("ProComic network/Arabic error patch no longer matches upstream");
         try (JarFile check = new JarFile(args[1])) {
             for (JarEntry entry : Collections.list(check.entries())) {
                 new ClassReader(check.getInputStream(entry)).accept(new ClassVisitor(Opcodes.ASM9) {
@@ -63,6 +88,6 @@ class PatchProComic {
                 }, 0);
             }
         }
-        System.out.println("Verified ProComic: removed exactly one Canvas.drawColor(int) invocation");
+        System.out.println("Verified ProComic: bounded parallel stitcher, upstream decoders retained, no Canvas.drawColor call");
     }
 }

@@ -23,9 +23,7 @@ private class ProComicSession : Interceptor {
         override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, String>) = size > 16
     }
     private class Snapshot(val time: Long, val split: Int, val maps: JsonArray)
-    private val snapshots = object : LinkedHashMap<String, Snapshot>(8, .75f, true) {
-        override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, Snapshot>) = size > 8
-    }
+    private val snapshots = RefreshCache<Snapshot>(8, TimeUnit.SECONDS.toNanos(10))
     private val json = Json { ignoreUnknownKeys = true }
     override fun intercept(chain: Interceptor.Chain): Response = guarded {
         val request = chain.request()
@@ -54,16 +52,14 @@ private class ProComicSession : Interceptor {
             }
         }
     }
-    @Synchronized private fun fresh(id: String, headers: Headers): Snapshot {
-        val now = System.nanoTime()
-        snapshots[id]?.takeIf { now - it.time < TimeUnit.SECONDS.toNanos(10) }?.let { return it }
+    private fun fresh(id: String, headers: Headers): Snapshot = snapshots.get(id) {
         val chapter = synchronized(readers) { readers[id] } ?: throw SourceFailure(Failure.ACCESS)
         fun load(url: String): String = client.newCall(Request.Builder().url(url).headers(headers).header("Cache-Control", "no-cache").build()).execute().use { it.body!!.string() }
         val data = NextData(load(chapter))
         val token = data.objectValue("deferredMedia")?.text("token") ?: throw SourceFailure(Failure.ACCESS)
-        val endpoint = chapter.substringBefore("/ar/").substringBefore("/en/") + "/api/public/chapter-deferred-media/$id"
+        val endpoint = chapter.substringBefore("/ar/").substringBefore("/en/") + "/chapter-deferred-media/$id"
         val target = endpoint.toHttpUrl().newBuilder().addQueryParameter("token", token).build()
         val deferred = json.parseToJsonElement(load(target.toString())).jsonObject["data"]!!.jsonObject
-        return Snapshot(System.nanoTime(), deferred.number("splitIndex"), deferred.items("maps")).also { snapshots[id] = it }
+        Snapshot(System.nanoTime(), deferred.number("splitIndex"), deferred.items("maps"))
     }
 }

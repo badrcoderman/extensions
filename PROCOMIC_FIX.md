@@ -11,7 +11,7 @@ Upstream's image stitcher calls `Canvas.drawColor(Color.WHITE)` before placing t
 
 ## Patch
 
-[scripts/PatchProComic.java](scripts/PatchProComic.java) removes exactly that invocation, replacing it with a stack-balanced `POP2`. It rebuilds the class constant pools, checks that exactly one invocation was changed and verifies that no `Canvas.drawColor` call remains. The rest of upstream's image decoder, piece ordering, drawing, signing and access logic remains intact.
+[scripts/PatchProComic.java](scripts/PatchProComic.java) replaces the pinned stitch method with a delegate that overlaps bounded piece transfers, then decodes and draws the pieces in the original rectangle order. The delegate omits the unsupported `Canvas.drawColor` call and passes an explicit full-image source rectangle to `Canvas.drawBitmap`; stock Suwayomi throws on a null source rectangle. Upstream's image decoder fallbacks and JPEG quality of 90 remain in use. The build verifies that exactly one stitch method and client builder were patched and that no `Canvas.drawColor` invocation remains.
 
 Three real plans, including the reported chapter `213362`, a shuffled ten-piece grid and a two-piece vertical page, are stored as geometry-only fixtures. [scripts/verify_procomic_plans.py](scripts/verify_procomic_plans.py) checks every horizontal band for gaps, overlaps and out-of-bounds rectangles. All three plans cover every destination pixel, making the background fill redundant for those pages. Previous live checks downloaded and decoded all pieces for these sample pages and reconstructed them successfully outside the apps.
 
@@ -20,7 +20,7 @@ Three real plans, including the reported chapter `213362`, a shuffled ten-piece 
 - Upstream source: [ProComic at commit 8f504748a2f6](https://github.com/keiyoushi/extensions-source/tree/8f504748a2f6/src/ar/procomic).
 - Original JAR: [ProComic 1.6.0, release 7363e42](https://github.com/keiyoushi/extensions/releases/download/7363e42/tachiyomi-ar.procomic-v1.6.0.jar).
 - SHA-256: `377b1046c3f58dc10cb74c338c6ae6a90980e0925f0ba55103d3a15304c4cf49`.
-- Fork version: **1.6.3**, code **106003**, API **1.6**.
+- Fork version: **1.6.4**, code **106004**, API **1.6**.
 - Source ID: **8891921907305143070**, unchanged.
 
 The same patched classes are packaged as a signed JAR and compiled to Android DEX for the signed APK. They use this fork's signing certificate, so replacing an upstream installation requires uninstalling its extension package first.
@@ -40,3 +40,11 @@ The pinned reader receives a network wrapper through one verified `OkHttpClient.
 ## Suwayomi desktop result
 
 The supplied Suwayomi 2.4.2366 AppImage successfully installed the signed JAR, loaded the source and filters, searched, loaded 307 available chapters for the reported title, and extracted all 19 pages for chapter 213362. Its first direct AVIF image downloaded successfully. Reconstructing page 4 failed in stock Suwayomi: the Android compatibility layer's `BitmapFactory` uses Java ImageIO and this package has no AVIF decoder. The two optional Android decoder classes are also absent. This is a separate host decoder limitation; removing a Canvas call or restoring `R.class` does not supply AVIF decoding. No iOS device test is claimed.
+
+## Transfer update (1.6.4)
+
+The stitcher now fetches up to three pieces ahead for each page. At most five pieces transfer across the source, with a lower host limit respected. Ahead-of-time reads stop after about 2 MiB per piece; larger images continue streaming when consumed. Shared slots bound that buffer to about 10 MiB plus stream buffers. Requests reuse the host client and connection pool. Cancellation closes in-flight responses, and one retry can recover an interrupted piece body. Worker threads expire after idle time.
+
+Session renewal uses the site's actual `/chapter-deferred-media/{id}` endpoint; the previous update incorrectly added `/api/public`. A live guest-reader check verified the corrected endpoint. Chapter refreshes share same-chapter work without holding a lock during network requests, so a slow chapter does not delay a different chapter.
+
+A shuffled six-piece PNG page was assembled successfully using the actual Suwayomi graphics and upstream decoder fallback. Its dimensions, destination positions and colors passed pixel checks. The separate AVIF decoder limitation remains; see [PERFORMANCE.md](PERFORMANCE.md).

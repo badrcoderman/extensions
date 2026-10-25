@@ -16,18 +16,9 @@ internal class RecoveryInterceptor(
     private val sleep: (Long) -> Unit = { Thread.sleep(it) },
     private val now: () -> Long = { System.nanoTime() },
 ) : Interceptor {
-    private class FreshImages(val time: Long, val images: List<String>)
-    private val refreshed = object : LinkedHashMap<String, FreshImages>(8, 0.75f, true) {
-        override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, FreshImages>) = size > 8
-    }
-
-    @Synchronized private fun fresh(chapter: String): List<String> {
-        val cached = refreshed[chapter]
-        if (cached != null && now() - cached.time < TimeUnit.SECONDS.toNanos(10)) return cached.images
-        val images = guarded { refresh!!(chapter) }
-        if (images.isEmpty()) throw SourceFailure(Failure.EMPTY_READER)
-        refreshed[chapter] = FreshImages(now(), images)
-        return images
+    private val refreshed = RefreshCache<List<String>>(8, TimeUnit.SECONDS.toNanos(10), now)
+    private fun fresh(chapter: String): List<String> = refreshed.get(chapter) {
+        guarded { refresh!!(chapter) }.also { if (it.isEmpty()) throw SourceFailure(Failure.EMPTY_READER) }
     }
 
     override fun intercept(chain: Interceptor.Chain): Response {
@@ -113,4 +104,45 @@ internal fun recoveryClient(base: okhttp3.OkHttpClient, refresh: (String) -> Lis
     val position = handlers.indexOfFirst { it.javaClass.simpleName == "UncaughtExceptionInterceptor" }.let { if (it < 0) 0 else it + 1 }
     handlers.add(position, RecoveryInterceptor(refresh))
     return builder.build()
+}
+
+/** Same-key work is shared; network work and waiting never hold the cache lock. */
+internal class RefreshCache<T>(
+    private val capacity: Int,
+    private val lifetime: Long,
+    private val now: () -> Long = { System.nanoTime() },
+) {
+    private class Entry<T>(val value: T, val time: Long)
+    private val lock = Any()
+    private val completed = LinkedHashMap<String, Entry<T>>(capacity, .75f, true)
+    private val loading = mutableMapOf<String, java.util.concurrent.FutureTask<T>>()
+    fun get(key: String, load: () -> T): T {
+        var owner = false
+        val task = synchronized(lock) {
+            completed[key]?.let {
+                if (now() - it.time < lifetime) return it.value
+                completed.remove(key)
+            }
+            loading[key] ?: java.util.concurrent.FutureTask<T> { load() }.also {
+                owner = true
+                loading[key] = it
+            }
+        }
+        try {
+            if (owner) task.run()
+            val value = task.get()
+            if (owner) synchronized(lock) {
+                completed[key] = Entry(value, now())
+                while (completed.size > capacity) completed.remove(completed.keys.first())
+            }
+            return value
+        } catch (error: java.util.concurrent.ExecutionException) {
+            throw error.cause ?: error
+        } catch (error: InterruptedException) {
+            Thread.currentThread().interrupt()
+            throw java.io.InterruptedIOException("Canceled")
+        } finally {
+            if (owner) synchronized(lock) { loading.remove(key) }
+        }
+    }
 }

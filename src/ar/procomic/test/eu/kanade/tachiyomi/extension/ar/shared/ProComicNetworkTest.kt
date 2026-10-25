@@ -29,6 +29,7 @@ class ProComicNetworkTest {
                     reply(request,"image")
                 }
                 request.url.encodedPath.contains("chapter-deferred-media") -> {
+                    assertEquals("/chapter-deferred-media/123", request.url.encodedPath)
                     assertEquals("fresh-reader-session",request.url.queryParameter("token"))
                     reply(request,"""{"data":{"splitIndex":3,"maps":[{"token":"new-map","method":"browser_session"}]}}""")
                 }

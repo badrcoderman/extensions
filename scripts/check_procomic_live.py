@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
+from urllib.parse import urlencode
 import xml.etree.ElementTree as ET
 
 HOME = 'https://procomic.pro'
@@ -20,28 +22,49 @@ class Scripts(HTMLParser):
             if args[0] == 1: self.values.append(args[1])
 
 
-def load(path):
-    result = subprocess.run(['curl', '-4', '-fsSL', '--retry', '2', '--max-time', '45', HOME + path], capture_output=True)
+def load(path, body=None, cookies=None):
+    command = ['curl', '-4', '-fsSL', '--retry', '2', '--max-time', '45',
+               '-A', 'Mozilla/5.0', '--referer', HOME + '/', '-H', 'Cookie: safe_browsing=off']
+    if cookies is not None:
+        command += ['--cookie-jar', str(cookies), '--cookie', str(cookies)]
+    # The config goes through stdin so public reader session tokens are not in process arguments.
+    config = 'url = ' + json.dumps(HOME + path) + '\n'
+    if body is not None:
+        config += 'request = "POST"\nheader = "Content-Type: application/json"\n'
+        config += 'data = ' + json.dumps(json.dumps(body)) + '\n'
+    result = subprocess.run(command + ['--config', '-'], input=config.encode(), capture_output=True)
     if result.returncode: raise RuntimeError('public_request_failed')
     return result.stdout.decode()
 
 
 def check():
-    catalog = json.loads(load('/api/public/content?sort=popular&limit=2&page=1'))
-    assert catalog['data'] and all(item.get('id') and item.get('title') for item in catalog['data'])
-    parser = Scripts()
-    parser.feed(load('/ar/chapter/after-improperly-licking-a-dog-i-became-a-billionaire-319-213362'))
-    stream = ''.join(parser.values)
-    decoder = json.JSONDecoder()
-    def value(key):
-        marker = json.dumps(key) + ':'
-        offset = stream.index(marker) + len(marker)
-        return decoder.raw_decode(stream[offset:].lstrip())[0]
-    assert value('chapterId') == 213362
-    assert len(value('appImages')) > 0
-    session = value('deferredMedia')
-    assert session.get('token') and session.get('requireTurnstile') is not True
-    # Tokens remain in process memory. No reader payload is written to reports or logs.
+    with tempfile.TemporaryDirectory() as directory:
+        cookies = Path(directory) / 'guest-cookies.txt'
+        def fetch(path, body=None): return load(path, body, cookies)
+        catalog = json.loads(fetch('/api/public/content?sort=popular&limit=2&page=1'))
+        assert catalog['data'] and all(item.get('id') and item.get('title') for item in catalog['data'])
+        parser = Scripts()
+        parser.feed(fetch('/ar/chapter/after-improperly-licking-a-dog-i-became-a-billionaire-319-213362'))
+        stream = ''.join(parser.values)
+        decoder = json.JSONDecoder()
+        def value(key):
+            marker = json.dumps(key) + ':'
+            offset = stream.index(marker) + len(marker)
+            return decoder.raw_decode(stream[offset:].lstrip())[0]
+        chapter_id = value('chapterId')
+        assert chapter_id == 213362 and len(value('appImages')) > 0
+        session = value('deferredMedia')
+        assert session.get('token') and session.get('requireTurnstile') is not True
+        query = urlencode({'token': session['token']})
+        deferred = json.loads(fetch(f'/chapter-deferred-media/{chapter_id}?{query}'))['data']
+        first = deferred['maps'][0]
+        plan = {'token': first['token'], 'method': first['method'],
+                'cdnPath': value('cdnPath'), 'pageIndex': deferred['splitIndex']}
+        mapped = json.loads(fetch(f'/chapter-map-proxy-plan/{chapter_id}', plan))['data']['map']
+        assert len(mapped['dim']) == 2 and all(n > 0 for n in mapped['dim'])
+        assert mapped['pieces'] and len(mapped['order']) == len(mapped['rects'])
+        assert all(0 <= n < len(mapped['pieces']) for n in mapped['order'])
+        # Cookies and tokens are discarded. Reports contain no reader payloads or raw exceptions.
 
 
 def main():

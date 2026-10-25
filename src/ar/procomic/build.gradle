@@ -1,19 +1,19 @@
 ext {
     extName = 'ProComic'
     extClass = 'keiyoushi.source.Generated'
-    extVersionCode = 106003
+    extVersionCode = 106004
 }
 apply from: "$rootDir/common.gradle"
 
 android {
     defaultConfig {
         minSdk 26
-        versionName '1.6.3'
+        versionName '1.6.4'
         manifestPlaceholders.extLib = '1.6'
     }
     sourceSets.main.java {
         srcDirs = ['src', "$rootDir/common/src"]
-        include '**/ArabicErrors.kt', '**/RecoveryInterceptor.kt', '**/SiteData.kt', '**/ProComicNetwork.kt'
+        include '**/ArabicErrors.kt', '**/RecoveryInterceptor.kt', '**/SiteData.kt', '**/ProComicNetwork.kt', '**/ProComicStitcher.kt', '**/PieceDownloads.kt', '**/NativeImageDecoder.java'
     }
     sourceSets.test.java.srcDirs = ['test']
 }
@@ -46,7 +46,8 @@ tasks.register('patchProComic') {
 }
 dependencies { implementation files(patched).builtBy('patchProComic') }
 tasks.named('extensionJar') {
-    dependsOn 'patchProComic'
+    dependsOn 'patchProComic', 'compileReleaseJavaWithJavac'
+    from layout.buildDirectory.dir('intermediates/javac/release/compileReleaseJavaWithJavac/classes')
     from { zipTree(patched.get().asFile) }
-    archiveFileName = 'tachiyomi-ar.procomic-v1.6.3-classes.jar'
+    archiveFileName = 'tachiyomi-ar.procomic-v1.6.4-classes.jar'
 }

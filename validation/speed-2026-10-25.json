@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-25",
+  "controlled_fixture": {
+    "fixture": "six PNG pieces, 200 ms server delay per transfer",
+    "graphics_runtime": "Provided Suwayomi 2.4.2366 AppImage",
+    "pixel_checks": "passed",
+    "serial_ms": 1448,
+    "parallel_ms": 630,
+    "parallel_transfer_limit": 3,
+    "bytes_identical": true,
+    "packaged_jar": "ProComic 1.6.4"
+  },
+  "live_transfers": {
+    "site": "ProComic",
+    "version": "1.6.4",
+    "packaged_jar": true,
+    "pieces": 10,
+    "bytes_per_run": 123964,
+    "bytes_identical": true,
+    "runs": [
+      {
+        "mode": "serial",
+        "milliseconds": 3474
+      },
+      {
+        "mode": "parallel",
+        "milliseconds": 2160
+      },
+      {
+        "mode": "parallel",
+        "milliseconds": 1469
+      },
+      {
+        "mode": "serial",
+        "milliseconds": 2358
+      }
+    ],
+    "notes": "Transfers only; actual guest CDN endpoints, shared connections within each run, warmed first connection. AVIF decoder not involved."
+  },
+  "live_mean_speedup": 1.61,
+  "device_test": "Desktop runtime only; Android/iOS not attached."
+}

@@ -9,7 +9,7 @@ RUN_LIVE_TESTS=1 ./gradlew verifyExtensions buildExtensions --console=plain
 python scripts/package_repository.py
 ```
 
-- 175 executed JUnit cases passed (187 declared, 12 inapplicable cases skipped), including nine live source tests, eleven recovery regressions repeated in the nine API 1.4 modules, and three ProComic protocol regressions. No failures or errors remained after rerunning one KadrHub network timeout. The additional ProComic public API/reader-protocol script and two report privacy/deduplication tests also passed.
+- 210 executed JUnit cases passed (222 declared, 12 inapplicable cases skipped), including nine live source tests, eleven recovery regressions and three refresh-cache concurrency regressions repeated in the nine API 1.4 modules, three ProComic protocol regressions and eight piece-download regressions. No failures or errors remained. The additional ProComic public API/reader-protocol script and two report privacy/deduplication tests also passed.
 - Release Android lint passed for all ten modules.
 - All ten Android APKs and JVM JAR class archives built successfully.
 - Packaging verifies the APK and JAR signatures against this fork's certificate, manifests, entry classes, APK DEX entry points, and class bytecode versions.
@@ -72,3 +72,13 @@ ProComic installed and loaded its filters and the reported chapter 213362 with a
 Websites may change or return a challenge, remove content or require access. Locked content is still subject to the website's access rules. A source snapshot and finite tests cannot guarantee that every future chapter will work. Stock Suwayomi's missing AVIF piece decoder remains a host limitation; no Android or iOS device is attached.
 
 The signed updates were reinstalled into the same Suwayomi test library. All nine readers passed again, all ten source IDs matched the repository index, and type/status searches passed through the host for HikayaTeam, Assassin Scans, ManhwaLek, Mangawy and Man9a. KadrHub returned 60 full-page search results for the sample query, compared with eight from the old quick-search endpoint. ProComic 1.6.3 returned its Arabic unsupported-decoder error for the stock host limitation. Structured evidence is in [validation/desktop-2026-10-25.json](validation/desktop-2026-10-25.json).
+
+## Connection and transfer update
+
+ProComic 1.6.4 overlaps three piece transfers per page, with five shared slots and lower host limits preserved. Pieces acquire slots in page order. A partial-body retry retains its slot, preventing its prefetched pieces from blocking the retry. Tests cover four simultaneous pages with one host slot, cancellation cleanup, a 5 MiB body interrupted beyond the prefetch window, chunked responses, rate limits and malformed map geometry. All nine API 1.4 sources also use the shared refresh cache, which performs network work outside its lock and shares only requests for the same chapter.
+
+The corrected `/chapter-deferred-media/{id}` renewal URL and the map POST endpoint passed a live guest-reader check. Daily automated health checks now exercise both endpoints. Packaging additionally verifies the stitcher, downloader and Java decoder bridge classes, as well as all 125 upstream ProComic classes.
+
+[PERFORMANCE.md](PERFORMANCE.md) records controlled and live transfer measurements. The provided Suwayomi graphics runtime successfully reconstructs a shuffled PNG fixture with the original decoder; dimensions, placement and decoded colors are checked. Stock Suwayomi's missing AVIF decoder remains tracked separately.
+
+All ten signed speed-update JARs installed into the same desktop library and retained their source IDs. All nine API 1.4 readers passed again, including first/middle/last image decoding; all ten filter lists loaded. ManhwaLek's filter-only browse returned 24 results; its current `demonic` query has no ongoing manhwa matches. ProComic 1.6.4 loaded the reported 19-page reader and downloaded its direct AVIF page. Its mapped page reached the expected Arabic unsupported-decoder error in the host log, without the reported Canvas or `R` errors. Results are in [validation/desktop-speed-2026-10-25.json](validation/desktop-speed-2026-10-25.json).

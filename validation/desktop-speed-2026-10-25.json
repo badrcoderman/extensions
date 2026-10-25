@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-25",
+  "host": "Suwayomi Server 2.4.2366 (provided AppImage)",
+  "packages": "Signed speed-update JARs from this fork",
+  "source_ids_preserved": true,
+  "reader_checks": [
+    {
+      "source": "MangaRabi",
+      "catalog": 24,
+      "search": 10,
+      "details": true,
+      "cover": [
+        "WEBP",
+        460,
+        723
+      ],
+      "chapters": 48,
+      "pages": 8,
+      "images": [
+        [
+          "WEBP",
+          1280,
+          912
+        ],
+        [
+          "WEBP",
+          784,
+          6870
+        ],
+        [
+          "WEBP",
+          784,
+          5724
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.4"
+    },
+    {
+      "source": "HikayaTeam",
+      "catalog": 24,
+      "search": 1,
+      "details": true,
+      "cover": [
+        "WEBP",
+        640,
+        830
+      ],
+      "chapters": 88,
+      "pages": 3,
+      "images": [
+        [
+          "JPEG",
+          700,
+          10000
+        ],
+        [
+          "JPEG",
+          700,
+          3354
+        ],
+        [
+          "JPEG",
+          700,
+          2342
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.4"
+    },
+    {
+      "source": "MangaSid",
+      "catalog": 24,
+      "search": 24,
+      "details": true,
+      "cover": [
+        "WEBP",
+        480,
+        623
+      ],
+      "chapters": 12,
+      "pages": 17,
+      "images": [
+        [
+          "WEBP",
+          2816,
+          1536
+        ],
+        [
+          "WEBP",
+          800,
+          6137
+        ],
+        [
+          "WEBP",
+          800,
+          1283
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.3"
+    },
+    {
+      "source": "Assassin Scans",
+      "catalog": 24,
+      "search": 1,
+      "details": true,
+      "cover": [
+        "WEBP",
+        3600,
+        4940
+      ],
+      "chapters": 11,
+      "pages": 17,
+      "images": [
+        [
+          "WEBP",
+          714,
+          7000
+        ],
+        [
+          "WEBP",
+          800,
+          6521
+        ],
+        [
+          "WEBP",
+          800,
+          5726
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.3"
+    },
+    {
+      "source": "KadrHub",
+      "catalog": 30,
+      "search": 60,
+      "details": true,
+      "cover": [
+        "WEBP",
+        460,
+        667
+      ],
+      "chapters": 243,
+      "pages": 40,
+      "images": [
+        [
+          "WEBP",
+          1080,
+          603
+        ],
+        [
+          "WEBP",
+          376,
+          207
+        ],
+        [
+          "WEBP",
+          1080,
+          633
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.3"
+    },
+    {
+      "source": "ManhwaLek",
+      "catalog": 24,
+      "search": 2,
+      "details": true,
+      "cover": [
+        "WEBP",
+        400,
+        564
+      ],
+      "chapters": 945,
+      "pages": 5,
+      "images": [
+        [
+          "WEBP",
+          800,
+          12280
+        ],
+        [
+          "WEBP",
+          800,
+          11965
+        ],
+        [
+          "WEBP",
+          800,
+          10287
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.3"
+    },
+    {
+      "source": "Mangawy",
+      "catalog": 36,
+      "search": 6,
+      "details": true,
+      "cover": [
+        "WEBP",
+        460,
+        658
+      ],
+      "chapters": 170,
+      "pages": 15,
+      "images": [
+        [
+          "WEBP",
+          720,
+          13768
+        ],
+        [
+          "WEBP",
+          720,
+          7500
+        ],
+        [
+          "WEBP",
+          640,
+          262
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.3"
+    },
+    {
+      "source": "Man9a",
+      "catalog": 20,
+      "search": 15,
+      "details": true,
+      "cover": [
+        "WEBP",
+        600,
+        900
+      ],
+      "chapters": 67,
+      "pages": 20,
+      "images": [
+        [
+          "WEBP",
+          800,
+          10000
+        ],
+        [
+          "WEBP",
+          800,
+          9638
+        ],
+        [
+          "WEBP",
+          800,
+          5063
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.3"
+    },
+    {
+      "source": "MangaWeekly",
+      "catalog": 20,
+      "search": 1,
+      "details": true,
+      "cover": [
+        "JPEG",
+        460,
+        667
+      ],
+      "chapters": 246,
+      "pages": 12,
+      "images": [
+        [
+          "WEBP",
+          690,
+          10000
+        ],
+        [
+          "WEBP",
+          690,
+          10000
+        ],
+        [
+          "WEBP",
+          690,
+          7325
+        ]
+      ],
+      "result": "passed",
+      "version": "1.4.3"
+    }
+  ],
+  "filter_checks": [
+    {
+      "source": "ProComic",
+      "controls": 4,
+      "result": "passed"
+    },
+    {
+      "source": "MangaRabi",
+      "controls": 2,
+      "result": "passed"
+    },
+    {
+      "source": "HikayaTeam",
+      "controls": 3,
+      "filtered_results": 9,
+      "result": "passed"
+    },
+    {
+      "source": "MangaSid",
+      "controls": 1,
+      "result": "passed"
+    },
+    {
+      "source": "Assassin Scans",
+      "controls": 3,
+      "filtered_results": 1,
+      "result": "passed"
+    },
+    {
+      "source": "KadrHub",
+      "controls": 2,
+      "result": "passed"
+    },
+    {
+      "source": "ManhwaLek",
+      "controls": 3,
+      "filtered_results": 24,
+      "query": "",
+      "result": "passed",
+      "note": "The demonic query currently has no matching ongoing manhwa; filter-only browsing returns results."
+    },
+    {
+      "source": "Mangawy",
+      "controls": 3,
+      "filtered_results": 5,
+      "result": "passed"
+    },
+    {
+      "source": "Man9a",
+      "controls": 3,
+      "filtered_results": 14,
+      "result": "passed"
+    },
+    {
+      "source": "MangaWeekly",
+      "controls": 1,
+      "result": "passed"
+    }
+  ],
+  "procomic": {
+    "version": "1.6.4",
+    "installed": true,
+    "source_loaded": true,
+    "reader_pages": 19,
+    "direct_avif_image_downloaded": true,
+    "mapped_page_result": "failed",
+    "reason": "Stock host has no AVIF decoder for reconstructing image pieces",
+    "arabic_error_verified_in_host_log": true,
+    "reported_Canvas_and_R_errors_absent": true
+  },
+  "android_or_ios_device_tested": false
+}
