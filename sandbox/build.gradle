@@ -1,0 +1,21 @@
+ext {
+    extName = 'Sandbox Diagnostics (LOCAL TEST)'
+    extClass = '.SandboxDiagnostics'
+    extVersionCode = 1
+}
+apply from: "$rootDir/common.gradle"
+
+android {
+    namespace 'eu.kanade.tachiyomi.extension.en.sandboxdiagnostics'
+    defaultConfig {
+        applicationId 'eu.kanade.tachiyomi.extension.en.sandboxdiagnostics'
+        minSdk 26
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+        }
+        test.java.srcDirs = ['test']
+    }
+}

@@ -6,6 +6,7 @@ on:
     paths:
       - 'src/**'
       - 'common/**'
+      - 'sandbox/**'
       - 'scripts/**'
       - 'sources.json'
       - '*.gradle'
@@ -54,6 +55,26 @@ jobs:
           RUN_LIVE_TESTS: ${{ inputs.live_tests && '1' || '0' }}
         run: |
           ./gradlew verifyExtensions buildExtensions --console=plain
+      - name: Check the live ProComic public reader protocol
+        if: ${{ inputs.live_tests }}
+        run: python3 scripts/check_procomic_live.py
+      - name: Check the separate opt-in laboratory source
+        run: ./gradlew -PincludeSandbox verifySandbox buildSandbox --console=plain
+      - name: Summarize executed regression tests
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          totals = dict.fromkeys(('tests', 'skipped', 'failures', 'errors'), 0)
+          paths = list(Path('src').glob('**/test-results/testReleaseUnitTest/TEST-*.xml'))
+          paths += list(Path('sandbox').glob('**/test-results/testReleaseUnitTest/TEST-*.xml'))
+          for path in paths:
+              suite = ET.parse(path).getroot()
+              for key in totals:
+                  totals[key] += int(suite.get(key, '0'))
+          assert paths and not totals['failures'] and not totals['errors'], 'Regression result validation failed'
+          print('Regression totals:', totals, 'executed:', totals['tests'] - totals['skipped'])
+          PY
       - name: Sign and verify packages
         env:
           EXTENSION_KEYSTORE_BASE64: ${{ secrets.EXTENSION_KEYSTORE_BASE64 }}

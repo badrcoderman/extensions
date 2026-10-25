@@ -5,6 +5,7 @@ import okhttp3.Headers
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
+import okhttp3.ResponseBody
 import java.io.Closeable
 import java.io.IOException
 import java.util.concurrent.*
@@ -77,12 +78,11 @@ internal class PieceDownloads(
         while (true) {
             var clientPermit = useReservation
             var globalPermit = useReservation
-            useReservation = false
             var call: Call? = null
             var lease: Lease? = null
             try {
                 if (!clientPermit) {
-                    while (!clientPermits.tryAcquire(50, TimeUnit.MILLISECONDS)) if (canceled()) throw IOException("Canceled")
+                    while (!clientPermits.tryAcquire(client)) if (canceled()) throw IOException("Canceled")
                     clientPermit = true
                 }
                 if (!globalPermit) {
@@ -103,8 +103,13 @@ internal class PieceDownloads(
                     leases.add(lease)
                 }
                 if (!response.isSuccessful) throw ArabicErrors.http(response.code)
+                val contentType = response.header("Content-Type").orEmpty().lowercase(java.util.Locale.ROOT)
+                if (contentType.contains("text/html") || contentType.contains("json")) throw SourceFailure(Failure.ACCESS)
+                if ((response.body?.contentLength() ?: 0) > MAX_PIECE_BYTES) throw SourceFailure(Failure.IMAGE_LIMIT)
                 // Do not read whole large pieces ahead: leave excess bytes in the response stream.
-                response.body?.source()?.request(BUFFER_LIMIT + 1) ?: throw SourceFailure(Failure.EMPTY_READER)
+                val source = response.body?.source() ?: throw SourceFailure(Failure.EMPTY_READER)
+                source.request(BUFFER_LIMIT + 1)
+                if (source.exhausted()) throw SourceFailure(Failure.EMPTY_READER)
                 if (canceled()) throw IOException("Canceled")
                 return lease
             } catch (error: Throwable) {
@@ -134,11 +139,10 @@ internal class PieceDownloads(
                 try { lease = future.get(50, TimeUnit.MILLISECONDS) } catch (_: TimeoutException) { /* Check cancellation again. */ }
             }
             while (true) {
-                try { return lease!!.response.body!!.bytes().also { success = true } }
+                try { return lease!!.response.body!!.limitedBytes(MAX_PIECE_BYTES).also { success = true } }
                 catch (error: IOException) {
                     if (!canRestart(error, retry)) throw error
                     if (!lease!!.retainBudgetForRetry()) throw IOException("Canceled")
-                    lease = null
                     lease = fetch(urls[index], retry, reserved = true)
                 }
             }
@@ -179,9 +183,9 @@ internal class PieceDownloads(
             cancellation.scheduleWithFixedDelay({ if (parent.isCanceled()) cancel() }, 0, 100, TimeUnit.MILLISECONDS)
         private const val WINDOW = 3
         private const val BUFFER_LIMIT = 2L * 1024 * 1024
-        private val budgets = java.util.WeakHashMap<OkHttpClient, Semaphore>()
+        private val budgets = java.util.WeakHashMap<OkHttpClient, ClientBudget>()
         @Synchronized private fun budget(client: OkHttpClient) = budgets.getOrPut(client) {
-            Semaphore(minOf(5, client.dispatcher.maxRequestsPerHost), true)
+            ClientBudget()
         }
         private val permits = Semaphore(5, true)
         private val workers = (Executors.newFixedThreadPool(5) { task -> Thread(task, "ProComic image pieces").apply { isDaemon = true } } as ThreadPoolExecutor).apply {
@@ -193,4 +197,31 @@ internal class PieceDownloads(
             allowCoreThreadTimeOut(true)
         }
     }
+}
+
+/** Read the live host limit for each admission; cached semaphores otherwise retain old settings. */
+private class ClientBudget {
+    private val lock = java.lang.Object()
+    private var active = 0
+    fun tryAcquire(client: OkHttpClient): Boolean = synchronized(lock) {
+        if (active < minOf(5, client.dispatcher.maxRequestsPerHost)) {
+            active++
+            true
+        } else {
+            lock.wait(50)
+            false
+        }
+    }
+    fun release() = synchronized(lock) {
+        active--
+        lock.notifyAll()
+    }
+}
+
+internal const val MAX_PIECE_BYTES = 16L * 1024 * 1024
+
+/** Bounds both declared bodies and chunked/unknown-length bodies before allocating a byte array. */
+internal fun ResponseBody.limitedBytes(limit: Long): ByteArray {
+    if (contentLength() > limit || source().request(limit + 1)) throw SourceFailure(Failure.IMAGE_LIMIT)
+    return bytes()
 }

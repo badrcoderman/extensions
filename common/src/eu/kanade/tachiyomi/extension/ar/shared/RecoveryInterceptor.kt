@@ -42,17 +42,25 @@ internal class RecoveryInterceptor(
                 throw translated
             }
             val session = request.tag(SessionRequest::class.java)
-            if (!renewedSession && session != null && (response.code == 403 ||
-                (response.isSuccessful && response.peekBody(128).string().trim() in listOf("-1", "0")))) {
-                response.close()
-                renewedSession = true
-                request = guarded { session.renew(request) }
-                continue
+            if (mayRetry && !renewedSession && session != null) {
+                val expired = try {
+                    response.code == 403 || (response.isSuccessful && response.peekBody(128).string().trim() in listOf("-1", "0"))
+                } catch (error: Throwable) {
+                    response.close()
+                    if (error is Exception || error is LinkageError) throw ArabicErrors.translate(error)
+                    throw error
+                }
+                if (expired) {
+                    response.close()
+                    renewedSession = true
+                    request = guarded { session.renew(request) }
+                    continue
+                }
             }
             val contentType = response.header("Content-Type").orEmpty().lowercase()
             val badImage = reference != null && response.isSuccessful &&
                 (contentType.contains("text/html") || contentType.contains("application/json") || contentType.contains("text/plain"))
-            if (!didRefresh && refresh != null && reference != null &&
+            if (mayRetry && !didRefresh && refresh != null && reference != null &&
                 (response.code in listOf(401, 403, 410) || badImage)) {
                 response.close()
                 didRefresh = true

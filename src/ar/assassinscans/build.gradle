@@ -1,6 +1,6 @@
 ext {
     extName = 'Assassin Scans'
     extClass = '.AssassinScans'
-    extVersionCode = 3
+    extVersionCode = 4
 }
 apply from: "$rootDir/common.gradle"

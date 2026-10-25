@@ -10,6 +10,7 @@ import org.junit.Assert.*
 import org.junit.Test
 import java.io.IOException
 import java.net.SocketTimeoutException
+import okio.buffer
 
 class RecoveryTest {
     private fun response(code: Int = 200, body: String = "ok") = MockResponse().setResponseCode(code).setBody(body)
@@ -48,6 +49,43 @@ class RecoveryTest {
             catch (error: SourceFailure) { assertEquals(Failure.SERVER, error.failure) }
             assertEquals(1, server.requestCount)
         }
+    }
+    @Test fun aSessionTagDoesNotReplayAnUnmarkedPost() {
+        MockWebServer().use { server ->
+            server.enqueue(response(403)); server.enqueue(response())
+            var renewals = 0
+            val client = OkHttpClient.Builder().addInterceptor(RecoveryInterceptor()).build()
+            val request = Request.Builder().url(server.url("/"))
+                .post("{}".toRequestBody())
+                .tag(SessionRequest::class.java, SessionRequest { renewals++; it }).build()
+            try { client.newCall(request).execute().close(); fail() }
+            catch (error: SourceFailure) { assertEquals(Failure.ACCESS, error.failure) }
+            assertEquals(0, renewals)
+            assertEquals(1, server.requestCount)
+        }
+    }
+    @Test fun aFailedSessionBodyInspectionClosesTheResponse() {
+        var closed = false
+        val source = object : okio.Source {
+            override fun read(sink: okio.Buffer, byteCount: Long): Long = throw IOException("Truncated fixture")
+            override fun timeout() = okio.Timeout.NONE
+            override fun close() { closed = true }
+        }
+        val body = object : okhttp3.ResponseBody() {
+            private val buffered = source.buffer()
+            override fun contentType(): okhttp3.MediaType? = null
+            override fun contentLength() = -1L
+            override fun source() = buffered
+        }
+        val client = OkHttpClient.Builder().addInterceptor(RecoveryInterceptor()).addInterceptor { chain ->
+            okhttp3.Response.Builder().request(chain.request()).protocol(okhttp3.Protocol.HTTP_1_1)
+                .code(200).message("OK").body(body).build()
+        }.build()
+        val request = Request.Builder().url("https://fixture.invalid/")
+            .tag(SessionRequest::class.java, SessionRequest { it }).build()
+        try { client.newCall(request).execute().close(); fail() }
+        catch (_: IOException) { /* The body is intentionally broken. */ }
+        assertTrue("A failed peek leaked the response", closed)
     }
     @Test fun readOnlyPostsCanRecoverAndLongRetryAfterIsRespected() {
         MockWebServer().use { server ->

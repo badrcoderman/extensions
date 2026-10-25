@@ -111,7 +111,7 @@ def main():
                     expected_classes = {path for path in original.namelist() if path.endswith('.class')}
                 actual_classes = {path for path in jar.namelist() if path.endswith('.class')}
                 assert expected_classes <= actual_classes, f"Required ProComic classes missing: {sorted(expected_classes - actual_classes)}"
-                for helper in ('ProComicNetwork', 'ProComicStitcher', 'PieceDownloads', 'NativeImageDecoder'):
+                for helper in ('ProComicNetwork', 'ProComicStitcher', 'PieceDownloads', 'NativeImageDecoder', 'PageBudget', 'ClientBudget', 'PieceDownloadsKt'):
                     assert f'eu/kanade/tachiyomi/extension/ar/shared/{helper}.class' in actual_classes, f'Missing ProComic helper: {helper}'
             for path in jar.namelist():
                 if path.endswith(".class"):

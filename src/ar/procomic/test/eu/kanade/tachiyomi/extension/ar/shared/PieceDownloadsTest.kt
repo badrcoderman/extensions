@@ -9,6 +9,114 @@ import java.util.concurrent.*
 import java.util.concurrent.atomic.AtomicInteger
 
 class PieceDownloadsTest {
+    @Test(timeout = 10000) fun emptyAndHtmlPieceResponsesAreNotMisreportedAsMissingDecoders() {
+        MockWebServer().use { server ->
+            server.enqueue(MockResponse().setBody(""))
+            server.enqueue(MockResponse().setBody("<html>Login required</html>").setHeader("Content-Type", "text/html"))
+            val client = OkHttpClient()
+            val parent = client.newCall(Request.Builder().url(server.url("/parent")).build())
+            listOf(Failure.EMPTY_READER, Failure.ACCESS).forEach { expected ->
+                PieceDownloads(client, Headers.headersOf(), listOf(server.url("/piece").toString()), parent).use {
+                    try { it.bytes(0); fail() }
+                    catch (error: SourceFailure) { assertEquals(expected, error.failure) }
+                }
+            }
+            assertEquals(2, server.requestCount)
+        }
+    }
+    @Test fun missingHeapIntrospectionUsesABoundedCompatibilityFallback() {
+        assertEquals(8 * 1024 * 1024, PageBudget.capacityFor { throw NoSuchMethodError("Fixture") })
+        assertEquals(8 * 1024 * 1024, PageBudget.capacityFor { 0L })
+        assertEquals(16 * 1024 * 1024, PageBudget.capacityFor { 256L * 1024 * 1024 })
+        assertEquals(32 * 1024 * 1024, PageBudget.capacityFor { Long.MAX_VALUE })
+    }
+    @Test fun allThreePreviouslyVerifiedLiveGeometriesRemainAccepted() {
+        val body = javaClass.classLoader!!.getResourceAsStream("procomic/geometry.json")!!.bufferedReader().use { it.readText() }
+        val plans = siteJson.parseToJsonElement(body) as kotlinx.serialization.json.JsonArray
+        assertEquals(3, plans.size)
+        plans.forEach { entry ->
+            val map = entry as kotlinx.serialization.json.JsonObject
+            val count = (map["rects"] as kotlinx.serialization.json.JsonArray).size
+            val indices = (0 until count).joinToString(",")
+            val pieces = (0 until count).joinToString(",") { "\"https://fixture.invalid/$it\"" }
+            val input = """{"data":{"map":{"dim":${map["dim"]},"pieces":[$pieces],"order":[$indices],"rects":${map["rects"]}}}}"""
+            assertEquals(count, PiecePlan.parse(input).rects.size)
+        }
+    }
+    @Test(timeout = 10000) fun canvasBudgetWaitsAreCancelableAndDoNotLeakCredits() {
+        val budget = PageBudget(10)
+        val client = OkHttpClient()
+        fun parent() = client.newCall(Request.Builder().url("http://127.0.0.1/unused").build())
+        val pool = Executors.newSingleThreadExecutor()
+        try {
+            val waitingParent = parent()
+            budget.use(8, parent()) {
+                val started = CountDownLatch(1)
+                val waiting = pool.submit<Boolean> {
+                    started.countDown()
+                    budget.use(5, waitingParent) { true }
+                }
+                assertTrue(started.await(1, TimeUnit.SECONDS))
+                waitingParent.cancel()
+                try { waiting.get(1, TimeUnit.SECONDS); fail() }
+                catch (error: ExecutionException) { assertEquals("Canceled", error.cause?.message) }
+            }
+            assertTrue(budget.use(10, parent()) { true })
+            try { budget.use(11, parent()) { fail() }; fail() }
+            catch (error: SourceFailure) { assertEquals(Failure.IMAGE_LIMIT, error.failure) }
+            try { budget.use(10, parent()) { throw IOException("Fixture") }; fail() }
+            catch (_: IOException) { }
+            assertTrue(budget.use(10, parent()) { true })
+        } finally { pool.shutdownNow() }
+    }
+    @Test(timeout = 10000) fun aConnectionLimitChangedOnTheSameClientAppliesToNewTransfers() {
+        MockWebServer().use { server ->
+            repeat(5) { server.enqueue(MockResponse().setBody("piece").setBodyDelay(50, TimeUnit.MILLISECONDS)) }
+            val active = AtomicInteger(); val peak = AtomicInteger()
+            val client = OkHttpClient.Builder().eventListenerFactory {
+                object : EventListener() {
+                    override fun callStart(call: Call) { val count = active.incrementAndGet(); peak.updateAndGet { maxOf(it, count) } }
+                    override fun callEnd(call: Call) { active.decrementAndGet() }
+                    override fun callFailed(call: Call, ioe: IOException) { active.decrementAndGet() }
+                }
+            }.build()
+            val parent = client.newCall(Request.Builder().url(server.url("/parent")).build())
+            PieceDownloads(client, Headers.headersOf(), listOf(server.url("/seed").toString()), parent).use { it.bytes(0) }
+            client.dispatcher.maxRequestsPerHost = 1
+            peak.set(0)
+            PieceDownloads(client, Headers.headersOf(), (0..3).map { server.url("/piece-$it").toString() }, parent).use { batch ->
+                repeat(4) { assertEquals("piece", String(batch.bytes(it))) }
+            }
+            assertEquals(1, peak.get())
+        }
+    }
+    @Test(timeout = 15000) fun oversizedBodiesFailWithoutRetryAndReleaseTransferSlots() {
+        MockWebServer().use { server ->
+            server.enqueue(MockResponse().setBody("x").setHeader("Content-Length", 16L * 1024 * 1024 + 1))
+            server.enqueue(MockResponse().setChunkedBody("x".repeat(16 * 1024 * 1024 + 1), 8192))
+            val client = OkHttpClient()
+            val parent = client.newCall(Request.Builder().url(server.url("/parent")).build())
+            for (path in listOf("/declared", "/chunked")) {
+                PieceDownloads(client, Headers.headersOf(), listOf(server.url(path).toString()), parent).use {
+                    try { it.bytes(0); fail("An oversized body was accepted") }
+                    catch (error: SourceFailure) { assertEquals("IMAGE_LIMIT", error.failure.name) }
+                }
+            }
+            assertEquals(2, server.requestCount)
+            server.enqueue(MockResponse().setBody("next"))
+            PieceDownloads(client, Headers.headersOf(), listOf(server.url("/next").toString()), parent).use {
+                assertEquals("next", String(it.bytes(0)))
+            }
+        }
+    }
+    @Test fun overlappingOrOversizedMapsAreRejectedBeforeAllocatingBitmaps() {
+        val overlap = """{"data":{"map":{"dim":[2,2],"pieces":["a","b"],"order":[0,1],"rects":[{"left":0,"top":0,"width":1,"height":2},{"left":0,"top":0,"width":1,"height":2}]}}}"""
+        val huge = """{"data":{"map":{"dim":[50000,50000],"pieces":["a"],"order":[0],"rects":[{"left":0,"top":0,"width":50000,"height":50000}]}}}"""
+        for (body in listOf(overlap, huge)) {
+            try { PiecePlan.parse(body); fail("Unsafe bitmap plan accepted") }
+            catch (_: SourceFailure) { /* Expected validation failure, without allocating a bitmap. */ }
+        }
+    }
     @Test(timeout = 15000) fun transfersOverlapWithAGlobalLimitAndKeepTheRequestedOrder() {
         MockWebServer().use { server ->
             server.dispatcher = object : okhttp3.mockwebserver.Dispatcher() {

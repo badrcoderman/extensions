@@ -20,7 +20,7 @@ Three real plans, including the reported chapter `213362`, a shuffled ten-piece 
 - Upstream source: [ProComic at commit 8f504748a2f6](https://github.com/keiyoushi/extensions-source/tree/8f504748a2f6/src/ar/procomic).
 - Original JAR: [ProComic 1.6.0, release 7363e42](https://github.com/keiyoushi/extensions/releases/download/7363e42/tachiyomi-ar.procomic-v1.6.0.jar).
 - SHA-256: `377b1046c3f58dc10cb74c338c6ae6a90980e0925f0ba55103d3a15304c4cf49`.
-- Fork version: **1.6.4**, code **106004**, API **1.6**.
+- Fork version: **1.6.5**, code **106005**, API **1.6**.
 - Source ID: **8891921907305143070**, unchanged.
 
 The same patched classes are packaged as a signed JAR and compiled to Android DEX for the signed APK. They use this fork's signing certificate, so replacing an upstream installation requires uninstalling its extension package first.
@@ -48,3 +48,7 @@ The stitcher now fetches up to three pieces ahead for each page. At most five pi
 Session renewal uses the site's actual `/chapter-deferred-media/{id}` endpoint; the previous update incorrectly added `/api/public`. A live guest-reader check verified the corrected endpoint. Chapter refreshes share same-chapter work without holding a lock during network requests, so a slow chapter does not delay a different chapter.
 
 A shuffled six-piece PNG page was assembled successfully using the actual Suwayomi graphics and upstream decoder fallback. Its dimensions, destination positions and colors passed pixel checks. The separate AVIF decoder limitation remains; see [PERFORMANCE.md](PERFORMANCE.md).
+
+## Runtime audit update (1.6.5)
+
+Map geometry must now cover the canvas exactly without gaps or overlaps. Map response, piece-body, piece-count and canvas-allocation limits prevent unchecked growth in these extension-controlled paths. A cancellable shared canvas budget limits concurrent allocations. The upstream decoder remains in use; its internal allocations are outside that canvas budget. Host connection-limit changes apply to new transfers on the same client. See [AUDIT.md](AUDIT.md) for the findings, limits, regression cases and separate Tachimanga laboratory package.
