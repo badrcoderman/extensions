@@ -8,6 +8,8 @@ import org.objectweb.asm.*;
 class PatchProComic {
     public static void main(String[] args) throws Exception {
         int[] removed = {0};
+        int[] hooks = {0};
+        int[] messages = {0};
         try (JarFile input = new JarFile(args[0]);
              JarOutputStream output = new JarOutputStream(Files.newOutputStream(Path.of(args[1])))) {
             for (JarEntry entry : Collections.list(input.entries())) {
@@ -17,6 +19,13 @@ class PatchProComic {
                 new ClassReader(bytes).accept(new ClassVisitor(Opcodes.ASM9, writer) {
                     @Override public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
                         return new MethodVisitor(Opcodes.ASM9, super.visitMethod(access, name, desc, signature, exceptions)) {
+                            @Override public void visitLdcInsn(Object value) {
+                                if ("No decoder could read the image".equals(value)) {
+                                    value = "تعذر فك ترميز صور الفصل في هذا التطبيق. حدّث التطبيق أو افتح الفصل في عرض الويب.";
+                                    messages[0]++;
+                                }
+                                super.visitLdcInsn(value);
+                            }
                             @Override public void visitMethodInsn(int opcode, String owner, String method, String desc, boolean isInterface) {
                                 if (owner.equals("android/graphics/Canvas") && method.equals("drawColor") && desc.equals("(I)V")) {
                                     if (opcode != Opcodes.INVOKEVIRTUAL) throw new IllegalStateException("Unexpected drawColor call");
@@ -24,6 +33,9 @@ class PatchProComic {
                                     // cover the page, so no background fill is needed before drawing the pieces.
                                     super.visitInsn(Opcodes.POP2);
                                     removed[0]++;
+                                } else if (entry.getName().equals("keiyoushi/source/a.class") && owner.equals("okhttp3/OkHttpClient$Builder") && method.equals("build") && desc.equals("()Lokhttp3/OkHttpClient;")) {
+                                    super.visitMethodInsn(Opcodes.INVOKESTATIC, "eu/kanade/tachiyomi/extension/ar/shared/ProComicNetwork", "build", "(Lokhttp3/OkHttpClient$Builder;)Lokhttp3/OkHttpClient;", false);
+                                    hooks[0]++;
                                 } else super.visitMethodInsn(opcode, owner, method, desc, isInterface);
                             }
                         };
@@ -37,6 +49,7 @@ class PatchProComic {
             }
         }
         if (removed[0] != 1) throw new IllegalStateException("Expected exactly one drawColor call, found " + removed[0]);
+        if (hooks[0] != 1 || messages[0] != 1) throw new IllegalStateException("ProComic network/Arabic error patch no longer matches upstream");
         try (JarFile check = new JarFile(args[1])) {
             for (JarEntry entry : Collections.list(check.entries())) {
                 new ClassReader(check.getInputStream(entry)).accept(new ClassVisitor(Opcodes.ASM9) {

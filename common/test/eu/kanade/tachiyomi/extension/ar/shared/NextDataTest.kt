@@ -33,7 +33,7 @@ class NextDataTest {
         assertEquals("4031e23f3d25ce047b18e159746f83797a3fe08e00", ids["startChapterAction"])
     }
 
-    @Test(expected = IllegalStateException::class)
+    @Test(expected = SourceFailure::class)
     fun rejectsFailedActions() {
         NextData.actionResult("0:{}\n1:E{\"digest\":\"123\"}")
     }

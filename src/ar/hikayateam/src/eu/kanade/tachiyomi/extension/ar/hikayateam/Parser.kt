@@ -1,5 +1,8 @@
 package eu.kanade.tachiyomi.extension.ar.hikayateam
 
+import eu.kanade.tachiyomi.extension.ar.shared.Failure
+import eu.kanade.tachiyomi.extension.ar.shared.SourceFailure
+import eu.kanade.tachiyomi.extension.ar.shared.requiredText
 import eu.kanade.tachiyomi.extension.ar.shared.Catalog
 import eu.kanade.tachiyomi.extension.ar.shared.ChapterBatch
 import eu.kanade.tachiyomi.extension.ar.shared.ChapterEntry
@@ -23,20 +26,20 @@ internal object Parser {
     }
 
     fun catalog(root: JsonObject): Catalog {
-        check(root.flag("success")) { root.text("message") ?: "The catalogue could not be loaded." }
+        check(root.flag("success")) { root.text("message") ?: Failure.CHANGED.arabic }
         val data = root["data"]!!.jsonObject
         return Catalog(data.items("series").map { item ->
             val it = item.jsonObject
-            Series("/series/${it.text("postId")!!}", it.text("title")!!, cover(it.text("imageUrl")))
+            Series("/series/${it.requiredText("postId")}", it.requiredText("title"), cover(it.text("imageUrl")))
         }, !data.flag("isLastPage"))
     }
 
     fun details(data: NextData): Series {
         val manga = data.objectValue("mangaData")
-            ?: throw IllegalStateException("This series is unavailable. Open it in WebView to check access.")
+            ?: throw SourceFailure(Failure.UNAVAILABLE)
         return Series(
-            "/series/${manga.text("postId")!!}",
-            manga.text("name")!!,
+            "/series/${manga.requiredText("postId")}",
+            manga.requiredText("name"),
             cover(manga.text("cover")),
             manga.text("author")?.trim(),
             manga.text("artist")?.trim(),
@@ -53,11 +56,11 @@ internal object Parser {
     }
 
     fun chapters(root: JsonObject, postId: String): ChapterBatch {
-        check(root.flag("success")) { root.text("message") ?: "The chapters could not be loaded." }
+        check(root.flag("success")) { root.text("message") ?: Failure.CHANGED.arabic }
         val data = root["data"]!!.jsonObject
         return ChapterBatch(data.items("chapters").map { item ->
             val it = item.jsonObject
-            val number = it.text("chapter")!!.removeSuffix(".0")
+            val number = it.requiredText("chapter").removeSuffix(".0")
             ChapterEntry(
                 "/series/$postId/$number",
                 "الفصل $number" + (it.text("title")?.takeIf(String::isNotBlank)?.let { title -> " — $title" } ?: ""),
@@ -69,11 +72,11 @@ internal object Parser {
 
     fun pages(data: NextData): List<String> {
         val chapter = data.objectValue("initialData")?.get("currentChapter")?.jsonObject
-            ?: throw IllegalStateException("This chapter is unavailable. Open it in WebView to check access.")
-        check(chapter.flag("hasAccess")) { "This chapter requires access on HikayaTeam. Open it in WebView." }
-        val id = chapter.text("id")!!
+            ?: throw SourceFailure(Failure.ACCESS)
+        check(chapter.flag("hasAccess")) { Failure.ACCESS.arabic }
+        val id = chapter.requiredText("id")
         // The browser's image endpoint issues fresh guest media tokens on each request.
         return chapter.items("images").indices.map { "$apiUrl/chapter/image/$id/${it + 1}" }
-            .also { check(it.isNotEmpty()) { "This chapter has no pages yet." } }
+            .also { check(it.isNotEmpty()) { Failure.EMPTY_READER.arabic } }
     }
 }

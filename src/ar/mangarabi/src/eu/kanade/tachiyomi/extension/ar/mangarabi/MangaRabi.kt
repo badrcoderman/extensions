@@ -1,5 +1,9 @@
 package eu.kanade.tachiyomi.extension.ar.mangarabi
 
+import eu.kanade.tachiyomi.extension.ar.shared.choices
+import eu.kanade.tachiyomi.extension.ar.shared.selection
+import eu.kanade.tachiyomi.extension.ar.shared.cleanQuery
+import eu.kanade.tachiyomi.source.model.Filter
 import eu.kanade.tachiyomi.extension.ar.shared.NextData
 import eu.kanade.tachiyomi.extension.ar.shared.number
 import eu.kanade.tachiyomi.extension.ar.shared.siteJson
@@ -11,7 +15,12 @@ import eu.kanade.tachiyomi.source.model.MangasPage
 import eu.kanade.tachiyomi.source.model.Page
 import eu.kanade.tachiyomi.source.model.SChapter
 import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.kanade.tachiyomi.extension.ar.shared.ReliableSource
+import eu.kanade.tachiyomi.extension.ar.shared.arabicErrors
+import eu.kanade.tachiyomi.extension.ar.shared.PaginationGuard
+import eu.kanade.tachiyomi.extension.ar.shared.Failure
+import eu.kanade.tachiyomi.extension.ar.shared.SourceFailure
+import eu.kanade.tachiyomi.extension.ar.shared.ReadOnlyRequest
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
@@ -25,12 +34,11 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import rx.Observable
 
-class MangaRabi : HttpSource() {
+class MangaRabi : ReliableSource() {
     override val name = "MangaRabi"
     override val baseUrl = "https://mangarabi.com"
     override val lang = "ar"
     override val supportsLatest = true
-    override val client = network.cloudflareClient
 
     private val apiUrl = "https://api.mangarabi.com/api/v1"
 
@@ -62,10 +70,10 @@ class MangaRabi : HttpSource() {
     override fun searchMangaParse(response: Response) = popularMangaParse(response)
 
     override fun searchMangaRequest(page: Int, query: String, filters: FilterList): Request {
-        if (query.isBlank()) return popularMangaRequest(page)
+        if (query.isBlank()) return catalogRequest(page, filters.selection("sort").ifBlank { "popular" })
         return request(
             "$apiUrl/search".toHttpUrl().newBuilder()
-                .addQueryParameter("q", query.trim())
+                .addQueryParameter("q", cleanQuery(query))
                 .addQueryParameter("page", page.toString())
                 .addQueryParameter("per_page", "24")
                 .build().toString(),
@@ -91,16 +99,18 @@ class MangaRabi : HttpSource() {
 
     override fun fetchChapterList(manga: SManga): Observable<List<SChapter>> = Observable.fromCallable {
         val chapters = mutableListOf<SChapter>()
+        val guard = PaginationGuard()
         var page = 1
         do {
             val batch = client.newCall(chaptersRequest(manga, page++)).execute().use { response ->
                 check(response.isSuccessful) { "HTTP ${response.code} while loading chapters" }
                 Parser.chapters(json(response), manga.url.substringAfterLast('/'))
             }
+            guard.accept(batch.progressKeys, batch.hasNext)
             chapters.addAll(batch.chapters.map { it.toChapter() })
         } while (batch.hasNext)
         chapters.distinctBy { it.url }
-    }
+    }.arabicErrors()
 
     override fun pageListRequest(chapter: SChapter) = request(baseUrl + chapter.url).newBuilder()
         .header("Cache-Control", "no-cache").build()
@@ -108,7 +118,7 @@ class MangaRabi : HttpSource() {
     override fun pageListParse(response: Response): List<Page> {
         val document = Jsoup.parse(response.body!!.string(), response.request.url.toString())
         val initial = Parser.reader(NextData(document))
-        if (initial.complete) return initial.pages.mapIndexed { index, url -> Page(index, imageUrl = url) }
+        if (initial.complete) return initial.pages.mapIndexed { index, url -> Page(index, url = response.request.url.toString(), imageUrl = url) }
 
         val actions = readerActions(document)
         val readerUrl = response.request.url.toString()
@@ -116,17 +126,17 @@ class MangaRabi : HttpSource() {
         val deadline = System.nanoTime() + 60_000_000_000L
         while (state.text("status") != "ready" && System.nanoTime() < deadline) {
             check(state.text("status") in listOf("cold", "processing", "partial_ready")) {
-                "MangaRabi could not prepare this chapter. Try opening it in WebView."
+                Failure.ACCESS.arabic
             }
             Thread.sleep(2000)
             state = action(readerUrl, actions.getValue("chapterStatusAction"), initial.chapterId)
         }
-        check(state.text("status") == "ready") { "This chapter is still being prepared. Please try again shortly." }
+        check(state.text("status") == "ready") { Failure.PREPARING.arabic }
         val pages = Parser.accessPages(action(readerUrl, actions.getValue("refreshReaderAction"), initial.chapterId))
         check(pages.isNotEmpty() && pages.size == state.number("total_pages")) {
-            "MangaRabi has not returned all pages yet. Please try again shortly."
+            Failure.PREPARING.arabic
         }
-        return pages.mapIndexed { index, url -> Page(index, imageUrl = url) }
+        return pages.mapIndexed { index, url -> Page(index, url = response.request.url.toString(), imageUrl = url) }
     }
 
     private fun readerActions(document: Document): Map<String, String> {
@@ -139,7 +149,7 @@ class MangaRabi : HttpSource() {
             }
             if (listOf("startChapterAction", "chapterStatusAction", "refreshReaderAction").all { it in actions }) return actions
         }
-        throw IllegalStateException("The MangaRabi reader changed. Please update the extension.")
+        throw SourceFailure(Failure.CHANGED)
     }
 
     private fun action(url: String, id: String, chapterId: String): JsonObject {
@@ -156,5 +166,8 @@ class MangaRabi : HttpSource() {
     }
 
     override fun imageUrlParse(response: Response): String = throw UnsupportedOperationException()
-    override fun getFilterList() = FilterList()
+    override fun getFilterList() = FilterList(
+        choices("sort", "الترتيب", "popular" to "الأكثر مشاهدة", "latest" to "آخر التحديثات"),
+        Filter.Header("الترتيب متاح عند ترك حقل البحث فارغًا."),
+    )
 }

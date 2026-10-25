@@ -20,6 +20,9 @@ internal val siteJson = Json { ignoreUnknownKeys = true }
 internal fun JsonObject.text(key: String): String? =
     (this[key] as? JsonPrimitive)?.takeUnless { it is JsonNull }?.content
 
+internal fun JsonObject.requiredText(key: String): String = text(key)?.takeIf { it.isNotBlank() }
+    ?: throw SourceFailure(Failure.CHANGED)
+
 internal fun JsonObject.items(key: String): JsonArray = this[key] as? JsonArray ?: JsonArray(emptyList())
 
 internal fun JsonObject.flag(key: String): Boolean = text(key) == "true"
@@ -57,7 +60,7 @@ internal class ChapterEntry(
 
 internal class Catalog(val series: List<Series>, val hasNext: Boolean)
 
-internal class ChapterBatch(val chapters: List<ChapterEntry>, val hasNext: Boolean)
+internal class ChapterBatch(val chapters: List<ChapterEntry>, val hasNext: Boolean, val progressKeys: List<String> = chapters.map { it.url })
 
 internal class ReaderState(
     val chapterId: String,
@@ -83,7 +86,8 @@ internal class NextData(val document: Document) {
         }.joinToString("")
     }
 
-    fun objectValue(key: String): JsonObject? = embeddedValue(flight, key) as? JsonObject
+    fun objectValue(key: String): JsonObject? = value(key) as? JsonObject
+    fun value(key: String): JsonElement? = embeddedValue(flight, key)
 
     companion object {
         internal fun embeddedValue(stream: String, key: String): JsonElement? {
@@ -92,6 +96,14 @@ internal class NextData(val document: Document) {
             while (offset >= 0) {
                 var start = offset + marker.length
                 while (start < stream.length && stream[start].isWhitespace()) start++
+                if (start < stream.length && stream[start] == '"') {
+                    var escaped = false
+                    for (end in start + 1 until stream.length) {
+                        if (escaped) escaped = false else if (stream[end] == '\\') escaped = true else if (stream[end] == '"') {
+                            return siteJson.parseToJsonElement(stream.substring(start, end + 1))
+                        }
+                    }
+                }
                 if (start < stream.length && stream[start] in "{[") {
                     var depth = 0
                     var quoted = false
@@ -121,7 +133,7 @@ internal class NextData(val document: Document) {
             .firstOrNull { it.startsWith("1:{") }
             ?.substringAfter(":")
             ?.let { siteJson.parseToJsonElement(it).jsonObject }
-            ?: throw IllegalStateException("The reader could not prepare this chapter. Open it in WebView and try again.")
+            ?: throw SourceFailure(Failure.PREPARING)
 
         fun actionIds(script: String): Map<String, String> =
             Regex("createServerReference\\)\\(\"([a-f0-9]+)\"[^)]*?\"(\\w+Action)\"\\)")

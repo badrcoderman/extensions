@@ -1,5 +1,8 @@
 package eu.kanade.tachiyomi.extension.ar.mangarabi
 
+import eu.kanade.tachiyomi.extension.ar.shared.Failure
+import eu.kanade.tachiyomi.extension.ar.shared.SourceFailure
+import eu.kanade.tachiyomi.extension.ar.shared.requiredText
 import eu.kanade.tachiyomi.extension.ar.shared.Catalog
 import eu.kanade.tachiyomi.extension.ar.shared.ChapterBatch
 import eu.kanade.tachiyomi.extension.ar.shared.ChapterEntry
@@ -21,8 +24,8 @@ internal object Parser {
     }
 
     fun series(data: JsonObject): Series = Series(
-        url = "/manga/${data.text("slug")!!}",
-        title = data.text("title") ?: data.text("slug")!!,
+        url = "/manga/${data.requiredText("slug")}",
+        title = data.text("title") ?: data.requiredText("slug"),
         cover = data.text("cover_url"),
         author = data.text("author"),
         artist = data.text("artist"),
@@ -43,21 +46,22 @@ internal object Parser {
             root.items("data").map { it.jsonObject }.filterNot { it.flag("is_placeholder") }.map {
                 val number = it.text("number") ?: "0"
                 ChapterEntry(
-                    "/read/$slug/${it.text("slug")!!}",
+                    "/read/$slug/${it.requiredText("slug")}",
                     "الفصل $number" + (it.text("title")?.takeIf(String::isNotBlank)?.let { title -> " — $title" } ?: ""),
                     number.toFloatOrNull() ?: -1f,
                     parseDate(it.text("published_at")),
                 )
             },
             pagination.number("current_page") < pagination.number("last_page"),
+            root.items("data").map { it.jsonObject.requiredText("slug") },
         )
     }
 
     fun reader(data: NextData): ReaderState {
         val state = data.objectValue("initialState")
-            ?: throw IllegalStateException("This chapter is unavailable. Open it in WebView to check access.")
+            ?: throw SourceFailure(Failure.ACCESS)
         return ReaderState(
-            state.text("chapter_id")!!,
+            state.requiredText("chapter_id"),
             state.text("status") ?: "cold",
             state.number("total_pages"),
             accessPages(data.objectValue("initialAccess")),

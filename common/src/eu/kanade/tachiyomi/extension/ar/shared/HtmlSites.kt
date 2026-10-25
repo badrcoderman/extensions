@@ -32,13 +32,13 @@ object MangaSidSite : Site("MangaSid", "https://mangasid.com") {
 
 object KadrHubSite : Site("KadrHub", "https://kadrhub.com") {
     override fun listing(page: Int, query: String, popular: Boolean) = if (query.isNotBlank()) {
-        url("/api/v1/search", "q" to query)
+        url("/search", "q" to query)
     } else url("/series", "page" to page, "sort" to if (popular) "views" else "updated")
     override fun catalog(body: String, url: String): Catalog {
         if (url.toHttpUrl().encodedPath.startsWith("/api/")) {
             return Catalog(objectJson(body).items("items").map { item ->
                 val value = item.jsonObject
-                Series(value.text("url")!!.removePrefix(home), value.text("title")!!, value.text("cover")?.let { absolute(it) })
+                Series(value.requiredText("url").removePrefix(home), value.requiredText("title"), value.text("cover")?.let { absolute(it) })
             }, false)
         }
         val doc = document(body, url)
@@ -61,8 +61,8 @@ object KadrHubSite : Site("KadrHub", "https://kadrhub.com") {
         val doc = document(body, url)
         doc.selectFirst("#reader-data")?.let {
             val data = objectJson(it.data())
-            check(data.flag("canRead")) { "This chapter requires access on KadrHub." }
-            check(data.text("kind") != "text") { "This is a text chapter; open it on KadrHub." }
+            check(data.flag("canRead")) { Failure.ACCESS.arabic }
+            check(data.text("kind") != "text") { Failure.TEXT_CHAPTER.arabic }
         }
         return doc.select("[data-pages] .page img").mapNotNull { it.image() }
     }
@@ -77,7 +77,7 @@ object MangaWeeklySite : Site("MangaWeekly", "https://www.mangaweekly.com", "en"
         "/wp-admin/admin-ajax.php", "extension_page" to page, "extension_type" to type,
         "extension_nonce" to nonce, "extension_category" to category, "extension_query" to query,
     )
-    private fun nonce(body: String) = Regex("\"nonce\":\"([^\"]+)\"").find(body)!!.groupValues[1]
+    private fun nonce(body: String) = Regex("\"nonce\":\"([^\"]+)\"").find(body)?.groupValues?.get(1) ?: throw SourceFailure(Failure.CHANGED)
     override fun request(url: String, client: okhttp3.OkHttpClient, headers: okhttp3.Headers): okhttp3.Request {
         val target = url.toHttpUrl()
         val builder = okhttp3.Request.Builder().url(url).headers(headers)
@@ -92,9 +92,15 @@ object MangaWeeklySite : Site("MangaWeekly", "https://www.mangaweekly.com", "en"
             .add("page", page).add("type", target.queryParameter("extension_type")!!).add("lang", "en")
             .add("order", "desc").add("category_id", target.queryParameter("extension_category").orEmpty())
             .add("search_query", target.queryParameter("extension_query").orEmpty()).build()
-        return builder.post(form).build()
+        return builder.post(form).tag(ReadOnlyRequest::class.java, ReadOnlyRequest())
+            .tag(SessionRequest::class.java, SessionRequest { previous ->
+                val fresh = client.newCall(okhttp3.Request.Builder().url("$home/en/").headers(headers).header("Cache-Control", "no-cache").build()).execute().use { nonce(it.body!!.string()) }
+                val replacement = okhttp3.FormBody.Builder()
+                for (i in 0 until form.size) replacement.add(form.name(i), if (form.name(i) == "nonce") fresh else form.value(i))
+                previous.newBuilder().url(previous.url.newBuilder().setQueryParameter("extension_nonce", fresh).build()).post(replacement.build()).build()
+            }).build()
     }
-    private fun html(body: String) = if (body.trimStart().startsWith("{")) objectJson(body)["data"]!!.jsonObject.text("html")!! else body
+    private fun html(body: String) = if (body.trimStart().startsWith("{")) objectJson(body)["data"]!!.jsonObject.requiredText("html") else body
     override fun catalog(body: String, url: String): Catalog {
         val doc = document(html(body), url)
         val cards = doc.select("a.series-card-link").map { link ->
@@ -135,7 +141,7 @@ object MangaWeeklySite : Site("MangaWeekly", "https://www.mangaweekly.com", "en"
 
 object MangawySite : Site("Mangawy", "https://mangawy.org") {
     override fun listing(page: Int, query: String, popular: Boolean) = url("/api/browse", "page" to page, "q" to query, "sort" to if (popular) "popular" else "latest")
-    private fun series(value: JsonObject) = Series(value.text("path") ?: "/series/${value.text("slug")}", value.text("title")!!, value.text("cover_url"),
+    private fun series(value: JsonObject) = Series(value.text("path") ?: "/series/${value.text("slug")}", value.requiredText("title"), value.text("cover_url"),
         author = (value["metadata"] as? JsonObject)?.joined("authors"), artist = (value["metadata"] as? JsonObject)?.joined("artists"),
         description = value.text("description"), genres = value.joined("genres"), status = state(value.text("status")))
     override fun catalog(body: String, url: String): Catalog {
@@ -149,7 +155,7 @@ object MangawySite : Site("Mangawy", "https://mangawy.org") {
         val items = if (data is JsonArray) data else data.jsonObject.items("chapters")
         return items.map { item ->
             val value = item.jsonObject
-            val number = value.text("number")!!
+            val number = value.requiredText("number")
             ChapterEntry(value.text("path") ?: "${url.toHttpUrl().encodedPath}/chapter/$number-${value.text("public_id")}", value.text("title_ar")?.takeIf { it.isNotBlank() }?.let { "الفصل $number - $it" } ?: "الفصل $number", number.toFloat(), parseDate(value.text("published_at")))
         }.sortedByDescending { it.number }
     }
@@ -158,7 +164,7 @@ object MangawySite : Site("Mangawy", "https://mangawy.org") {
         val chapter = data["chapter"]!!.jsonObject
         // Tiles are full-width vertical strips. Keeping them separate avoids giant bitmaps on iOS.
         return chapter.items("pages").sortedBy { it.jsonObject.number("number") }.flatMap { page ->
-            page.jsonObject.items("tiles").sortedBy { it.jsonObject.number("index") }.map { it.jsonObject.text("imageUrl")!! }
+            page.jsonObject.items("tiles").sortedBy { it.jsonObject.number("index") }.map { it.jsonObject.requiredText("imageUrl") }
         }
     }
 }

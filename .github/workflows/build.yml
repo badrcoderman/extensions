@@ -21,9 +21,10 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
-  group: arabic-extension-build
+  group: arabic-extension-automation
   cancel-in-progress: false
 
 jobs:
@@ -46,6 +47,8 @@ jobs:
         run: |
           sdkmanager 'platforms;android-34' 'build-tools;34.0.0'
           python -m pip install 'protobuf>=7.35.1,<8'
+      - name: Test automatic report privacy and deduplication
+        run: python -m unittest discover -s scripts -p 'test_*.py'
       - name: Test, lint and build APK and JAR classes
         env:
           RUN_LIVE_TESTS: ${{ inputs.live_tests && '1' || '0' }}
@@ -81,3 +84,8 @@ jobs:
             git commit -m 'Update requested extension packages'
             git push
           fi
+      - name: Report failed automated checks
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/report_failures.py

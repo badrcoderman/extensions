@@ -1,0 +1,42 @@
+name: Daily source health checks
+
+on:
+  schedule:
+    - cron: '37 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: arabic-extension-automation
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
+      - name: Install Android platform
+        run: sdkmanager 'platforms;android-34' 'build-tools;34.0.0'
+      - name: Test live catalogs, search, chapters and images
+        env:
+          RUN_LIVE_TESTS: '1'
+        run: ./gradlew verifyExtensions --continue --console=plain
+      - name: Check ProComic public reader protocol
+        if: ${{ !cancelled() }}
+        run: python3 scripts/check_procomic_live.py
+      - name: Report failed automated checks
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/report_failures.py

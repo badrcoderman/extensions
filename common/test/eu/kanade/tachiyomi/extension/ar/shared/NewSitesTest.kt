@@ -50,7 +50,7 @@ class NewSitesTest {
             KadrHubSite.pages("<script id='reader-data'>{\"canRead\":true,\"kind\":\"text\"}</script>", "https://kadrhub.com/")
             fail("Text chapter was accepted as an image reader")
         } catch (e: IllegalStateException) {
-            assertTrue(e.message!!.contains("text chapter"))
+            assertTrue(e.message == Failure.TEXT_CHAPTER.arabic)
         }
     }
 

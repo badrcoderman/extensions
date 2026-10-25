@@ -1,6 +1,6 @@
 ext {
     extName = 'Man9a'
     extClass = '.Man9a'
-    extVersionCode = 1
+    extVersionCode = 2
 }
 apply from: "$rootDir/common.gradle"

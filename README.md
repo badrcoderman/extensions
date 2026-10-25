@@ -4,16 +4,16 @@ A focused fork of [keiyoushi/extensions](https://github.com/keiyoushi/extensions
 
 | Source | Website | Language | Tachimanga | Mihon |
 | --- | --- | --- | --- | --- |
-| MangaRabi | [mangarabi.com](https://mangarabi.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangarabi-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangarabi-v1.4.2.apk) |
-| HikayaTeam | [hikayateam.com](https://hikayateam.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.hikayateam-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.hikayateam-v1.4.2.apk) |
-| MangaSid | [mangasid.com](https://mangasid.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangasid-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangasid-v1.4.1.apk) |
-| Assassin Scans | [as-scans.net](https://as-scans.net) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.assassinscans-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.assassinscans-v1.4.1.apk) |
-| KadrHub | [kadrhub.com](https://kadrhub.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.kadrhub-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.kadrhub-v1.4.1.apk) |
-| ManhwaLek | [manhwalek.com](https://manhwalek.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.manhwalek-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.manhwalek-v1.4.1.apk) |
-| Mangawy | [mangawy.org](https://mangawy.org) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangawy-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangawy-v1.4.1.apk) |
-| Man9a | [man9a.net](https://man9a.net) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.man9a-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.man9a-v1.4.1.apk) |
-| MangaWeekly | [www.mangaweekly.com](https://www.mangaweekly.com) | en | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangaweekly-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangaweekly-v1.4.1.apk) |
-| ProComic | [procomic.pro](https://procomic.pro) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.procomic-v1.6.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.procomic-v1.6.2.apk) |
+| MangaRabi | [mangarabi.com](https://mangarabi.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangarabi-v1.4.3.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangarabi-v1.4.3.apk) |
+| HikayaTeam | [hikayateam.com](https://hikayateam.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.hikayateam-v1.4.3.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.hikayateam-v1.4.3.apk) |
+| MangaSid | [mangasid.com](https://mangasid.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangasid-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangasid-v1.4.2.apk) |
+| Assassin Scans | [as-scans.net](https://as-scans.net) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.assassinscans-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.assassinscans-v1.4.2.apk) |
+| KadrHub | [kadrhub.com](https://kadrhub.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.kadrhub-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.kadrhub-v1.4.2.apk) |
+| ManhwaLek | [manhwalek.com](https://manhwalek.com) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.manhwalek-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.manhwalek-v1.4.2.apk) |
+| Mangawy | [mangawy.org](https://mangawy.org) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangawy-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangawy-v1.4.2.apk) |
+| Man9a | [man9a.net](https://man9a.net) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.man9a-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.man9a-v1.4.2.apk) |
+| MangaWeekly | [www.mangaweekly.com](https://www.mangaweekly.com) | en | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangaweekly-v1.4.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangaweekly-v1.4.2.apk) |
+| ProComic | [procomic.pro](https://procomic.pro) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.procomic-v1.6.3.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.procomic-v1.6.3.apk) |
 
 ## Install
 
@@ -29,6 +29,16 @@ This fork uses its own signing certificate. To replace a ProComic installation f
 
 All sources use extension API 1.4 and Java 8 classes except ProComic, which retains upstream's API 1.6 and Java 11 classes. Use an app version with API 1.6 support for ProComic. MangaWeekly currently redirects to its English catalog, provides catalog and search browsing, and appears under **English / en**; the other sources appear under **Arabic / ar**. Mixed-content labels are retained, so client settings may hide these extensions.
 
+## Reliability, search and automatic reports
+
+Temporary read failures retry at most twice, with cancellation and rate-limit delays respected. Expired chapter-image links refresh once. MangaWeekly renews expired public AJAX nonces; Man9a briefly polls a chapter still being prepared. ProComic renews expired mapped-image and signed-image sessions once.
+
+Arabic messages identify unavailable or locked chapters, preparation, network/timeouts, rate limits, unexpected site responses, text chapters and incompatible image decoders. Website access requirements remain in effect.
+
+Search includes source-specific sorting and type/status filters where supported. HikayaTeam, Assassin Scans, ManhwaLek, Mangawy and Man9a expose type/status controls. MangaSid adds title sorting, KadrHub uses its full search page, and ManhwaLek matches Arabic titles without diacritics or Alef variants. Filter notes explain site limitations.
+
+Daily and manually triggered [source health checks](https://github.com/badrcoderman/extensions/actions/workflows/live-checks.yml) check the live sites. Failed automated tests or builds create one open GitHub issue per source (or build failure), without repeated issue comments. Reports contain test identifiers and a workflow link; they omit exception contents, reader URLs, chapter titles and tokens. This reports automated test failures; errors on a phone are not uploaded.
+
 ## Readers and checks
 
 - MangaRabi follows the site's chapter preparation flow and checks the full page count.
@@ -38,7 +48,7 @@ All sources use extension API 1.4 and Java 8 classes except ProComic, which reta
 - KadrHub text chapters produce an explanatory message. Locked chapters retain the website's access requirements.
 - [ProComic fix](PROCOMIC_FIX.md): removes the `Canvas.drawColor(int)` call reported as missing in Tachimanga, while preserving upstream readers, source ID and URLs.
 
-[VALIDATION.md](VALIDATION.md) records parser, live website, image and package checks. Device installation and reading inside Mihon and Tachimanga still require confirmation; no iOS or Android test device is attached to this build environment.
+[VALIDATION.md](VALIDATION.md) records parser, live website, image and package checks. The downloaded Suwayomi 2.4.2366 app was used for real JAR installation and reading checks. All nine API 1.4 sources passed. ProComic loaded the reported chapter but its AVIF piece decoder failed in stock Suwayomi. Mihon and Tachimanga device testing still requires an Android/iOS device.
 
 ## Build and update
 

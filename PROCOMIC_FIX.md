@@ -20,15 +20,23 @@ Three real plans, including the reported chapter `213362`, a shuffled ten-piece 
 - Upstream source: [ProComic at commit 8f504748a2f6](https://github.com/keiyoushi/extensions-source/tree/8f504748a2f6/src/ar/procomic).
 - Original JAR: [ProComic 1.6.0, release 7363e42](https://github.com/keiyoushi/extensions/releases/download/7363e42/tachiyomi-ar.procomic-v1.6.0.jar).
 - SHA-256: `377b1046c3f58dc10cb74c338c6ae6a90980e0925f0ba55103d3a15304c4cf49`.
-- Fork version: **1.6.2**, code **106002**, API **1.6**.
+- Fork version: **1.6.3**, code **106003**, API **1.6**.
 - Source ID: **8891921907305143070**, unchanged.
 
 The same patched classes are packaged as a signed JAR and compiled to Android DEX for the signed APK. They use this fork's signing certificate, so replacing an upstream installation requires uninstalling its extension package first.
 
 ## Testing limits
 
-The user-provided error confirms the missing method. Automated checks verify the patch and package structure; earlier network checks validated catalogs, chapters, reader data, CDN signing and image pieces. An iOS device is unavailable here, so this document does not claim a successful reading session inside Tachimanga. Any second error requires its complete message for a separate diagnosis.
+The user-provided error confirms the missing method. Automated checks verify the patch and package structure; earlier network checks validated catalogs, chapters, reader data, CDN signing and image pieces. An iOS device is unavailable here, so this document does not claim a successful reading session inside Tachimanga. The separately reported missing `R` class is covered by the hotfix below.
 
 ## Required-class hotfix (1.6.2)
 
 The 1.6.1 JAR accidentally omitted `eu/kanade/tachiyomi/a/a/a/R.class`: a generic resource exclusion matched an obfuscated implementation class. Version 1.6.2 excludes resource classes only inside the application's own resource package. Packaging now verifies that all 125 upstream implementation classes remain in the signed JAR. The reported `NoClassDefFoundError` identifies this missing class.
+
+## Reliability update (1.6.3)
+
+The pinned reader receives a network wrapper through one verified `OkHttpClient.Builder.build()` patch. Temporary GET failures retry at most twice. Expired mapped-page sessions reload the public reader and deferred maps once, preserve the original page index and CDN path, and share a short snapshot between page requests. Signed-image sessions renew once. Regression tests verify renewal and retry bounds. Unsupported decoders produce a clear Arabic error without repeatedly downloading the image.
+
+## Suwayomi desktop result
+
+The supplied Suwayomi 2.4.2366 AppImage successfully installed the signed JAR, loaded the source and filters, searched, loaded 307 available chapters for the reported title, and extracted all 19 pages for chapter 213362. Its first direct AVIF image downloaded successfully. Reconstructing page 4 failed in stock Suwayomi: the Android compatibility layer's `BitmapFactory` uses Java ImageIO and this package has no AVIF decoder. The two optional Android decoder classes are also absent. This is a separate host decoder limitation; removing a Canvas call or restoring `R.class` does not supply AVIF decoding. No iOS device test is claimed.

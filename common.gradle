@@ -45,10 +45,16 @@ def hostLibraries = [
 ]
 dependencies {
     hostLibraries.each {
-        compileOnly it
-        testImplementation it
+        if (it.startsWith('com.github.keiyoushi:extensions-lib:')) {
+            compileOnly(it) { transitive = false }
+            testImplementation(it) { transitive = false }
+        } else {
+            compileOnly it
+            testImplementation it
+        }
     }
     testImplementation 'junit:junit:4.13.2'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.10.0'
 }
 
 tasks.withType(Test).configureEach {
