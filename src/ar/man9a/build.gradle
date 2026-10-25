@@ -1,0 +1,6 @@
+ext {
+    extName = 'Man9a'
+    extClass = '.Man9a'
+    extVersionCode = 1
+}
+apply from: "$rootDir/common.gradle"

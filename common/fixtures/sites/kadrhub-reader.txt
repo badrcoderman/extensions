@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" data-theme-pref="default" dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>The Long Way Of The Warrior الفصل 243 - مانهوا مترجمة | كادر</title>
+<meta content="اقرأ الفصل 243 من مانهوا The Long Way Of The Warrior مترجماً للعربية بصفحات واضحة على كادر." name="description"/>
+
+<meta content="كادر" property="og:site_name"/>
+<meta content="ar_AR" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="The Long Way Of The Warrior الفصل 243 - مانهوا مترجمة" property="og:title"/>
+<meta content="اقرأ الفصل 243 من مانهوا The Long Way Of The Warrior مترجماً للعربية بصفحات واضحة على كادر." property="og:description"/>
+<meta content="https://kadrhub.com/series/lww/chapter-243" property="og:url"/>
+<meta content="https://kadrhub.com/media/covers/2026/10/43875bf7d488c4f0.webp" property="og:image"/>
+<meta content="460" property="og:image:width"/>
+<meta content="667" property="og:image:height"/>
+<meta content="غلاف مانهوا The Long Way Of The Warrior" property="og:image:alt"/>
+<meta content="2026-10-22T04:03:32+00:00" property="article:published_time"/>
+<meta content="مانهوا" property="article:section"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="The Long Way Of The Warrior الفصل 243 - مانهوا مترجمة" name="twitter:title"/>
+<meta content="اقرأ الفصل 243 من مانهوا The Long Way Of The Warrior مترجماً للعربية بصفحات واضحة على كادر." name="twitter:description"/>
+<meta content="https://kadrhub.com/media/covers/2026/10/43875bf7d488c4f0.webp" name="twitter:image"/>
+<meta content="غلاف مانهوا The Long Way Of The Warrior" name="twitter:image:alt"/>
+<meta content="#0a0b10" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="#f4f1ea" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="0b8f906abe5bb4b94c420e53fbf9cf1f0a3f6d1e" name="csrf-token"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="has-bottom-nav reader-mode" data-section="read" data-section-own="">
+<a class="sr-only" href="#main">تخطَّ إلى المحتوى</a>
+<main class="reader-main" id="main">
+<div class="r-topbar-progress"><span data-r-bar=""></span></div>
+<header class="r-top" data-r-top="">
+<div class="in">
+<a aria-label="العودة لصفحة العمل" class="icon-btn" href="/series/lww" title="صفحة العمل (B)"></a>
+<div class="r-title"><h1 class="r-h1"><a class="clamp-1" href="/series/lww">The Long Way Of The Warrior</a><span class="clamp-1">الفصل 243</span></h1><span class="clamp-1 r-sub">فريق كادر للترجمة</span></div>
+<select aria-label="الانتقال لفصل" class="select r-select" data-r-jump="">
+<option selected="" value="/series/lww/chapter-243">فصل 243</option>
+<option value="/series/lww/chapter-242">فصل 242</option>
+<option value="/series/lww/chapter-241">فصل 241</option>
+<option value="/series/lww/chapter-240">فصل 240</option>
+<option value="/series/lww/chapter-239">فصل 239</option>
+<option value="/series/lww/chapter-238">فصل 238</option>
+<option value="/series/lww/chapter-237">فصل 237</option>
+<option value="/series/lww/chapter-236">فصل 236</option>
+<option value="/series/lww/chapter-235">فصل 235</option>
+<option value="/series/lww/chapter-234">فصل 234</option>
+<option value="/series/lww/chapter-233">فصل 233</option>
+<option value="/series/lww/chapter-232">فصل 232</option>
+<option value="/series/lww/chapter-231">فصل 231</option>
+<option value="/series/lww/chapter-230">فصل 230</option>
+<option value="/series/lww/chapter-229">فصل 229</option>
+<option value="/series/lww/chapter-228">فصل 228</option>
+<option value="/series/lww/chapter-227">فصل 227</option>
+<option value="/series/lww/chapter-226">فصل 226</option>
+<option value="/series/lww/chapter-225">فصل 225</option>
+<option value="/series/lww/chapter-224">فصل 224</option>
+<option value="/series/lww/chapter-223">فصل 223</option>
+<option value="/series/lww/chapter-222">فصل 222</option>
+<option value="/series/lww/chapter-221">فصل 221</option>
+<option value="/series/lww/chapter-220">فصل 220</option>
+<option value="/series/lww/chapter-219">فصل 219</option>
+<option value="/series/lww/chapter-218">فصل 218</option>
+<option value="/series/lww/chapter-217">فصل 217</option>
+<option value="/series/lww/chapter-216">فصل 216</option>
+<option value="/series/lww/chapter-215">فصل 215</option>
+<option value="/series/lww/chapter-214">فصل 214</option>
+<option value="/series/lww/chapter-213">فصل 213</option>
+<option value="/series/lww/chapter-212">فصل 212</option>
+<option value="/series/lww/chapter-211">فصل 211</option>
+<option value="/series/lww/chapter-210">فصل 210</option>
+<option value="/series/lww/chapter-209">فصل 209</option>
+<option value="/series/lww/chapter-208">فصل 208</option>
+<option value="/series/lww/chapter-207">فصل 207</option>
+<option value="/series/lww/chapter-206">فصل 206</option>
+<option value="/series/lww/chapter-205">فصل 205</option>
+<option value="/series/lww/chapter-204">فصل 204</option>
+<option value="/series/lww/chapter-203">فصل 203</option>
+<option value="/series/lww/chapter-202">فصل 202</option>
+<option value="/series/lww/chapter-201">فصل 201</option>
+<option value="/series/lww/chapter-200">فصل 200</option>
+<option value="/series/lww/chapter-199">فصل 199</option>
+<option value="/series/lww/chapter-198">فصل 198</option>
+<option value="/series/lww/chapter-197">فصل 197</option>
+<option value="/series/lww/chapter-196">فصل 196</option>
+<option value="/series/lww/chapter-195">فصل 195</option>
+<option value="/series/lww/chapter-194">فصل 194</option>
+<option value="/series/lww/chapter-193">فصل 193</option>
+<option value="/series/lww/chapter-192">فصل 192</option>
+<option value="/series/lww/chapter-191">فصل 191</option>
+<option value="/series/lww/chapter-190">فصل 190</option>
+<option value="/series/lww/chapter-189">فصل 189</option>
+<option value="/series/lww/chapter-188">فصل 188</option>
+<option value="/series/lww/chapter-187">فصل 187</option>
+<option value="/series/lww/chapter-186">فصل 186</option>
+<option value="/series/lww/chapter-185">فصل 185</option>
+<option value="/series/lww/chapter-184">فصل 184</option>
+<option value="/series/lww/chapter-183">فصل 183</option>
+<option value="/series/lww/chapter-182">فصل 182</option>
+<option value="/series/lww/chapter-181">فصل 181</option>
+<option value="/series/lww/chapter-180">فصل 180</option>
+<option value="/series/lww/chapter-179">فصل 179</option>
+<option value="/series/lww/chapter-178">فصل 178</option>
+<option value="/series/lww/chapter-177">فصل 177</option>
+<option value="/series/lww/chapter-176">فصل 176</option>
+<option value="/series/lww/chapter-175">فصل 175</option>
+<option value="/series/lww/chapter-174">فصل 174</option>
+<option value="/series/lww/chapter-173">فصل 173</option>
+<option value="/series/lww/chapter-172">فصل 172</option>
+<option value="/series/lww/chapter-171">فصل 171</option>
+<option value="/series/lww/chapter-170">فصل 170</option>
+<option value="/series/lww/chapter-169">فصل 169</option>
+<option value="/series/lww/chapter-168">فصل 168</option>
+<option value="/series/lww/chapter-167">فصل 167</option>
+<option value="/series/lww/chapter-166">فصل 166</option>
+<option value="/series/lww/chapter-165">فصل 165</option>
+<option value="/series/lww/chapter-164">فصل 164</option>
+<option value="/series/lww/chapter-163">فصل 163</option>
+<option value="/series/lww/chapter-162">فصل 162</option>
+<option value="/series/lww/chapter-161">فصل 161</option>
+<option value="/series/lww/chapter-160">فصل 160</option>
+<option value="/series/lww/chapter-159">فصل 159</option>
+<option value="/series/lww/chapter-158">فصل 158</option>
+<option value="/series/lww/chapter-157">فصل 157</option>
+<option value="/series/lww/chapter-156">فصل 156</option>
+<option value="/series/lww/chapter-155">فصل 155</option>
+<option value="/series/lww/chapter-154">فصل 154</option>
+<option value="/series/lww/chapter-153">فصل 153</option>
+<option value="/series/lww/chapter-152">فصل 152</option>
+<option value="/series/lww/chapter-151">فصل 151</option>
+<option value="/series/lww/chapter-150">فصل 150</option>
+<option value="/series/lww/chapter-149">فصل 149</option>
+<option value="/series/lww/chapter-148">فصل 148</option>
+<option value="/series/lww/chapter-147">فصل 147</option>
+<option value="/series/lww/chapter-146">فصل 146</option>
+<option value="/series/lww/chapter-145">فصل 145</option>
+<option value="/series/lww/chapter-144">فصل 144</option>
+<option value="/series/lww/chapter-143">فصل 143</option>
+<option value="/series/lww/chapter-142">فصل 142</option>
+<option value="/series/lww/chapter-141">فصل 141</option>
+<option value="/series/lww/chapter-140">فصل 140</option>
+<option value="/series/lww/chapter-139">فصل 139</option>
+<option value="/series/lww/chapter-138">فصل 138</option>
+<option value="/series/lww/chapter-137">فصل 137</option>
+<option value="/series/lww/chapter-136">فصل 136</option>
+<option value="/series/lww/chapter-135">فصل 135</option>
+<option value="/series/lww/chapter-134">فصل 134</option>
+<option value="/series/lww/chapter-133">فصل 133</option>
+<option value="/series/lww/chapter-132">فصل 132</option>
+<option value="/series/lww/chapter-131">فصل 131</option>
+<option value="/series/lww/chapter-130">فصل 130</option>
+<option value="/series/lww/chapter-129">فصل 129</option>
+<option value="/series/lww/chapter-128">فصل 128</option>
+<option value="/series/lww/chapter-127">فصل 127</option>
+<option value="/series/lww/chapter-126">فصل 126</option>
+<option value="/series/lww/chapter-125">فصل 125</option>
+<option value="/series/lww/chapter-124">فصل 124</option>
+<option value="/series/lww/chapter-123">فصل 123</option>
+<option value="/series/lww/chapter-122">فصل 122</option>
+<option value="/series/lww/chapter-121">فصل 121</option>
+<option value="/series/lww/chapter-120">فصل 120</option>
+<option value="/series/lww/chapter-119">فصل 119</option>
+<option value="/series/lww/chapter-118">فصل 118</option>
+<option value="/series/lww/chapter-117">فصل 117</option>
+<option value="/series/lww/chapter-116">فصل 116</option>
+<option value="/series/lww/chapter-115">فصل 115</option>
+<option value="/series/lww/chapter-114">فصل 114</option>
+<option value="/series/lww/chapter-113">فصل 113</option>
+<option value="/series/lww/chapter-112">فصل 112</option>
+<option value="/series/lww/chapter-111">فصل 111</option>
+<option value="/series/lww/chapter-110">فصل 110</option>
+<option value="/series/lww/chapter-109">فصل 109</option>
+<option value="/series/lww/chapter-108">فصل 108</option>
+<option value="/series/lww/chapter-107">فصل 107</option>
+<option value="/series/lww/chapter-106">فصل 106</option>
+<option value="/series/lww/chapter-105">فصل 105</option>
+<option value="/series/lww/chapter-104">فصل 104</option>
+<option value="/series/lww/chapter-103">فصل 103</option>
+<option value="/series/lww/chapter-102">فصل 102</option>
+<option value="/series/lww/chapter-101">فصل 101</option>
+<option value="/series/lww/chapter-100">فصل 100</option>
+<option value="/series/lww/chapter-99">فصل 99</option>
+<option value="/series/lww/chapter-98">فصل 98</option>
+<option value="/series/lww/chapter-97">فصل 97</option>
+<option value="/series/lww/chapter-96">فصل 96</option>
+<option value="/series/lww/chapter-95">فصل 95</option>
+<option value="/series/lww/chapter-94">فصل 94</option>
+<option value="/series/lww/chapter-93">فصل 93</option>
+<option value="/series/lww/chapter-92">فصل 92</option>
+<option value="/series/lww/chapter-91">فصل 91</option>
+<option value="/series/lww/chapter-90">فصل 90</option>
+<option value="/series/lww/chapter-89">فصل 89</option>
+<option value="/series/lww/chapter-88">فصل 88</option>
+<option value="/series/lww/chapter-87">فصل 87</option>
+<option value="/series/lww/chapter-86">فصل 86</option>
+<option value="/series/lww/chapter-85">فصل 85</option>
+<option value="/series/lww/chapter-84">فصل 84</option>
+<option value="/series/lww/chapter-83">فصل 83</option>
+<option value="/series/lww/chapter-82">فصل 82</option>
+<option value="/series/lww/chapter-81">فصل 81</option>
+<option value="/series/lww/chapter-80">فصل 80</option>
+<option value="/series/lww/chapter-79">فصل 79</option>
+<option value="/series/lww/chapter-78">فصل 78</option>
+<option value="/series/lww/chapter-77">فصل 77</option>
+<option value="/series/lww/chapter-76">فصل 76</option>
+<option value="/series/lww/chapter-75">فصل 75</option>
+<option value="/series/lww/chapter-74">فصل 74</option>
+<option value="/series/lww/chapter-73">فصل 73</option>
+<option value="/series/lww/chapter-72">فصل 72</option>
+<option value="/series/lww/chapter-71">فصل 71</option>
+<option value="/series/lww/chapter-70">فصل 70</option>
+<option value="/series/lww/chapter-69">فصل 69</option>
+<option value="/series/lww/chapter-68">فصل 68</option>
+<option value="/series/lww/chapter-67">فصل 67</option>
+<option value="/series/lww/chapter-66">فصل 66</option>
+<option value="/series/lww/chapter-65">فصل 65</option>
+<option value="/series/lww/chapter-64">فصل 64</option>
+<option value="/series/lww/chapter-63">فصل 63</option>
+<option value="/series/lww/chapter-62">فصل 62</option>
+<option value="/series/lww/chapter-61">فصل 61</option>
+<option value="/series/lww/chapter-60">فصل 60</option>
+<option value="/series/lww/chapter-59">فصل 59</option>
+<option value="/series/lww/chapter-58">فصل 58</option>
+<option value="/series/lww/chapter-57">فصل 57</option>
+<option value="/series/lww/chapter-56">فصل 56</option>
+<option value="/series/lww/chapter-55">فصل 55</option>
+<option value="/series/lww/chapter-54">فصل 54</option>
+<option value="/series/lww/chapter-53">فصل 53</option>
+<option value="/series/lww/chapter-52">فصل 52</option>
+<option value="/series/lww/chapter-51">فصل 51</option>
+<option value="/series/lww/chapter-50">فصل 50</option>
+<option value="/series/lww/chapter-49">فصل 49</option>
+<option value="/series/lww/chapter-48">فصل 48</option>
+<option value="/series/lww/chapter-47">فصل 47</option>
+<option value="/series/lww/chapter-46">فصل 46</option>
+<option value="/series/lww/chapter-45">فصل 45</option>
+<option value="/series/lww/chapter-44">فصل 44</option>
+<option value="/series/lww/chapter-43">فصل 43</option>
+<option value="/series/lww/chapter-42">فصل 42</option>
+<option value="/series/lww/chapter-41">فصل 41</option>
+<option value="/series/lww/chapter-40">فصل 40</option>
+<option value="/series/lww/chapter-39">فصل 39</option>
+<option value="/series/lww/chapter-38">فصل 38</option>
+<option value="/series/lww/chapter-37">فصل 37</option>
+<option value="/series/lww/chapter-36">فصل 36</option>
+<option value="/series/lww/chapter-35">فصل 35</option>
+<option value="/series/lww/chapter-34">فصل 34</option>
+<option value="/series/lww/chapter-33">فصل 33</option>
+<option value="/series/lww/chapter-32">فصل 32</option>
+<option value="/series/lww/chapter-31">فصل 31</option>
+<option value="/series/lww/chapter-30">فصل 30</option>
+<option value="/series/lww/chapter-29">فصل 29</option>
+<option value="/series/lww/chapter-28">فصل 28</option>
+<option value="/series/lww/chapter-27">فصل 27</option>
+<option value="/series/lww/chapter-26">فصل 26</option>
+<option value="/series/lww/chapter-25">فصل 25</option>
+<option value="/series/lww/chapter-24">فصل 24</option>
+<option value="/series/lww/chapter-23">فصل 23</option>
+<option value="/series/lww/chapter-22">فصل 22</option>
+<option value="/series/lww/chapter-21">فصل 21</option>
+<option value="/series/lww/chapter-20">فصل 20</option>
+<option value="/series/lww/chapter-19">فصل 19</option>
+<option value="/series/lww/chapter-18">فصل 18</option>
+<option value="/series/lww/chapter-17">فصل 17</option>
+<option value="/series/lww/chapter-16">فصل 16</option>
+<option value="/series/lww/chapter-15">فصل 15</option>
+<option value="/series/lww/chapter-14">فصل 14</option>
+<option value="/series/lww/chapter-13">فصل 13</option>
+<option value="/series/lww/chapter-12">فصل 12</option>
+<option value="/series/lww/chapter-11">فصل 11</option>
+<option value="/series/lww/chapter-10">فصل 10</option>
+<option value="/series/lww/chapter-9">فصل 9</option>
+<option value="/series/lww/chapter-8">فصل 8</option>
+<option value="/series/lww/chapter-7">فصل 7</option>
+<option value="/series/lww/chapter-6">فصل 6</option>
+<option value="/series/lww/chapter-5">فصل 5</option>
+<option value="/series/lww/chapter-4">فصل 4</option>
+<option value="/series/lww/chapter-3">فصل 3</option>
+<option value="/series/lww/chapter-2">فصل 2</option>
+<option value="/series/lww/chapter-1">فصل 1</option>
+</select>
+<button aria-label="إعدادات القارئ" class="icon-btn" data-r-settings="" title="الإعدادات (S)" type="button"></button>
+<button aria-label="إبلاغ" class="icon-btn" data-report-id="163227" data-report-open="" data-report-type="chapter" type="button"></button>
+</div>
+</header>
+<div class="pages" data-pages="">
+<div class="page" data-i="0" style="aspect-ratio:1080/603">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 1" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0001-7c781a.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0001-7c781a.lq.webp" decoding="async" draggable="false" fetchpriority="high" height="603" src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0001-7c781a.webp" width="1080"/>
+<span class="page-num">1/40</span>
+</div>
+<div class="page" data-i="1" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 2" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0002-7cdf3b.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0002-7cdf3b.lq.webp" decoding="async" draggable="false" height="458" src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0002-7cdf3b.webp" width="1080"/>
+<span class="page-num">2/40</span>
+</div>
+<div class="page" data-i="2" style="aspect-ratio:1080/534">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 3" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0003-c92345.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0003-c92345.lq.webp" decoding="async" draggable="false" height="534" src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0003-c92345.webp" width="1080"/>
+<span class="page-num">3/40</span>
+</div>
+<div class="page" data-i="3" style="aspect-ratio:1080/534">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 4" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0004-7e27e5.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0004-7e27e5.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0004-7e27e5.webp" decoding="async" draggable="false" height="534" width="1080"/>
+<span class="page-num">4/40</span>
+</div>
+<div class="page" data-i="4" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 5" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0005-cb18b7.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0005-cb18b7.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0005-cb18b7.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">5/40</span>
+</div>
+<div class="page" data-i="5" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 6" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0006-ed97ee.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0006-ed97ee.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0006-ed97ee.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">6/40</span>
+</div>
+<div class="page" data-i="6" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 7" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0007-1444a8.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0007-1444a8.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0007-1444a8.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">7/40</span>
+</div>
+<div class="page" data-i="7" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 8" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0008-4e8ec9.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0008-4e8ec9.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0008-4e8ec9.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">8/40</span>
+</div>
+<div class="page" data-i="8" style="aspect-ratio:1080/534">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 9" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0009-503b9d.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0009-503b9d.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0009-503b9d.webp" decoding="async" draggable="false" height="534" width="1080"/>
+<span class="page-num">9/40</span>
+</div>
+<div class="page" data-i="9" style="aspect-ratio:1080/603">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 10" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0010-173117.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0010-173117.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0010-173117.webp" decoding="async" draggable="false" height="603" width="1080"/>
+<span class="page-num">10/40</span>
+</div>
+<div class="page" data-i="10" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 11" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0011-7e9ff6.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0011-7e9ff6.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0011-7e9ff6.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">11/40</span>
+</div>
+<div class="page" data-i="11" style="aspect-ratio:1080/740">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 12" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0012-28170f.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0012-28170f.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0012-28170f.webp" decoding="async" draggable="false" height="740" width="1080"/>
+<span class="page-num">12/40</span>
+</div>
+<div class="page" data-i="12" style="aspect-ratio:814/565">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 13" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0013-fb9ee5.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0013-fb9ee5.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0013-fb9ee5.webp" decoding="async" draggable="false" height="565" width="814"/>
+<span class="page-num">13/40</span>
+</div>
+<div class="page" data-i="13" style="aspect-ratio:1079/619">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 14" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0014-280879.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0014-280879.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0014-280879.webp" decoding="async" draggable="false" height="619" width="1079"/>
+<span class="page-num">14/40</span>
+</div>
+<div class="page" data-i="14" style="aspect-ratio:1080/698">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 15" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0015-cbb398.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0015-cbb398.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0015-cbb398.webp" decoding="async" draggable="false" height="698" width="1080"/>
+<span class="page-num">15/40</span>
+</div>
+<div class="page" data-i="15" style="aspect-ratio:981/747">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 16" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0016-15b8b9.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0016-15b8b9.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0016-15b8b9.webp" decoding="async" draggable="false" height="747" width="981"/>
+<span class="page-num">16/40</span>
+</div>
+<div class="page" data-i="16" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 17" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0017-6999d7.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0017-6999d7.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0017-6999d7.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">17/40</span>
+</div>
+<div class="page" data-i="17" style="aspect-ratio:1080/612">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 18" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0018-1e9a5a.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0018-1e9a5a.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0018-1e9a5a.webp" decoding="async" draggable="false" height="612" width="1080"/>
+<span class="page-num">18/40</span>
+</div>
+<div class="page" data-i="18" style="aspect-ratio:800/389">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 19" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0019-218b6c.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0019-218b6c.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0019-218b6c.webp" decoding="async" draggable="false" height="389" width="800"/>
+<span class="page-num">19/40</span>
+</div>
+<div class="page" data-i="19" style="aspect-ratio:1080/661">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 20" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0020-438ab9.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0020-438ab9.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0020-438ab9.webp" decoding="async" draggable="false" height="661" width="1080"/>
+<span class="page-num">20/40</span>
+</div>
+<div class="page" data-i="20" style="aspect-ratio:376/207">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 21" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0021-af89c8.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0021-af89c8.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0021-af89c8.webp" decoding="async" draggable="false" height="207" width="376"/>
+<span class="page-num">21/40</span>
+</div>
+<div class="page" data-i="21" style="aspect-ratio:798/478">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 22" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0022-b86bd3.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0022-b86bd3.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0022-b86bd3.webp" decoding="async" draggable="false" height="478" width="798"/>
+<span class="page-num">22/40</span>
+</div>
+<div class="page" data-i="22" style="aspect-ratio:803/476">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 23" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0023-c205fc.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0023-c205fc.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0023-c205fc.webp" decoding="async" draggable="false" height="476" width="803"/>
+<span class="page-num">23/40</span>
+</div>
+<div class="page" data-i="23" style="aspect-ratio:810/465">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 24" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0024-873a61.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0024-873a61.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0024-873a61.webp" decoding="async" draggable="false" height="465" width="810"/>
+<span class="page-num">24/40</span>
+</div>
+<div class="page" data-i="24" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 25" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0025-f15c51.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0025-f15c51.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0025-f15c51.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">25/40</span>
+</div>
+<div class="page" data-i="25" style="aspect-ratio:1080/458">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 26" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0026-059614.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0026-059614.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0026-059614.webp" decoding="async" draggable="false" height="458" width="1080"/>
+<span class="page-num">26/40</span>
+</div>
+<div class="page" data-i="26" style="aspect-ratio:1080/584">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 27" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0027-a74669.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0027-a74669.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0027-a74669.webp" decoding="async" draggable="false" height="584" width="1080"/>
+<span class="page-num">27/40</span>
+</div>
+<div class="page" data-i="27" style="aspect-ratio:1080/624">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 28" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0028-ab42ec.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0028-ab42ec.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0028-ab42ec.webp" decoding="async" draggable="false" height="624" width="1080"/>
+<span class="page-num">28/40</span>
+</div>
+<div class="page" data-i="28" style="aspect-ratio:1080/618">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 29" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0029-79817d.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0029-79817d.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0029-79817d.webp" decoding="async" draggable="false" height="618" width="1080"/>
+<span class="page-num">29/40</span>
+</div>
+<div class="page" data-i="29" style="aspect-ratio:1080/607">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 30" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0030-c48d10.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0030-c48d10.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0030-c48d10.webp" decoding="async" draggable="false" height="607" width="1080"/>
+<span class="page-num">30/40</span>
+</div>
+<div class="page" data-i="30" style="aspect-ratio:865/530">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 31" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0031-64ce4c.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0031-64ce4c.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0031-64ce4c.webp" decoding="async" draggable="false" height="530" width="865"/>
+<span class="page-num">31/40</span>
+</div>
+<div class="page" data-i="31" style="aspect-ratio:1080/578">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 32" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0032-3dd886.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0032-3dd886.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0032-3dd886.webp" decoding="async" draggable="false" height="578" width="1080"/>
+<span class="page-num">32/40</span>
+</div>
+<div class="page" data-i="32" style="aspect-ratio:1080/608">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 33" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0033-781d90.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0033-781d90.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0033-781d90.webp" decoding="async" draggable="false" height="608" width="1080"/>
+<span class="page-num">33/40</span>
+</div>
+<div class="page" data-i="33" style="aspect-ratio:1080/640">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 34" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0034-04b4a0.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0034-04b4a0.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0034-04b4a0.webp" decoding="async" draggable="false" height="640" width="1080"/>
+<span class="page-num">34/40</span>
+</div>
+<div class="page" data-i="34" style="aspect-ratio:648/368">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 35" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0035-a155fc.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0035-a155fc.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0035-a155fc.webp" decoding="async" draggable="false" height="368" width="648"/>
+<span class="page-num">35/40</span>
+</div>
+<div class="page" data-i="35" style="aspect-ratio:1080/626">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 36" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0036-947436.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0036-947436.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0036-947436.webp" decoding="async" draggable="false" height="626" width="1080"/>
+<span class="page-num">36/40</span>
+</div>
+<div class="page" data-i="36" style="aspect-ratio:1080/515">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 37" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0037-e49505.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0037-e49505.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0037-e49505.webp" decoding="async" draggable="false" height="515" width="1080"/>
+<span class="page-num">37/40</span>
+</div>
+<div class="page" data-i="37" style="aspect-ratio:800/316">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 38" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0038-9236b1.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0038-9236b1.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0038-9236b1.webp" decoding="async" draggable="false" height="316" width="800"/>
+<span class="page-num">38/40</span>
+</div>
+<div class="page" data-i="38" style="aspect-ratio:639/369">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 39" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0039-f91738.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0039-f91738.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0039-f91738.webp" decoding="async" draggable="false" height="369" width="639"/>
+<span class="page-num">39/40</span>
+</div>
+<div class="page" data-i="39" style="aspect-ratio:1080/633">
+<img alt="The Long Way Of The Warrior الفصل 243 صفحة 40" data-hq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0040-dce354.webp" data-lq="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0040-dce354.lq.webp" data-src="https://pub-2a65bd1f150d4d2aaf80913126946e7b.r2.dev/ch/4tzcy5vjaq46aujk3vl8/0040-dce354.webp" decoding="async" draggable="false" height="633" width="1080"/>
+<span class="page-num">40/40</span>
+</div>
+</div>
+<section class="chapter-end" data-end="">
+<div class="panel center">
+<div class="bold mb-1">وصلت لآخر فصل متاح</div>
+<p class="small muted">أضفه للمفضلة ليصلك إشعار لحظة نزول الفصل الجديد.</p>
+<div class="row mt-2" style="justify-content:center">
+<button class="btn btn-primary" data-lib="favorite" data-series="1184" type="button"><span data-fav-label="">أضف للمفضلة</span></button>
+<a class="btn btn-outline" href="/series/lww?tab=reviews">قيّم العمل</a>
+</div>
+</div>
+<h3 class="mt-4 mb-2 center">ما رأيك في الفصل؟</h3>
+<div class="reactions" data-chapter="163227" data-reactions="">
+<button class="reaction" data-react="1" type="button"><span class="emo">👍</span><span class="lbl">أعجبني</span><span class="cnt">1</span></button>
+<button class="reaction" data-react="2" type="button"><span class="emo">😍</span><span class="lbl">أحببته</span><span class="cnt">0</span></button>
+<button class="reaction" data-react="3" type="button"><span class="emo">😂</span><span class="lbl">أضحكني</span><span class="cnt">0</span></button>
+<button class="reaction" data-react="4" type="button"><span class="emo">😮</span><span class="lbl">أدهشني</span><span class="cnt">0</span></button>
+<button class="reaction" data-react="5" type="button"><span class="emo">😢</span><span class="lbl">أحزنني</span><span class="cnt">0</span></button>
+<button class="reaction" data-react="6" type="button"><span class="emo">😡</span><span class="lbl">أغضبني</span><span class="cnt">0</span></button>
+</div>
+<div class="row mt-3" style="justify-content:center;flex-wrap:wrap">
+<button class="btn thanks-btn" data-thanks="163227" type="button">شكراً للمترجم <span data-thanks-count="">0</span></button> <button class="btn btn-ghost" data-share="https://kadrhub.com/series/lww/chapter-243" data-title="The Long Way Of The Warrior الفصل 243 - مانهوا مترجمة" type="button">مشاركة</button>
+<a class="btn btn-ghost" href="/series/lww/chapter-242">السابق</a> </div>
+<div class="mt-4">
+<section class="comments" data-chnum="243" data-comments="" data-id="163227" data-series="1184" data-type="chapter" id="comments">
+<div class="section-head wrap">
+<h2 class="section-title">تعليقات الفصل <span class="muted small" data-c-total=""></span></h2>
+<div class="tabs" role="tablist">
+<button class="tab is-active" data-c-sort="top" type="button">الأفضل</button>
+<button class="tab" data-c-sort="new" type="button">الأحدث</button>
+<button class="tab" data-c-sort="old" type="button">الأقدم</button>
+</div>
+</div>
+<div class="notice mb-3"><span><a class="link" href="/auth/signin">سجّل دخولك</a> للمشاركة في النقاش. القراءة متاحة للجميع.</span></div>
+<div data-c-list=""><div class="spinner"></div></div>
+<div class="center mt-2"><button class="btn btn-outline btn-sm" data-c-more="" hidden="" type="button">تحميل المزيد</button></div>
+</section>
+</div>
+</section>
+
+<div class="r-scrim" data-r-scrim=""></div>
+<aside aria-label="إعدادات القارئ" class="r-panel" data-r-panel="">
+<div class="row-between"><b style="font-size:1.1em"> إعدادات القراءة</b><button aria-label="إغلاق" class="icon-btn" data-r-close="" type="button"></button></div>
+<h2 class="r-h">وضع القراءة</h2>
+<div class="seg"><label><input name="mode" type="radio" value="vertical"/><span>عمودي</span></label><label><input name="mode" type="radio" value="paged"/><span>صفحة بصفحة</span></label><label data-wide-only=""><input name="mode" type="radio" value="double"/><span>صفحتان</span></label></div>
+<label class="check mt-1 small"><input data-r-series-mode="" type="checkbox"/> احفظ الوضع لهذا العمل فقط</label>
+<div data-show-for="paged double"><h2 class="r-h">اتجاه التقليب</h2><div class="seg"><label><input name="dir" type="radio" value="rtl"/><span>من اليمين (مانجا)</span></label><label><input name="dir" type="radio" value="ltr"/><span>من اليسار</span></label></div></div>
+<div data-show-for="vertical"><h2 class="r-h">المسافة بين الصور</h2><div class="seg"><label><input name="gap" type="radio" value="0"/><span>متصل</span></label><label><input name="gap" type="radio" value="1"/><span>فراغ صغير</span></label></div></div>
+<h2 class="r-h">عرض الصورة</h2>
+<div class="seg"><label><input name="fit" type="radio" value="width"/><span>ملء العرض</span></label><label><input name="fit" type="radio" value="height"/><span>ملء الارتفاع</span></label><label><input name="fit" type="radio" value="original"/><span>الأصلي</span></label><label><input name="fit" type="radio" value="custom"/><span>مخصص</span></label></div>
+<div class="mt-1" data-show-fit="custom"><input max="100" min="40" name="width" step="5" style="width:100%;accent-color:var(--brand)" type="range"/><div class="tiny muted center"><span data-width-out=""></span>٪</div></div>
+<h2 class="r-h">لون الخلفية</h2>
+<div class="seg"><label><input name="bg" type="radio" value="black"/><span>أسود</span></label><label><input name="bg" type="radio" value="gray"/><span>رمادي</span></label><label><input name="bg" type="radio" value="white"/><span>أبيض</span></label></div>
+<h2 class="r-h">جودة الصور</h2>
+<div class="seg"><label><input name="quality" type="radio" value="auto"/><span>تلقائية</span></label><label><input name="quality" type="radio" value="high"/><span>عالية</span></label><label><input name="quality" type="radio" value="saver"/><span>موفّرة</span></label></div>
+<div data-show-for="vertical"><h2 class="r-h">التمرير التلقائي</h2><div class="row"><button class="btn btn-sm" data-autoscroll="" type="button"><span>تشغيل</span></button><input aria-label="سرعة التمرير" max="10" min="1" name="speed" style="flex:1;accent-color:var(--brand)" type="range"/></div></div>
+<h2 class="r-h">عام</h2>
+<label class="switch mb-1"><input name="autohide" type="checkbox"/><span class="track"></span><span class="small">إخفاء الأشرطة أثناء التمرير</span></label>
+<label class="switch mb-1"><input name="preload" type="checkbox"/><span class="track"></span><span class="small">تحميل مسبق للفصل التالي</span></label>
+<div class="kbd-only"><h2 class="r-h">اختصارات لوحة المفاتيح</h2>
+<div class="kbd-list"><kbd>← →</kbd><span>الصفحة/الفصل التالي والسابق</span><kbd>↑ ↓</kbd><span>التمرير</span><kbd>S</kbd><span>الإعدادات</span><kbd>F</kbd><span>ملء الشاشة</span><kbd>C</kbd><span>التعليقات</span><kbd>B</kbd><span>العودة لصفحة العمل</span></div></div>
+</aside>
+<script id="reader-data" type="application/json">{"chapter":163227,"series":1184,"number":"243","kind":"images","pages":40,"canRead":true,"isGuest":true,"seriesSlug":"lww","prev":"/series/lww/chapter-242","next":null,"nextId":null,"progress":null,"resume":false,"prefs":{"mode":"vertical","dir":"ltr"},"loggedIn":false,"seriesTitle":"The Long Way Of The Warrior"}</script>
+</main>
+<div aria-label="البحث" aria-modal="true" class="search-overlay" id="search-overlay" role="dialog">
+<div class="modal-backdrop" data-search-close=""></div>
+<div class="search-panel">
+<form action="/search" class="search-box" method="get" role="search">
+ <input aria-autocomplete="list" aria-controls="search-results" aria-label="البحث عن عمل أو مؤلف" autocomplete="off" enterkeyhint="search" id="search-input" name="q" placeholder="اسم العمل بالعربي أو الإنجليزي أو الكوري، أو اسم المؤلف…" spellcheck="false" type="search"/>
+<button aria-label="إغلاق" class="icon-btn" data-search-close="" type="button"></button>
+</form>
+<div class="search-results" id="search-results" role="listbox">
+<div data-search-idle="">
+<div data-recent-wrap="" hidden=""><div class="sr-group"><span>آخر عمليات بحثك</span><button class="link tiny" data-recent-clear="" type="button">مسح</button></div><div class="chips" data-recent="" style="padding:6px 12px 10px"></div></div>
+<div class="sr-group"><span>عمليات البحث الشائعة</span></div>
+<div class="chips" style="padding:6px 12px 12px">
+<a class="chip chip-sm" data-search-fill="Game of thrones" href="/search?q=Game+of+thrones">Game of thrones</a><a class="chip chip-sm" data-search-fill="The" href="/search?q=The">The</a><a class="chip chip-sm" data-search-fill="One piece" href="/search?q=One+piece">One piece</a><a class="chip chip-sm" data-search-fill="One" href="/search?q=One">One</a><a class="chip chip-sm" data-search-fill="game of" href="/search?q=game+of">game of</a><a class="chip chip-sm" data-search-fill="Black" href="/search?q=Black">Black</a><a class="chip chip-sm" data-search-fill="The God Of Death" href="/search?q=The+God+Of+Death">The God Of Death</a><a class="chip chip-sm" data-search-fill="Spi" href="/search?q=Spi">Spi</a> </div>
+<div class="sr-empty small">ابدأ الكتابة، النتائج تظهر فوراً. يمكنك كتابة الاسم بأي لغة أو حتى مع خطأ إملائي.</div>
+</div>
+<div data-search-out=""></div>
+</div>
+<div class="sr-foot"><span><kbd>↑</kbd> <kbd>↓</kbd> للتنقل</span><span><kbd>Enter</kbd> للفتح</span><span><kbd>Esc</kbd> للإغلاق</span></div>
+</div>
+</div>
+<div aria-labelledby="report-title" aria-modal="true" class="modal sheet" id="report-modal" role="dialog">
+<div class="modal-backdrop" data-modal-close=""></div>
+<div class="modal-box">
+<div class="modal-head"><h3 id="report-title"> إبلاغ</h3><button aria-label="إغلاق" class="icon-btn" data-modal-close="" type="button"></button></div>
+<form data-report-form="">
+<input name="target_type" type="hidden"/>
+<input name="target_id" type="hidden"/>
+<input name="context_url" type="hidden"/>
+<div class="field"><span>السبب</span>
+<div class="chips" data-reasons="">
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="abuse"/><span class="chip chip-sm">إساءة</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="spoiler"/><span class="chip chip-sm">حرق غير معلَّم</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="spam"/><span class="chip chip-sm">إعلان أو سبام</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="inappropriate"/><span class="chip chip-sm">محتوى غير لائق</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="missing_pages"/><span class="chip chip-sm">صور ناقصة أو مكسورة</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="wrong_order"/><span class="chip chip-sm">ترتيب خاطئ</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="bad_translation"/><span class="chip chip-sm">ترجمة سيئة</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="wrong_chapter"/><span class="chip chip-sm">فصل خاطئ</span></label>
+<label data-reason-for="site chapter series"><input class="sr-only" name="reason" required="" type="radio" value="bug"/><span class="chip chip-sm">مشكلة تقنية</span></label>
+<label data-reason-for="site chapter series"><input class="sr-only" name="reason" required="" type="radio" value="copyright"/><span class="chip chip-sm">حقوق ملكية</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="other"/><span class="chip chip-sm">أخرى</span></label>
+</div>
+</div>
+<label class="field"><span>تفاصيل (اختياري)</span><textarea class="textarea" maxlength="1000" name="details" placeholder="مثال: الصورة رقم ١٢ لا تظهر" rows="3"></textarea></label>
+<div data-report-captcha=""><div aria-hidden="true" class="hp"><label>اترك هذا الحقل فارغاً<input autocomplete="off" name="website" tabindex="-1" type="text"/></label></div><label class="field captcha-q"><span>تحقق سريع: كم ناتج 8 + 1؟</span><input autocomplete="off" class="input" inputmode="numeric" name="captcha" required="" type="text"/></label></div> <button class="btn btn-primary btn-block" type="submit">إرسال البلاغ</button>
+<p class="muted tiny mt-2 center">سنُعلمك بنتيجة البلاغ عند معالجته.</p>
+</form>
+</div>
+</div>
+<div aria-live="polite" class="toasts" id="toasts"></div>
+
+
+
+
+
+
+</body>
+</html>

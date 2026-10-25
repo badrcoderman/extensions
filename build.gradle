@@ -3,12 +3,10 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
 }
 
+def requestedSources = new groovy.json.JsonSlurper().parse(file('sources.json'))
 tasks.register('verifyExtensions') {
-    dependsOn ':src:ar:mangarabi:testReleaseUnitTest', ':src:ar:hikayateam:testReleaseUnitTest',
-        ':src:ar:mangarabi:lintRelease', ':src:ar:hikayateam:lintRelease'
+    dependsOn requestedSources.collectMany { [":src:ar:${it.slug}:testReleaseUnitTest", ":src:ar:${it.slug}:lintRelease"] }
 }
-
 tasks.register('buildExtensions') {
-    dependsOn ':src:ar:mangarabi:assembleRelease', ':src:ar:hikayateam:assembleRelease',
-        ':src:ar:mangarabi:extensionJar', ':src:ar:hikayateam:extensionJar'
+    dependsOn requestedSources.collectMany { [":src:ar:${it.slug}:assembleRelease", ":src:ar:${it.slug}:extensionJar"] }
 }

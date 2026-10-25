@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" data-theme-pref="default" dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>المكتبة | كادر</title>
+<meta content="تصفّح كل المانهوا والمانجا والمانها المترجمة مع فلاتر دقيقة حسب التصنيف والحالة والتقييم." name="description"/>
+
+<meta content="كادر" property="og:site_name"/>
+<meta content="ar_AR" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="المكتبة" property="og:title"/>
+<meta content="تصفّح كل المانهوا والمانجا والمانها المترجمة مع فلاتر دقيقة حسب التصنيف والحالة والتقييم." property="og:description"/>
+<meta content="https://kadrhub.com/series" property="og:url"/>
+<meta content="https://kadrhub.com/assets/img/og.jpg?v=c4628cace96da168" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="المكتبة" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="المكتبة" name="twitter:title"/>
+<meta content="تصفّح كل المانهوا والمانجا والمانها المترجمة مع فلاتر دقيقة حسب التصنيف والحالة والتقييم." name="twitter:description"/>
+<meta content="https://kadrhub.com/assets/img/og.jpg?v=c4628cace96da168" name="twitter:image"/>
+<meta content="المكتبة" name="twitter:image:alt"/>
+<meta content="#0a0b10" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="#f4f1ea" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="15e489851b4daf7c4843441b328f1c16dddbb235" name="csrf-token"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="has-bottom-nav" data-section="read" data-section-own="">
+<a class="sr-only" href="#main">تخطَّ إلى المحتوى</a>
+<div class="announce-bar" data-banner="3" hidden="">
+<div class="container"><a href="/announcements/trhyb">ترحيب</a><button aria-label="إغلاق" class="x icon-btn" data-dismiss-banner="" style="width:30px;height:30px" type="button"></button></div>
+</div>
+<header class="site-header" id="site-header">
+<div class="container">
+<a aria-label="كادر — الرئيسية" class="brand" href="/">
+<span class="brand-mark"><span>ك</span></span><span class="brand-name">كادر</span> </a>
+<div aria-label="القسم" class="mode-switch" role="group">
+<a aria-current="true" class="is-on" href="/"><span>قراءة</span></a>
+<a class="" href="/watch"><span>مشاهدة</span></a>
+</div>
+<nav aria-label="القائمة الرئيسية" class="nav">
+<a class="" href="/">الرئيسية</a>
+<a class="is-active" href="/series">المكتبة</a>
+<a class="" href="/novels">الروايات</a>
+<a class="" href="/latest">أحدث الفصول<span class="new-dot">جديد</span></a>
+<a class="" href="/community">المجتمع</a>
+<a class="" href="/leaderboard">الصدارة</a>
+<a class="" href="/store">المتجر</a>
+</nav>
+<div class="header-actions">
+<div class="dropdown header-menu">
+<button aria-haspopup="true" aria-label="كل الأقسام" class="icon-btn" data-menu-toggle="" type="button"></button>
+<div aria-label="كل الأقسام" class="menu site-menu">
+<div class="sm-head"><b>كل الأقسام</b></div>
+<nav aria-label="الأقسام" class="sm-grid">
+<a class="" href="/watch"><span class="sm-ic"></span><span>أفلام ومسلسلات</span></a>
+<a class="is-on" href="/series"><span class="sm-ic"></span><span>المكتبة</span></a>
+<a class="" href="/latest"><span class="sm-ic"></span><span>أحدث الفصول</span></a>
+<a class="" href="/novels"><span class="sm-ic"></span><span>الروايات</span></a>
+<a class="" href="/genres"><span class="sm-ic"></span><span>التصنيفات</span></a>
+<a class="" href="/community"><span class="sm-ic"></span><span>المجتمع</span></a>
+<a class="" href="/community/chat"><span class="sm-ic"></span><span>الدردشة المباشرة</span></a>
+<a class="" href="/leaderboard"><span class="sm-ic"></span><span>الصدارة</span></a>
+<a class="" href="/store/cosmetics"><span class="sm-ic"></span><span>استوديو الزينة</span></a>
+<a class="" href="/store"><span class="sm-ic"></span><span>شحن الجواهر</span></a>
+<a class="" href="/teams"><span class="sm-ic"></span><span>فرق الترجمة</span></a>
+<a class="" href="/community/events"><span class="sm-ic"></span><span>الفعاليات</span></a>
+<a class="" href="/announcements"><span class="sm-ic"></span><span>الإعلانات</span></a>
+<a class="" href="/levels"><span class="sm-ic"></span><span>المستويات</span></a>
+<a class="" href="/random" rel="nofollow"><span class="sm-ic"></span><span>عمل عشوائي</span></a>
+</nav>
+<hr/>
+<a href="/auth/signin">تسجيل الدخول</a>
+<a href="/auth/signup">إنشاء حساب مجاني</a>
+<button class="mi" data-theme-cycle="" type="button"><span>المظهر: <span data-theme-label="">تلقائي</span></span></button>
+<hr/>
+<div class="sm-links">
+<a href="/faq">الأسئلة الشائعة</a><a href="/contact">تواصل معنا</a><a href="/rules">القواعد</a><a href="/privacy">الخصوصية</a>
+</div>
+</div>
+</div>
+<button aria-label="بحث" class="search-trigger" data-search-open="" type="button">
+<span class="label">ابحث عن عمل، مؤلف…</span><kbd>/</kbd>
+</button>
+<button aria-label="تبديل المظهر" class="icon-btn" data-theme-cycle="" type="button"></button>
+<a class="btn btn-primary btn-sm" href="/auth/signin">دخول</a>
+</div>
+</div>
+</header>
+<main class="main" id="main">
+<div class="container">
+<div class="page-head row-between wrap">
+<div>
+<h1 class="page-title">المكتبة</h1>
+<p class="page-sub">1,283 عمل</p>
+</div>
+<a class="btn btn-outline btn-sm" href="/random">عمل عشوائي</a> </div>
+<div class="lib-layout">
+<div class="filters-wrap" id="filters-wrap">
+<div class="modal-backdrop" data-filters-close=""></div>
+<form action="/series" class="filters panel" id="filters-form" method="get" tabindex="-1">
+<div class="row-between mb-2"><b> الفلاتر</b></div>
+<input name="sort" type="hidden" value="updated"/>
+<div class="filter-block"><h4>النوع</h4><div class="chips">
+<label><input class="sr-only" name="type[]" type="checkbox" value="manhwa"/><span class="chip chip-sm">مانهوا</span></label><label><input class="sr-only" name="type[]" type="checkbox" value="manga"/><span class="chip chip-sm">مانجا</span></label><label><input class="sr-only" name="type[]" type="checkbox" value="manhua"/><span class="chip chip-sm">مانها</span></label><label><input class="sr-only" name="type[]" type="checkbox" value="comic"/><span class="chip chip-sm">كوميك</span></label><label><input class="sr-only" name="type[]" type="checkbox" value="oneshot"/><span class="chip chip-sm">ون شوت</span></label> </div></div>
+<div class="filter-block"><h4><span>التصنيفات</span><span class="tiny muted">ضغطة: مطلوب · ضغطتان: مستبعد</span></h4>
+<div class="chips" data-tristate="">
+<button aria-pressed="false" class="chip chip-sm" data-genre="1" data-state="" type="button">أكشن</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="2" data-state="" type="button">مغامرة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="3" data-state="" type="button">فانتازيا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="4" data-state="" type="button">رومانسي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="5" data-state="" type="button">كوميدي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="6" data-state="" type="button">دراما</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="7" data-state="" type="button">فنون قتالية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="8" data-state="" type="button">إيسيكاي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="9" data-state="" type="button">نظام</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="10" data-state="" type="button">تناسخ</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="11" data-state="" type="button">مدرسي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="12" data-state="" type="button">شريحة من الحياة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="13" data-state="" type="button">غموض</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="14" data-state="" type="button">رعب</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="15" data-state="" type="button">نفسي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="16" data-state="" type="button">خيال علمي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="17" data-state="" type="button">تاريخي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="18" data-state="" type="button">موريم</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="19" data-state="" type="button">رياضي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="20" data-state="" type="button">خارق للطبيعة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="21" data-state="" type="button">مأساة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="22" data-state="" type="button">سحر</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="23" data-state="" type="button">شريرة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="24" data-state="" type="button">عودة بالزمن</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="25" data-state="" type="button">زنزانات</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="26" data-state="" type="button">نهاية العالم</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="27" data-state="" type="button">زراعة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="28" data-state="" type="button">ألعاب</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="93" data-state="" type="button">أدب</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="67" data-state="" type="button">أرواح</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="82" data-state="" type="button">أشباح</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="75" data-state="" type="button">أفلام</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="66" data-state="" type="button">أكاديمية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="31" data-state="" type="button">إثارة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="97" data-state="" type="button">إجرام</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="112" data-state="" type="button">إدارة أعمال</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="111" data-state="" type="button">إستدعاء</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="38" data-state="" type="button">إعادة إحياء</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="51" data-state="" type="button">إيتشي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="39" data-state="" type="button">ابراج</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="125" data-state="" type="button">استثمار</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="133" data-state="" type="button">استراتجي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="95" data-state="" type="button">اعمار</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="115" data-state="" type="button">الحياة المدرسية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="61" data-state="" type="button">الحياة اليومية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="124" data-state="" type="button">الشيطان السماوي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="105" data-state="" type="button">العاب فيديو</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="138" data-state="" type="button">العصر الحديث</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="94" data-state="" type="button">انتقام</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="114" data-state="" type="button">ايسكاي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="127" data-state="" type="button">بالغ</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="86" data-state="" type="button">بطل خارق</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="121" data-state="" type="button">بطل ذكي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="137" data-state="" type="button">بطل شرير</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="32" data-state="" type="button">بطل غير إعتيادي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="62" data-state="" type="button">بعد الكارثة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="83" data-state="" type="button">بقاء</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="123" data-state="" type="button">بناء عالم</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="118" data-state="" type="button">بناء مملكة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="59" data-state="" type="button">بوليسي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="76" data-state="" type="button">تاريخ</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="108" data-state="" type="button">تحقيق بوليسي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="54" data-state="" type="button">تراجيدي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="74" data-state="" type="button">تمثيل</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="69" data-state="" type="button">تنمر</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="56" data-state="" type="button">ثأر</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="87" data-state="" type="button">جريمة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="70" data-state="" type="button">جواسيس</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="64" data-state="" type="button">جوسي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="99" data-state="" type="button">حديث</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="55" data-state="" type="button">حرب</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="85" data-state="" type="button">حركة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="129" data-state="" type="button">حروب</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="40" data-state="" type="button">حريم</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="68" data-state="" type="button">حشرات</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="30" data-state="" type="button">حياة مدرسية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="141" data-state="" type="button">حياة يومية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="80" data-state="" type="button">حيوانات أليفة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="57" data-state="" type="button">خارق</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="33" data-state="" type="button">خيال</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="58" data-state="" type="button">داخل رواية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="47" data-state="" type="button">داخل لعبة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="79" data-state="" type="button">دراما مدرسية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="88" data-state="" type="button">دراما نفسية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="34" data-state="" type="button">دموي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="91" data-state="" type="button">روايات</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="130" data-state="" type="button">رومانسية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="102" data-state="" type="button">رياضة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="120" data-state="" type="button">زراعة وتطوير</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="48" data-state="" type="button">زمكاني</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="49" data-state="" type="button">زومبي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="139" data-state="" type="button">زيانشيا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="84" data-state="" type="button">سفر عبر الزمن</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="50" data-state="" type="button">سنين</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="142" data-state="" type="button">شريحة حياة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="134" data-state="" type="button">شوانهوان</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="72" data-state="" type="button">شوجو</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="29" data-state="" type="button">شونين</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="36" data-state="" type="button">شياطين</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="126" data-state="" type="button">شيانشيا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="44" data-state="" type="button">صقل</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="96" data-state="" type="button">طب</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="89" data-state="" type="button">طبخ</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="63" data-state="" type="button">طبي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="107" data-state="" type="button">طوائف</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="77" data-state="" type="button">عائلة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="60" data-state="" type="button">عسكري</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="37" data-state="" type="button">عنف</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="90" data-state="" type="button">عوالم</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="101" data-state="" type="button">فانتازي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="113" data-state="" type="button">فضاء</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="92" data-state="" type="button">فن</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="45" data-state="" type="button">فنون قتال</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="98" data-state="" type="button">فوق الطبيعة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="119" data-state="" type="button">قوانين</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="35" data-state="" type="button">قوة خارقة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="100" data-state="" type="button">قوى خارقة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="103" data-state="" type="button">كرة اليد</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="128" data-state="" type="button">كوميديا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="135" data-state="" type="button">للكبار</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="122" data-state="" type="button">مؤامرات سياسية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="78" data-state="" type="button">مابعد نهاية العالم</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="144" data-state="" type="button">مانجا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="143" data-state="" type="button">مانها</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="131" data-state="" type="button">مانهوا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="104" data-state="" type="button">مانهوا طبية</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="117" data-state="" type="button">مبارزة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="43" data-state="" type="button">مصاص دماء</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="140" data-state="" type="button">مصاصي دماء</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="136" data-state="" type="button">مظلمة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="81" data-state="" type="button">معالج</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="41" data-state="" type="button">مغامرات</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="65" data-state="" type="button">مغني</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="132" data-state="" type="button">مكتملة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="42" data-state="" type="button">ملائكة</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="71" data-state="" type="button">ممثل</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="106" data-state="" type="button">موريوم</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="73" data-state="" type="button">موسيقى</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="110" data-state="" type="button">ميكا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="109" data-state="" type="button">نينجا</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="46" data-state="" type="button">واقع افتراضي</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="53" data-state="" type="button">وحوش</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="116" data-state="" type="button">ون شوت</button>
+<button aria-pressed="false" class="chip chip-sm" data-genre="52" data-state="" type="button">ويب تون</button>
+</div>
+<div data-tristate-inputs="">
+</div>
+</div>
+<div class="filter-block"><h4>حالة العمل</h4><div class="chips">
+<label><input class="sr-only" name="status[]" type="checkbox" value="ongoing"/><span class="chip chip-sm">مستمر</span></label><label><input class="sr-only" name="status[]" type="checkbox" value="completed"/><span class="chip chip-sm">مكتمل</span></label><label><input class="sr-only" name="status[]" type="checkbox" value="hiatus"/><span class="chip chip-sm">متوقف</span></label><label><input class="sr-only" name="status[]" type="checkbox" value="cancelled"/><span class="chip chip-sm">ملغى</span></label> </div></div>
+<div class="filter-block"><h4>حالة الترجمة</h4><div class="chips">
+<label><input class="sr-only" name="tstatus[]" type="checkbox" value="ongoing"/><span class="chip chip-sm">مستمرة</span></label><label><input class="sr-only" name="tstatus[]" type="checkbox" value="completed"/><span class="chip chip-sm">مكتملة</span></label><label><input class="sr-only" name="tstatus[]" type="checkbox" value="stopped"/><span class="chip chip-sm">متوقفة</span></label> </div></div>
+<div class="filter-block"><h4>التسعير</h4><div class="chips">
+<label><input checked="" class="sr-only" name="pricing" type="radio" value=""/><span class="chip chip-sm">الكل</span></label><label><input class="sr-only" name="pricing" type="radio" value="free"/><span class="chip chip-sm">مجاني بالكامل</span></label><label><input class="sr-only" name="pricing" type="radio" value="early"/><span class="chip chip-sm">فيه وصول مبكر</span></label> </div></div>
+<div class="filter-block"><h4>سنة الإصدار</h4><div class="form-row cols-2"><input class="input input-sm" inputmode="numeric" max="2100" min="1950" name="year_from" placeholder="من" type="number" value=""/><input class="input input-sm" inputmode="numeric" max="2100" min="1950" name="year_to" placeholder="إلى" type="number" value=""/></div></div>
+<div class="filter-block"><h4>عدد الفصول</h4><div class="form-row cols-2"><input class="input input-sm" inputmode="numeric" min="0" name="ch_from" placeholder="من" type="number" value=""/><input class="input input-sm" inputmode="numeric" min="0" name="ch_to" placeholder="إلى" type="number" value=""/></div></div>
+<div class="filter-block"><h4><span>التقييم الأدنى</span><b data-range-out="">الكل</b></h4><input aria-label="التقييم الأدنى من 5" data-range="" max="5" min="0" name="min_rating" step="0.5" style="width:100%;accent-color:var(--brand)" type="range" value="0"/></div>
+<div class="filter-block"><h4>فريق الترجمة</h4><select class="select input-sm" name="team"><option value="">كل الفرق</option><option value="1">فريق كادر للترجمة</option></select></div>
+<button class="btn btn-primary btn-block mt-2" type="submit">تطبيق</button>
+<div class="filters-apply"><button class="btn btn-primary grow" type="submit">عرض النتائج</button><button class="btn btn-ghost" data-filters-close="" type="button">إغلاق</button></div>
+</form>
+</div>
+<div>
+<div class="toolbar">
+<button class="btn btn-outline btn-sm filters-toggle" data-filters-open="" type="button">الفلاتر</button>
+<form action="/series" class="row gap-1" method="get">
+<select aria-label="الترتيب" class="select input-sm" data-autosubmit="" name="sort" style="width:auto;min-width:190px"><option selected="" value="updated">آخر تحديث</option><option value="new">الأحدث إضافة</option><option value="rating">الأعلى تقييماً</option><option value="views_week">الأكثر قراءة (أسبوع)</option><option value="views_month">الأكثر قراءة (شهر)</option><option value="views">الأكثر قراءة (كل الأوقات)</option><option value="favorites">الأكثر مفضلة</option><option value="alpha">أبجدي</option><option value="chapters">عدد الفصول</option></select>
+</form>
+<div class="tabs" style="margin-inline-start:auto">
+<a aria-label="شبكة" class="tab is-active" href="/series?view=grid"></a>
+<a aria-label="قائمة" class="tab" href="/series?view=list"></a>
+</div>
+</div>
+<h2 class="sr-only">النتائج</h2><div class="grid-cards"><article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Monopolizing Fortunes" decoding="async" fetchpriority="high" height="450" loading="eager" src="/media/covers/2026/10/0c6a31b230a357de-sm.webp" style="background:#5e5863" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/monopolizing-fortunes">Monopolizing Fortunes</a></h3>
+<div class="card-meta"><span>فصل 67</span><span class="clamp-1">أكشن، دراما</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Returnee’s Hidden Strategy Stream" decoding="async" fetchpriority="high" height="450" loading="eager" src="/media/covers/2026/10/5791f6b5cc0123d1-sm.webp" style="background:#71889c" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-returnees-hidden-strategy-stream">The Returnee’s Hidden Strategy Stream</a></h3>
+<div class="card-meta"><span>فصل 52</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Whispers of a Scheming Demon" decoding="async" fetchpriority="high" height="450" loading="eager" src="/media/covers/2026/10/a8423a2fce9f5bb8-sm.webp" style="background:#5b1a4d" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/whispers-of-a-scheming-demon">Whispers of a Scheming Demon</a></h3>
+<div class="card-meta"><span>فصل 12</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="Global Game I Can Have 100 Fold Amplification" decoding="async" fetchpriority="high" height="450" loading="eager" src="/media/covers/2026/10/59ee7be1a008d4e3-sm.webp" style="background:#335186" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/global-game-i-can-have-100-fold-amplification">Global Game I Can Have 100 Fold Amplification</a></h3>
+<div class="card-meta"><span>فصل 13</span><span class="clamp-1">أكشن، إثارة</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Misfit of the Martial World" decoding="async" fetchpriority="high" height="450" loading="eager" src="/media/covers/2026/10/dcd54d530dad98d1-sm.webp" style="background:#6c6d5e" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-misfit-of-the-martial-world">The Misfit of the Martial World</a></h3>
+<div class="card-meta"><span>فصل 43</span><span class="clamp-1">أكشن، فنون قتال</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Regressed Genius Creates Mythic Items" decoding="async" fetchpriority="high" height="450" loading="eager" src="/media/covers/2026/10/553312c533ab8ddc-sm.webp" style="background:#444e82" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/regressed-genius-creates-mythic-items">Regressed Genius Creates Mythic Items</a></h3>
+<div class="card-meta"><span>فصل 101</span><span class="clamp-1">أكشن، مغامرة</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Villain To Kill" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/6e7f544f866aa32b-sm.webp" style="background:#5b5b94" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/vtk">Villain To Kill</a></h3>
+<div class="card-meta"><span>فصل 257</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Margrave’s Bastard Son was The Emperor" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/d0ff8054f9a0a16a-sm.webp" style="background:#84857c" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-margraves-bastard-used-to-be-the-emperor">Margrave’s Bastard Son was The Emperor</a></h3>
+<div class="card-meta"><span>فصل 131</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="Lord of Summoning When the World Changes" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/7f1b66c0eacc6d2b-sm.webp" style="background:#2d8274" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/lord-of-summoning-when-the-world-changes">Lord of Summoning When the World Changes</a></h3>
+<div class="card-meta"><span>فصل 55</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="!Shadow Of The Reborn Rogue's Dominion" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/f8e001f4139767c9-sm.webp" style="background:#255261" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/shadow-of-the-reborn-rogues-dominion">!Shadow Of The Reborn Rogue's Dominion</a></h3>
+<div class="card-meta"><span>فصل 48</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Drug Devourer" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/fa07270c89bd150b-sm.webp" style="background:#888b7b" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/vvccqo">Drug Devourer</a></h3>
+<div class="card-meta"><span>فصل 36</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="Rebirth: My Vengeance Through The Mirror" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/37c8198d62a52e78-sm.webp" style="background:#715484" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/rebirth-my-vengeance-through-the-mirror">Rebirth: My Vengeance Through The Mirror</a></h3>
+<div class="card-meta"><span>فصل 71</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Hero Returns" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/61228258f0d07284-sm.webp" style="background:#6b6e69" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/wrufas">The Hero Returns</a></h3>
+<div class="card-meta"><span>فصل 176</span><span class="clamp-1">أكشن، نظام</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="Formless Form" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/a0c0296704f321b2-sm.webp" style="background:#637896" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/invisible-elephant">Formless Form</a></h3>
+<div class="card-meta"><span>فصل 210</span><span class="clamp-1">أكشن، غموض</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="I Became a Transcendent Hunter with 100,000x EXP" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/d38d11fa7e9bad79-sm.webp" style="background:#745689" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/i-became-a-transcendent-hunter-with-100000x-exp">I Became a Transcendent Hunter with 100,000x EXP</a></h3>
+<div class="card-meta"><span>فصل 33</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="Evolution of the Beast Tamer" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/fce55f5e8846d64b-sm.webp" style="background:#8c7f7c" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/evolution-of-the-beast-tamer">Evolution of the Beast Tamer</a></h3>
+<div class="card-meta"><span>فصل 13</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="My Healing Skill Can Copy Anything, So I Conquered the Abyss" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/fe9fe7060ce09f5d-sm.webp" style="background:#a37561" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/my-healing-skill-can-copy-anything-so-i-conquered-the-abyss">My Healing Skill Can Copy Anything, So I Conquered the Abyss</a></h3>
+<div class="card-meta"><span>فصل 21</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manga">مانجا</span>
+<img alt="Unrivaled Spear Demon" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/fa596af324bc5457-sm.webp" style="background:#672c25" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/unrivaled-spear-demon">Unrivaled Spear Demon</a></h3>
+<div class="card-meta"><span>فصل 57</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Hellogin" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/6cb33e44bb44bcc9-sm.webp" style="background:#3b2b5d" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/hellogin">Hellogin</a></h3>
+<div class="card-meta"><span>فصل 16</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Veteran Swordmaster’s Stream" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/ef80f1f8f64517b2-sm.webp" style="background:#777374" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-veteran-swordmasters-stream">The Veteran Swordmaster’s Stream</a></h3>
+<div class="card-meta"><span>فصل 41</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Did Someone Force You to Become the Heavenly Demon?" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/6cddb4c984b48542-sm.webp" style="background:#603739" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/did-someone-force-you-to-become-the-heavenly-demon">Did Someone Force You to Become the Heavenly Demon?</a></h3>
+<div class="card-meta"><span>فصل 64</span><span class="clamp-1">أكشن، كوميدي</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="Basic Attacks Infinitely Stack Health, I Blow Up Kings With a Single Arrow" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/c6e927686a73db1d-sm.webp" style="background:#6b5692" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/basic-attacks-infinitely-stack-health-i-blow-up-kings-with-a-single-arrow">Basic Attacks Infinitely Stack Health, I Blow Up Kings With a Single Arrow</a></h3>
+<div class="card-meta"><span>فصل 20</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Reincarnator" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/f717b8c3bcf930fe-sm.webp" style="background:#454b60" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/8xpta5nrvzhw">Reincarnator</a></h3>
+<div class="card-meta"><span>فصل 18</span><span class="clamp-1">أكشن، نظام</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Go High Run" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/28517b58d6d4c2ee-sm.webp" style="background:#ab9490" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/go-high-run">Go High Run</a></h3>
+<div class="card-meta"><span>فصل 6</span><span class="clamp-1">أكشن، دراما</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhua">مانها</span>
+<img alt="Demonic Emperor" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/a76a1331d7ea6d41-sm.webp" style="background:#753049" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/demonic-emperor">Demonic Emperor</a></h3>
+<div class="card-meta"><span>فصل 927</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Chronicles of the Demon Faction" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/1f60ca760a4c6433-sm.webp" style="background:#5e2b41" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/dcmkmk">Chronicles of the Demon Faction</a></h3>
+<div class="card-meta"><span>فصل 194</span><span class="clamp-1">أكشن، إثارة</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Red Storm" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/558400070b3bf140-sm.webp" style="background:#6c6a60" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/vqupxkywgbf">Red Storm</a></h3>
+<div class="card-meta"><span>فصل 478</span><span class="clamp-1">أكشن، كوميدي</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Regressed Son of a Duke is an Assassin" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/9ef33702a62ce923-sm.webp" style="background:#6c384c" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-regressed-son-of-a-duke-is-an-assassin">The Regressed Son of a Duke is an Assassin</a></h3>
+<div class="card-meta"><span>فصل 149</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Sword" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/8fe6b2ad532bda88-sm.webp" style="background:#6d6470" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/sword-devouring-swordmaster">Sword</a></h3>
+<div class="card-meta"><span>فصل 51</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Lookism" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/7b8e05e7f7cb35ec-sm.webp" style="background:#59595e" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/lookism">Lookism</a></h3>
+<div class="card-meta"><span>فصل 630</span><span class="clamp-1">أكشن، كوميدي</span></div>
+</article>
+</div>
+<nav aria-label="ترقيم الصفحات" class="pager">
+<span aria-current="page" class="is-current">1</span> <a href="/series?page=2">2</a> <a href="/series?page=3">3</a> <span class="gap">…</span> <a href="/series?page=42">42</a> <a href="/series?page=43">43</a> <a aria-label="التالي" href="/series?page=2" rel="next"></a></nav>
+</div>
+</div>
+</div>
+</main>
+
+<nav aria-label="تنقل سريع" class="bottom-nav" id="bottom-nav">
+<a class="" href="/">الرئيسية</a>
+<a class="is-active" href="/series">المكتبة</a>
+<button data-search-open="" type="button">البحث</button>
+<a class="" href="/library">مكتبتي</a>
+<button aria-haspopup="true" class="bn-more" data-menu-toggle="" type="button">المزيد</button>
+<div aria-label="كل الأقسام" class="menu site-menu">
+<div class="sm-head"><b>كل الأقسام</b></div>
+<nav aria-label="الأقسام" class="sm-grid">
+<a class="" href="/watch"><span class="sm-ic"></span><span>أفلام ومسلسلات</span></a>
+<a class="is-on" href="/series"><span class="sm-ic"></span><span>المكتبة</span></a>
+<a class="" href="/latest"><span class="sm-ic"></span><span>أحدث الفصول</span></a>
+<a class="" href="/novels"><span class="sm-ic"></span><span>الروايات</span></a>
+<a class="" href="/genres"><span class="sm-ic"></span><span>التصنيفات</span></a>
+<a class="" href="/community"><span class="sm-ic"></span><span>المجتمع</span></a>
+<a class="" href="/community/chat"><span class="sm-ic"></span><span>الدردشة المباشرة</span></a>
+<a class="" href="/leaderboard"><span class="sm-ic"></span><span>الصدارة</span></a>
+<a class="" href="/store/cosmetics"><span class="sm-ic"></span><span>استوديو الزينة</span></a>
+<a class="" href="/store"><span class="sm-ic"></span><span>شحن الجواهر</span></a>
+<a class="" href="/teams"><span class="sm-ic"></span><span>فرق الترجمة</span></a>
+<a class="" href="/community/events"><span class="sm-ic"></span><span>الفعاليات</span></a>
+<a class="" href="/announcements"><span class="sm-ic"></span><span>الإعلانات</span></a>
+<a class="" href="/levels"><span class="sm-ic"></span><span>المستويات</span></a>
+<a class="" href="/random" rel="nofollow"><span class="sm-ic"></span><span>عمل عشوائي</span></a>
+</nav>
+<hr/>
+<a href="/auth/signin">تسجيل الدخول</a>
+<a href="/auth/signup">إنشاء حساب مجاني</a>
+<button class="mi" data-theme-cycle="" type="button"><span>المظهر: <span data-theme-label="">تلقائي</span></span></button>
+<hr/>
+<div class="sm-links">
+<a href="/faq">الأسئلة الشائعة</a><a href="/contact">تواصل معنا</a><a href="/rules">القواعد</a><a href="/privacy">الخصوصية</a>
+</div>
+</div>
+</nav>
+<div aria-label="البحث" aria-modal="true" class="search-overlay" id="search-overlay" role="dialog">
+<div class="modal-backdrop" data-search-close=""></div>
+<div class="search-panel">
+<form action="/search" class="search-box" method="get" role="search">
+ <input aria-autocomplete="list" aria-controls="search-results" aria-label="البحث عن عمل أو مؤلف" autocomplete="off" enterkeyhint="search" id="search-input" name="q" placeholder="اسم العمل بالعربي أو الإنجليزي أو الكوري، أو اسم المؤلف…" spellcheck="false" type="search"/>
+<button aria-label="إغلاق" class="icon-btn" data-search-close="" type="button"></button>
+</form>
+<div class="search-results" id="search-results" role="listbox">
+<div data-search-idle="">
+<div data-recent-wrap="" hidden=""><div class="sr-group"><span>آخر عمليات بحثك</span><button class="link tiny" data-recent-clear="" type="button">مسح</button></div><div class="chips" data-recent="" style="padding:6px 12px 10px"></div></div>
+<div class="sr-group"><span>عمليات البحث الشائعة</span></div>
+<div class="chips" style="padding:6px 12px 12px">
+<a class="chip chip-sm" data-search-fill="Game of thrones" href="/search?q=Game+of+thrones">Game of thrones</a><a class="chip chip-sm" data-search-fill="the" href="/search?q=the">the</a><a class="chip chip-sm" data-search-fill="One piece" href="/search?q=One+piece">One piece</a><a class="chip chip-sm" data-search-fill="One" href="/search?q=One">One</a><a class="chip chip-sm" data-search-fill="game of" href="/search?q=game+of">game of</a><a class="chip chip-sm" data-search-fill="Black" href="/search?q=Black">Black</a><a class="chip chip-sm" data-search-fill="The God Of Death" href="/search?q=The+God+Of+Death">The God Of Death</a><a class="chip chip-sm" data-search-fill="Spi" href="/search?q=Spi">Spi</a> </div>
+<div class="sr-empty small">ابدأ الكتابة، النتائج تظهر فوراً. يمكنك كتابة الاسم بأي لغة أو حتى مع خطأ إملائي.</div>
+</div>
+<div data-search-out=""></div>
+</div>
+<div class="sr-foot"><span><kbd>↑</kbd> <kbd>↓</kbd> للتنقل</span><span><kbd>Enter</kbd> للفتح</span><span><kbd>Esc</kbd> للإغلاق</span></div>
+</div>
+</div>
+<div aria-labelledby="report-title" aria-modal="true" class="modal sheet" id="report-modal" role="dialog">
+<div class="modal-backdrop" data-modal-close=""></div>
+<div class="modal-box">
+<div class="modal-head"><h3 id="report-title"> إبلاغ</h3><button aria-label="إغلاق" class="icon-btn" data-modal-close="" type="button"></button></div>
+<form data-report-form="">
+<input name="target_type" type="hidden"/>
+<input name="target_id" type="hidden"/>
+<input name="context_url" type="hidden"/>
+<div class="field"><span>السبب</span>
+<div class="chips" data-reasons="">
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="abuse"/><span class="chip chip-sm">إساءة</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="spoiler"/><span class="chip chip-sm">حرق غير معلَّم</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="spam"/><span class="chip chip-sm">إعلان أو سبام</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="inappropriate"/><span class="chip chip-sm">محتوى غير لائق</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="missing_pages"/><span class="chip chip-sm">صور ناقصة أو مكسورة</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="wrong_order"/><span class="chip chip-sm">ترتيب خاطئ</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="bad_translation"/><span class="chip chip-sm">ترجمة سيئة</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="wrong_chapter"/><span class="chip chip-sm">فصل خاطئ</span></label>
+<label data-reason-for="site chapter series"><input class="sr-only" name="reason" required="" type="radio" value="bug"/><span class="chip chip-sm">مشكلة تقنية</span></label>
+<label data-reason-for="site chapter series"><input class="sr-only" name="reason" required="" type="radio" value="copyright"/><span class="chip chip-sm">حقوق ملكية</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="other"/><span class="chip chip-sm">أخرى</span></label>
+</div>
+</div>
+<label class="field"><span>تفاصيل (اختياري)</span><textarea class="textarea" maxlength="1000" name="details" placeholder="مثال: الصورة رقم ١٢ لا تظهر" rows="3"></textarea></label>
+<div data-report-captcha=""><div aria-hidden="true" class="hp"><label>اترك هذا الحقل فارغاً<input autocomplete="off" name="website" tabindex="-1" type="text"/></label></div><label class="field captcha-q"><span>تحقق سريع: كم ناتج 3 + 7؟</span><input autocomplete="off" class="input" inputmode="numeric" name="captcha" required="" type="text"/></label></div> <button class="btn btn-primary btn-block" type="submit">إرسال البلاغ</button>
+<p class="muted tiny mt-2 center">سنُعلمك بنتيجة البلاغ عند معالجته.</p>
+</form>
+</div>
+</div>
+<template id="gift-modal-tpl"><div aria-labelledby="gift-title" aria-modal="true" class="modal gift-modal" data-gift-invite="1" id="gift-modal" role="dialog">
+<div class="modal-backdrop" data-modal-close=""></div>
+<div class="modal-box">
+<div aria-hidden="true" class="gift-burst"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div aria-hidden="true" class="gift-gem"></div>
+<h3 id="gift-title">هدية لكل عضو جديد</h3>
+<div class="gift-amount"><bdi dir="ltr">+250</bdi> <small>جواهر</small></div>
+<p class="gift-msg">أنشئ حسابك الآن ووثّق بريدك، فتصلك الهدية في محفظتك. العرض حتى 2026/10/30.</p>
+<div class="gift-actions">
+<a autofocus="" class="btn btn-primary" href="/auth/signup">أنشئ حسابي</a>
+<button class="btn btn-ghost" data-modal-close="" type="button">لاحقاً</button>
+</div>
+<button aria-label="إغلاق" class="icon-btn gift-close" data-modal-close="" type="button"></button>
+</div>
+</div>
+</template><a aria-label="شات القراءة" class="community-launcher" data-community-launch="" href="/community/chat" title="إلى المجتمع"></a><div aria-live="polite" class="toasts" id="toasts"></div>
+
+
+
+
+
+</body>
+</html>

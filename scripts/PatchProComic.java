@@ -1,0 +1,55 @@
+import java.io.*;
+import java.nio.file.*;
+import java.util.*;
+import java.util.jar.*;
+import org.objectweb.asm.*;
+
+/** Focused compatibility patch for the pinned upstream release; leaves source IDs and URLs intact. */
+class PatchProComic {
+    public static void main(String[] args) throws Exception {
+        int[] removed = {0};
+        try (JarFile input = new JarFile(args[0]);
+             JarOutputStream output = new JarOutputStream(Files.newOutputStream(Path.of(args[1])))) {
+            for (JarEntry entry : Collections.list(input.entries())) {
+                if (!entry.getName().endsWith(".class")) continue;
+                byte[] bytes = input.getInputStream(entry).readAllBytes();
+                ClassWriter writer = new ClassWriter(0);
+                new ClassReader(bytes).accept(new ClassVisitor(Opcodes.ASM9, writer) {
+                    @Override public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
+                        return new MethodVisitor(Opcodes.ASM9, super.visitMethod(access, name, desc, signature, exceptions)) {
+                            @Override public void visitMethodInsn(int opcode, String owner, String method, String desc, boolean isInterface) {
+                                if (owner.equals("android/graphics/Canvas") && method.equals("drawColor") && desc.equals("(I)V")) {
+                                    if (opcode != Opcodes.INVOKEVIRTUAL) throw new IllegalStateException("Unexpected drawColor call");
+                                    // Canvas and its int color occupy two stack slots. The destination rectangles
+                                    // cover the page, so no background fill is needed before drawing the pieces.
+                                    super.visitInsn(Opcodes.POP2);
+                                    removed[0]++;
+                                } else super.visitMethodInsn(opcode, owner, method, desc, isInterface);
+                            }
+                        };
+                    }
+                }, 0);
+                JarEntry replacement = new JarEntry(entry.getName());
+                replacement.setTime(1704499200000L);
+                output.putNextEntry(replacement);
+                output.write(writer.toByteArray());
+                output.closeEntry();
+            }
+        }
+        if (removed[0] != 1) throw new IllegalStateException("Expected exactly one drawColor call, found " + removed[0]);
+        try (JarFile check = new JarFile(args[1])) {
+            for (JarEntry entry : Collections.list(check.entries())) {
+                new ClassReader(check.getInputStream(entry)).accept(new ClassVisitor(Opcodes.ASM9) {
+                    @Override public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
+                        return new MethodVisitor(Opcodes.ASM9) {
+                            @Override public void visitMethodInsn(int opcode, String owner, String method, String desc, boolean itf) {
+                                if (owner.equals("android/graphics/Canvas") && method.equals("drawColor")) throw new IllegalStateException("Unsupported call remains");
+                            }
+                        };
+                    }
+                }, 0);
+            }
+        }
+        System.out.println("Verified ProComic: removed exactly one Canvas.drawColor(int) invocation");
+    }
+}

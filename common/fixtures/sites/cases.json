@@ -1,0 +1,44 @@
+{
+  "mangasid": {
+    "path": "/manga/mage-again",
+    "query": "mage",
+    "chapters": 12,
+    "pages": 17
+  },
+  "assassinscans": {
+    "path": "/comics/my-sin",
+    "query": "my sin",
+    "chapters": 11,
+    "pages": 17
+  },
+  "kadrhub": {
+    "path": "/series/lww",
+    "query": "warrior",
+    "chapters": 243,
+    "pages": 40
+  },
+  "manhwalek": {
+    "path": "/series/demonic-emperor",
+    "query": "demonic",
+    "chapters": 945,
+    "pages": 5
+  },
+  "mangawy": {
+    "path": "/series/dungeon-odyssey-ml9di46d",
+    "query": "dungeon",
+    "chapters": 170,
+    "pages": 15
+  },
+  "man9a": {
+    "path": "/manhwa/becoming-a-family-with-the-duke-and-his-dear-son",
+    "query": "solo",
+    "chapters": 77,
+    "pages": 35
+  },
+  "mangaweekly": {
+    "path": "/en/manga/the-ember-knight.html",
+    "query": "ember",
+    "chapters": 246,
+    "pages": 12
+  }
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html class="is-ltr" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+<meta content="max-image-preview:large" name="robots"/>
+<!-- Telemetry Verification Node -->
+<meta content="12658f525dc9a196" name="yandex-verification"/>
+<title>Read Manga &amp; Manhwa in English - Free Daily Scans</title>
+
+<meta content="Your go-to source to read the latest manga and manhwa online. Discover high-quality English comic scans across all genres with fast, reliable updates." name="description"/>
+<meta content="Read Manga &amp; Manhwa in English - Free Daily Scans" property="og:title"/>
+<meta content="Your go-to source to read the latest manga and manhwa online. Discover high-quality English comic scans across all genres with fast, reliable updates." property="og:description"/>
+<meta content="https://www.mangaweekly.com/en/" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="Read Manga &amp; Manhwa in English - Free Daily Scans" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Read Manga &amp; Manhwa in English - Free Daily Scans" name="twitter:title"/>
+<meta content="Your go-to source to read the latest manga and manhwa online. Discover high-quality English comic scans across all genres with fast, reliable updates." name="twitter:description"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="https://www.mangaweekly.com/wp-content/uploads/mangaweekly_avatar-300x300.jpg" name="msapplication-TileImage"/>
+<meta content="d8cbd9557146d2bb" name="yandex-verification"/>
+<!-- Yandex.Metrika counter -->
+
+
+<!-- /Yandex.Metrika counter -->
+</head>
+<body class="home blog wp-embed-responsive wp-theme-mangaverse ltr is-ltr hfeed no-sidebar multilingual-active lang-en">
+<div class="site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<!-- Hero Header Section with Background Image -->
+<div class="manga-hero-header" style="background-image: url(https://www.mangaweekly.com/wp-content/uploads/mangaweekly_wallpaper.avif)">
+<div class="manga-hero-overlay">
+<div class="manga-hero-content">
+<!-- Site Title/Logo -->
+<div class="hero-site-branding">
+<h1 class="site-title"><a href="https://www.mangaweekly.com/en/" rel="home">Read Manga &amp; Manhwa in English - Free Daily Scans</a></h1>
+<p class="site-description">Your go-to source to read the latest manga and manhwa online. Discover high-quality English comic scans across all genres with fast, reliable updates.</p>
+</div><!-- .hero-site-branding -->
+<!-- Hero Search Form -->
+<div class="hero-search-container">
+<div class="hero-search-form">
+<form action="https://www.mangaweekly.com/en/" class="search-form" method="get" role="search">
+<label for="search-form-1">
+<span class="screen-reader-text">Search for:</span>
+</label>
+<input class="search-field" id="search-form-1" name="s" placeholder="Search manga, chapters, artists..." type="search" value=""/>
+<input name="lang" type="hidden" value="en"/>
+<button class="search-submit" type="submit">
+                    Search        	</button>
+</form> </div>
+</div>
+</div><!-- .manga-hero-content -->
+</div><!-- .manga-hero-overlay -->
+</div><!-- .manga-hero-header -->
+<header class="site-header" id="masthead" role="banner">
+<nav aria-label="Primary Menu" class="main-navigation" id="site-navigation" role="navigation">
+<div class="nav-container">
+<button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle">
+ <span class="screen-reader-text">Menu</span>
+</button>
+<ul class="primary-menu" id="primary-menu"><li class="menu-item menu-item-has-children menu-item-random-categories-container menu-item-0" id="menu-item-0"><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/i-became-a-married-man-in-another-world.html">I Became A Married Man in Another World</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/the-kind-intruder.html">The Kind Intruder</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/job-change-log.html">Job Change Log</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/odd-girl-out.html">Odd Girl Out</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/absolute-sword-sense.html">Absolute Sword Sense</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/survival-story-of-a-sword-king-in-a-fantasy-world.html">Survival Story of a Sword King in a Fantasy World</a></li></li>
+</ul> </div><!-- .nav-container -->
+</nav><!-- #site-navigation -->
+<!-- MangaVerse Universal Topbar Controls Bar -->
+<div class="theme-mode-container" id="mv-topbar-controls">
+<div class="mv-controls-inner">
+<!-- Flip Book Reader Switch (Only active on chapter posts) -->
+<!-- Dark / Light Mode Switch with Clear Label -->
+<div class="mv-control-group mv-theme-control-group" data-tooltip="Switch between Light and Dark mode" title="Switch between Light and Dark mode">
+<button aria-label="Toggle Dark Mode" class="mv-pill-button theme-mode-toggle" id="theme-mode-toggle" type="button">
+<span class="mv-btn-icon">
+<i class="fas fa-moon dark-icon"></i>
+<i class="fas fa-sun light-icon"></i>
+</span>
+<span class="mv-btn-text" id="mv-theme-btn-label">Dark Mode</span>
+</button>
+</div>
+</div><!-- .mv-controls-inner -->
+</div><!-- #mv-topbar-controls -->
+</header><!-- #masthead -->
+<div class="site-content" id="content">
+<main class="site-main home-main" id="primary" role="main">
+<section class="series-grid-section">
+<div class="series-grid-header">
+<h2 class="series-grid-title">All Series</h2>
+</div>
+<div class="series-grid">
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/101st-confession.html">
+<div class="series-card-number">1</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789726005601.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 81                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">101st Confession</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/20th-century-boys.html">
+<div class="series-card-number">2</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1791502896071.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 249                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">20th Century Boys</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/a-fortune-telling-princess.html">
+<div class="series-card-number">3</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1791039191342.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 171                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">A Fortune-Telling Princess</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/a-good-day-to-be-a-dog.html">
+<div class="series-card-number">4</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214177247.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 94                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">A Good Day to Be a Dog</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/a-sign-of-affection.html">
+<div class="series-card-number">5</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214177326.png');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 58                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">A Sign of Affection</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/a-stepmothers-marchen.html">
+<div class="series-card-number">6</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/A-Stepmothers-Fairy-Tale.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 174                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">A Stepmother’s Märchen</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/absolute-regression.html">
+<div class="series-card-number">7</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214227724.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 124                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Absolute Regression</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/absolute-sword-sense.html">
+<div class="series-card-number">8</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214227733.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 211                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Absolute Sword Sense</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/after-becoming-financially-free-they-offered-their-loyalty.html">
+<div class="series-card-number">9</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214249031.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 129                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">After Becoming Financially Free, They Offered Their Loyalty</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/akane-banashi.html">
+<div class="series-card-number">10</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214269292-460x722.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 226                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Akane Banashi</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/bad-born-blood.html">
+<div class="series-card-number">11</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789825224539.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 106                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Bad Born Blood</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/barbarians-adventure-in-a-fantasy-world.html">
+<div class="series-card-number">12</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789825224503.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 75                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Barbarian's Adventure in a Fantasy World</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/berserk.html">
+<div class="series-card-number">13</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1791924300793.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 388                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Berserk</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/bitter-side-cranberries.html">
+<div class="series-card-number">14</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/Bitter-Side-Cranberries.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 17                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Bitter Side Cranberries</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/black-clover.html">
+<div class="series-card-number">15</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789385912982.png');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 390                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Black Clover</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/blue-lock.html">
+<div class="series-card-number">16</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214290929.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 376                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Blue Lock</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/build-up.html">
+<div class="series-card-number">17</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789726509064.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 151                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Build Up</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/catenaccio.html">
+<div class="series-card-number">18</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1789214309745.png');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 93                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Catenaccio</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/chained-soldier.html">
+<div class="series-card-number">19</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/Chained-Soldier-1.webp');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 198                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Chained Soldier</h3>
+</div>
+</a>
+</div>
+<div class="series-card">
+<a class="series-card-link" href="https://www.mangaweekly.com/en/manga/childhood-friend-of-the-zenith.html">
+<div class="series-card-number">20</div>
+<div class="series-card-thumb" style="background-image: url('https://www.mangaweekly.com/wp-content/uploads/cover-1791989844497.jpg');">
+<div class="series-card-chapters">
+<i class="fas fa-book-open"></i> 111                                </div>
+</div>
+<div class="series-card-content">
+<h3 class="series-card-title">Childhood Friend of the Zenith</h3>
+</div>
+</a>
+</div>
+</div>
+<div class="load-more-container">
+<button class="load-more-button" id="load-more-series-grid">
+                    Load More Series                </button>
+</div>
+</section>
+</main><!-- #primary -->
+</div><!-- #content -->
+<!-- #colophon -->
+</div><!-- #page -->
+
+
+
+
+
+
+
+
+
+<script id="mangaverse-load-more-js-extra">
+var mangaverse_ajax = {"ajax_url":"https://www.mangaweekly.com/wp-admin/admin-ajax.php","nonce":"778b0292a7","current_lang":"en","i18n":{"loading":"Loading...","load_more_chapters":"Load More Chapters","load_more_series":"Load More Series","load_more_results":"Load More Results"}};
+//# sourceURL=mangaverse-load-more-js-extra
+</script>
+
+<!-- MDM Security Shield -->
+
+
+</body>
+</html>

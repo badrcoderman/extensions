@@ -7,6 +7,7 @@ on:
       - 'src/**'
       - 'common/**'
       - 'scripts/**'
+      - 'sources.json'
       - '*.gradle'
       - 'gradle.properties'
       - 'gradle/**'
@@ -77,6 +78,6 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add apk jar icon index.pb index.json index.min.json repo.json SHA256SUMS
           if ! git diff --cached --quiet; then
-            git commit -m 'Update MangaRabi and HikayaTeam packages'
+            git commit -m 'Update requested extension packages'
             git push
           fi

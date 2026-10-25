@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package the two API 1.4 sources as signed Android APKs and JVM JARs."""
+"""Package only the requested sources as signed Android APKs and JVM JARs."""
 
 import argparse
 import gzip
@@ -18,7 +18,7 @@ import index_pb2
 ROOT = Path(__file__).resolve().parents[1]
 RAW = "https://raw.githubusercontent.com/badrcoderman/extensions/repo"
 WEBSITE = "https://github.com/badrcoderman/extensions"
-SOURCES = [("mangarabi", "MangaRabi", "https://mangarabi.com"), ("hikayateam", "HikayaTeam", "https://hikayateam.com")]
+SOURCES = json.loads((ROOT / "sources.json").read_text())
 ANDROID = "{http://schemas.android.com/apk/res/android}"
 
 
@@ -34,6 +34,9 @@ def main():
     if output == ROOT:
         parser.error("Stage packages in a separate directory before publishing")
     output.mkdir(parents=True, exist_ok=True)
+    for directory in ('apk', 'jar', 'icon'):
+        if (output / directory).exists():
+            shutil.rmtree(output / directory)
     key = Path(os.environ["EXTENSION_KEYSTORE"]).resolve()
     alias = os.environ.get("EXTENSION_KEY_ALIAS", "extensions")
     sdk = Path(os.environ["ANDROID_HOME"])
@@ -46,15 +49,20 @@ def main():
     index = index_pb2.Index(name="Arabic Manga Extensions", badgeLabel="AR", signingKey=fingerprint, contact=index_pb2.Contact(website=WEBSITE))
     legacy = []
     checksums = []
-    for slug, name, home in SOURCES:
+    for config in SOURCES:
+        slug, name, home = config['slug'], config['name'], config['home']
+        language, lib = config['lang'], config['lib']
         module = ROOT / "src/ar" / slug
         apk = module / f"build/outputs/apk/release/{slug}-release-unsigned.apk"
-        classes = next((module / "build/outputs/jar").glob("*-classes.jar"))
         manifest = next((module / "build/intermediates/merged_manifests/release").rglob("AndroidManifest.xml"))
         xml = ET.parse(manifest).getroot()
         version = xml.attrib[ANDROID + "versionName"]
+        classes = module / f"build/outputs/jar/tachiyomi-ar.{slug}-v{version}-classes.jar"
         code = int(xml.attrib[ANDROID + "versionCode"])
         package = xml.attrib["package"]
+        assert code == config['versionCode'], f"Version metadata differs for {slug}"
+        metadata = {e.attrib[ANDROID + 'name']: e.attrib[ANDROID + 'value'] for e in xml.findall('application/meta-data')}
+        assert metadata['tachiyomix.extensionLib'] == lib
         basename = f"tachiyomi-ar.{slug}-v{version}"
         for directory in ("apk", "jar", "icon"):
             (output / directory).mkdir(exist_ok=True)
@@ -80,14 +88,14 @@ def main():
                             add(path, source.read(path))
             run(build_tools / "apksigner", "sign", *key_args, "--min-sdk-version", "21", "--v1-signing-enabled", "true", "--v2-signing-enabled", "false", "--v3-signing-enabled", "false", "--out", output / f"jar/{basename}.jar", unsigned)
         shutil.copyfile(module / "res/mipmap-xxxhdpi/ic_launcher.png", output / f"icon/{package}.png")
-        source_id = int.from_bytes(hashlib.md5(f"{name.lower()}/ar/1".encode()).digest()[:8], "big") & ((1 << 63) - 1)
-        source = {"name": name, "lang": "ar", "id": str(source_id), "baseUrl": home, "versionId": 1}
-        legacy.append({"name": f"Tachiyomi: {name}", "pkg": package, "apk": f"{basename}.apk", "jar": f"{basename}.jar", "lang": "ar", "code": code, "version": version, "nsfw": 1, "sources": [source]})
-        extension = index.extensionList.extensions.add(name=name, packageName=package, extensionLib="1.4", versionCode=code, versionName=version, contentWarning=index_pb2.CONTENT_WARNING_MIXED)
+        source_id = config.get('id') or (int.from_bytes(hashlib.md5(f"{name.lower()}/{language}/{config['versionId']}".encode()).digest()[:8], "big") & ((1 << 63) - 1))
+        source = {"name": name, "lang": language, "id": str(source_id), "baseUrl": home, "versionId": config['versionId']}
+        legacy.append({"name": f"Tachiyomi: {name}", "pkg": package, "apk": f"{basename}.apk", "jar": f"{basename}.jar", "lang": language, "code": code, "version": version, "nsfw": 1, "sources": [source]})
+        extension = index.extensionList.extensions.add(name=name, packageName=package, extensionLib=lib, versionCode=code, versionName=version, contentWarning=index_pb2.CONTENT_WARNING_MIXED)
         extension.resources.apkUrl = f"{RAW}/apk/{basename}.apk"
         extension.resources.jarUrl = f"{RAW}/jar/{basename}.jar"
         extension.resources.iconUrl = f"{RAW}/icon/{package}.png"
-        extension.sources.add(id=source_id, name=name, language="ar", homeUrl=home)
+        extension.sources.add(id=source_id, name=name, language=language, homeUrl=home)
         for kind in ("apk", "jar"):
             artifact = output / f"{kind}/{basename}.{kind}"
             result = run(build_tools / "apksigner", "verify", "--min-sdk-version", "21", "--print-certs", artifact, capture=True)
@@ -96,22 +104,26 @@ def main():
             checksums.append(f"{hashlib.sha256(artifact.read_bytes()).hexdigest()}  {kind}/{artifact.name}")
         with zipfile.ZipFile(output / f"jar/{basename}.jar") as jar:
             assert "AndroidManifest.xml" in jar.namelist()
-            main = f"eu/kanade/tachiyomi/extension/ar/{slug}/{name}.class"
+            main = config['mainClass'].replace('.', '/') + '.class' if '.' in config['mainClass'] else f"eu/kanade/tachiyomi/extension/ar/{slug}/{config['mainClass']}.class"
             assert main in jar.namelist()
             for path in jar.namelist():
                 if path.endswith(".class"):
                     data = jar.read(path)
-                    assert int.from_bytes(data[6:8], "big") <= 52, f"{path} requires a newer JVM"
-                    assert path.startswith("eu/kanade/tachiyomi/extension/"), f"Host library bundled: {path}"
-        print(f"Verified {name}: signed APK + Java 8 JAR, source ID {source_id}")
+                    assert int.from_bytes(data[6:8], "big") <= (55 if lib == '1.6' else 52), f"{path} requires a newer JVM"
+                    if slug != 'procomic':
+                        assert path.startswith("eu/kanade/tachiyomi/extension/"), f"Host library bundled: {path}"
+        with zipfile.ZipFile(output / f"apk/{basename}.apk") as archive:
+            descriptor = ('L' + main.removesuffix('.class') + ';').encode()
+            assert any(descriptor in archive.read(path) for path in archive.namelist() if path.startswith('classes') and path.endswith('.dex')), f"Entry class missing from APK: {main}"
+        print(f"Verified {name}: signed APK + API {lib} JAR, source ID {source_id}")
     (output / "index.pb").write_bytes(gzip.compress(index.SerializeToString(deterministic=True), mtime=0))
     (output / "index.json").write_text(json.dumps(legacy, ensure_ascii=False, indent=2) + "\n")
     (output / "index.min.json").write_text(json.dumps(legacy, ensure_ascii=False, separators=(",", ":")) + "\n")
     (output / "repo.json").write_text(json.dumps({"meta": {"name": "Arabic Manga Extensions", "website": WEBSITE, "signingKeyFingerprint": fingerprint}}, indent=2) + "\n")
     (output / "SHA256SUMS").write_text("\n".join(checksums) + "\n")
     restored = index_pb2.Index.FromString(gzip.decompress((output / "index.pb").read_bytes()))
-    assert len(restored.extensionList.extensions) == 2
-    assert {s.name for e in restored.extensionList.extensions for s in e.sources} == {"MangaRabi", "HikayaTeam"}
+    assert len(restored.extensionList.extensions) == len(SOURCES)
+    assert {s.name for e in restored.extensionList.extensions for s in e.sources} == {s['name'] for s in SOURCES}
     print(f"Staged repository: {output}")
 
 

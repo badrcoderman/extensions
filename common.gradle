@@ -11,7 +11,7 @@ android {
         targetSdk 32
         versionCode project.ext.extVersionCode
         versionName "1.4.${project.ext.extVersionCode}"
-        manifestPlaceholders = [extName: project.ext.extName, extClass: project.ext.extClass]
+        manifestPlaceholders = [extName: project.ext.extName, extClass: project.ext.extClass, extLib: '1.4']
     }
 
     sourceSets {
@@ -22,6 +22,7 @@ android {
         }
         test {
             java.srcDirs = ["$rootDir/common/test", 'test']
+            resources.srcDirs = ["$rootDir/common/fixtures"]
         }
     }
 
@@ -51,6 +52,7 @@ dependencies {
 }
 
 tasks.withType(Test).configureEach {
+    systemProperty 'sourceSlug', project.name
     def liveTests = providers.environmentVariable('RUN_LIVE_TESTS').getOrElse('0')
     inputs.property('liveTests', liveTests)
     environment 'RUN_LIVE_TESTS', liveTests

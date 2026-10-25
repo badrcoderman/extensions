@@ -1,0 +1,6 @@
+ext {
+    extName = 'ManhwaLek'
+    extClass = '.ManhwaLek'
+    extVersionCode = 1
+}
+apply from: "$rootDir/common.gradle"

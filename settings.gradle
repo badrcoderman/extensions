@@ -16,4 +16,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'ArabicExtensions'
-include ':src:ar:mangarabi', ':src:ar:hikayateam'
+new groovy.json.JsonSlurper().parse(file('sources.json')).each { source ->
+    include ":src:ar:${source.slug}"
+}

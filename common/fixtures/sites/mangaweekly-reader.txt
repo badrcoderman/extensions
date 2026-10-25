@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html class="is-ltr" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+<meta content="max-image-preview:large" name="robots"/>
+<!-- Telemetry Verification Node -->
+<meta content="12658f525dc9a196" name="yandex-verification"/>
+<title>The Ember Knight - Chapter 246: The Ember Knight, Chapter 246 - Read Manga &amp; Manhwa in English - Free Daily Scans</title>
+
+
+
+<meta content="Read The Ember Knight Chapter 246 online for free. " name="description"/>
+<meta content="The Ember Knight, manga, read manga online, chapter 246" name="keywords"/>
+<meta content="The Ember Knight - Chapter 246: The Ember Knight, Chapter 246 - Read Manga &amp; Manhwa in English - Free Daily Scans" property="og:title"/>
+<meta content="Read The Ember Knight Chapter 246 online for free. " property="og:description"/>
+<meta content="https://www.mangaweekly.com/en/the-ember-knight/the-ember-knight-chapter-246.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="The Ember Knight - Chapter 246: The Ember Knight, Chapter 246 - Read Manga &amp; Manhwa in English - Free Daily Scans" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="The Ember Knight - Chapter 246: The Ember Knight, Chapter 246 - Read Manga &amp; Manhwa in English - Free Daily Scans" name="twitter:title"/>
+<meta content="Read The Ember Knight Chapter 246 online for free. " name="twitter:description"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="https://www.mangaweekly.com/wp-content/uploads/mangaweekly_avatar-300x300.jpg" name="msapplication-TileImage"/>
+<meta content="d8cbd9557146d2bb" name="yandex-verification"/>
+<!-- Yandex.Metrika counter -->
+
+
+<!-- /Yandex.Metrika counter -->
+</head>
+<body class="wp-singular post-template-default single single-post postid-67137 single-format-standard wp-embed-responsive wp-theme-mangaverse ltr is-ltr singular no-sidebar multilingual-active lang-en">
+<div class="site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<!-- Hero Header Section with Background Image -->
+<div class="manga-hero-header" style="background-image: url(https://www.mangaweekly.com/wp-content/uploads/mangaweekly_wallpaper.avif)">
+<div class="manga-hero-overlay">
+<div class="manga-hero-content">
+<!-- Site Title/Logo -->
+<div class="hero-site-branding">
+<h1 class="site-title"><a href="https://www.mangaweekly.com/en/" rel="home">Read Manga &amp; Manhwa in English - Free Daily Scans</a></h1>
+<p class="site-description">Your go-to source to read the latest manga and manhwa online. Discover high-quality English comic scans across all genres with fast, reliable updates.</p>
+</div><!-- .hero-site-branding -->
+<!-- Hero Search Form -->
+<div class="hero-search-container">
+<div class="hero-search-form">
+<form action="https://www.mangaweekly.com/en/" class="search-form" method="get" role="search">
+<label for="search-form-1">
+<span class="screen-reader-text">Search for:</span>
+</label>
+<input class="search-field" id="search-form-1" name="s" placeholder="Search manga, chapters, artists..." type="search" value=""/>
+<input name="lang" type="hidden" value="en"/>
+<button class="search-submit" type="submit">
+                    Search        	</button>
+</form> </div>
+</div>
+</div><!-- .manga-hero-content -->
+</div><!-- .manga-hero-overlay -->
+</div><!-- .manga-hero-header -->
+<header class="site-header" id="masthead" role="banner">
+<nav aria-label="Primary Menu" class="main-navigation" id="site-navigation" role="navigation">
+<div class="nav-container">
+<button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle">
+ <span class="screen-reader-text">Menu</span>
+</button>
+<ul class="primary-menu" id="primary-menu"><li class="menu-item menu-item-has-children menu-item-random-categories-container menu-item-0" id="menu-item-0"><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/turning-back-time-i-choose-a-new-life.html">Turning Back Time, I Choose a New Life</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/my-hero-academia-vigilantes.html">My Hero Academia Vigilantes</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/my-bias-gets-on-the-last-train.html">My Bias Gets On The Last Train</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/drawn-to-the-fire.html">Drawn to the Fire</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/build-up.html">Build Up</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.mangaweekly.com/en/manga/absolute-sword-sense.html">Absolute Sword Sense</a></li></li>
+</ul> </div><!-- .nav-container -->
+</nav><!-- #site-navigation -->
+<!-- MangaVerse Universal Topbar Controls Bar -->
+<div class="theme-mode-container" id="mv-topbar-controls">
+<div class="mv-controls-inner">
+<!-- Flip Book Reader Switch (Only active on chapter posts) -->
+<div class="mv-control-group mv-flip-control-group" data-tooltip="Toggle 2-Page Manga Book Reader vs Continuous Webtoon Scroll" title="Toggle 2-Page Manga Book Reader vs Continuous Webtoon Scroll">
+<button aria-label="Toggle Flip Book Mode" class="mv-pill-button mv-flip-toggle-btn" id="mv-flip-mode-toggle" type="button">
+<span class="mv-btn-icon"><i class="fas fa-book-open"></i></span>
+<span class="mv-btn-text" id="mv-flip-btn-label">Flip: OFF</span>
+</button>
+</div>
+<!-- Fullscreen Mobile/Desktop Switch -->
+<div class="mv-control-group mv-fullscreen-control-group" data-tooltip="Maximize reader view for full screen reading" title="Maximize reader view for full screen reading">
+<button aria-label="Toggle Fullscreen" class="mv-pill-button mv-fullscreen-btn" id="mv-fullscreen-toggle" type="button">
+<span class="mv-btn-icon"><i class="fas fa-expand"></i></span>
+<span class="mv-btn-text" id="mv-fs-btn-label">Fullscreen</span>
+</button>
+</div>
+<!-- Dark / Light Mode Switch with Clear Label -->
+<div class="mv-control-group mv-theme-control-group" data-tooltip="Switch between Light and Dark mode" title="Switch between Light and Dark mode">
+<button aria-label="Toggle Dark Mode" class="mv-pill-button theme-mode-toggle" id="theme-mode-toggle" type="button">
+<span class="mv-btn-icon">
+<i class="fas fa-moon dark-icon"></i>
+<i class="fas fa-sun light-icon"></i>
+</span>
+<span class="mv-btn-text" id="mv-theme-btn-label">Dark Mode</span>
+</button>
+</div>
+</div><!-- .mv-controls-inner -->
+</div><!-- #mv-topbar-controls -->
+</header><!-- #masthead -->
+<div class="site-content" id="content">
+<main class="site-main" id="primary" role="main">
+<article class="entry-single post-67137 post type-post status-publish format-standard hentry category-the-ember-knight" id="post-67137">
+<header class="entry-header">
+<div class="manga-series-wrapper"><span class="series-label">Series:</span> <a class="manga-series" href="https://www.mangaweekly.com/en/manga/the-ember-knight.html">The Ember Knight</a></div><span class="manga-chapter-number">Chapter 246</span><h1 class="entry-title">The Ember Knight, Chapter 246</h1>
+<div class="entry-meta">
+<span class="posted-on">Posted on <a href="https://www.mangaweekly.com/en/the-ember-knight/the-ember-knight-chapter-246.html" rel="bookmark"><time class="entry-date published" datetime=""></time><time class="updated screen-reader-text" datetime=""></time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href=""></a></span></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<nav class="navigation post-navigation manga-chapter-navigation" role="navigation">
+<h2 class="screen-reader-text">Chapter navigation</h2>
+<div class="nav-links">
+<div class="nav-previous">
+<a class="mv-chapter-nav-btn prev-btn" href="https://www.mangaweekly.com/en/the-ember-knight/the-ember-knight-chapter-245.html" rel="prev">
+<i class="fas fa-chevron-left nav-icon"></i>
+<div class="nav-text-group">
+<span class="nav-subtitle">Previous Chapter</span>
+<span class="nav-title">The Ember Knight, Chapter 245</span>
+</div>
+</a>
+</div>
+<div class="nav-next disabled"></div>
+</div>
+</nav>
+<div class="entry-content">
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/001.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/002.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/003.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/004.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/005.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/006.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/007.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/008.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/009.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/010.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/011.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+<figure class="wp-block-image"><img alt="Read The Ember Knight Manga Online" class="lazyload" data-src="https://cdn.mangaweekly.com/cdn/BookEN/The%20Ember%20Knight/Chapter%20246/012.webp" decoding="async" height="auto" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="700"/></figure>
+</div><!-- .entry-content -->
+<!-- .entry-footer -->
+</article><!-- #post-67137 --> <nav class="navigation post-navigation manga-chapter-navigation" role="navigation">
+<h2 class="screen-reader-text">Chapter navigation</h2>
+<div class="nav-links">
+<div class="nav-previous">
+<a class="mv-chapter-nav-btn prev-btn" href="https://www.mangaweekly.com/en/the-ember-knight/the-ember-knight-chapter-245.html" rel="prev">
+<i class="fas fa-chevron-left nav-icon"></i>
+<div class="nav-text-group">
+<span class="nav-subtitle">Previous Chapter</span>
+<span class="nav-title">The Ember Knight, Chapter 245</span>
+</div>
+</a>
+</div>
+<div class="nav-next disabled"></div>
+</div>
+</nav>
+</main><!-- #primary -->
+</div><!-- #content -->
+<!-- #colophon -->
+</div><!-- #page -->
+
+
+
+
+
+
+<script id="mangaverse-load-more-js-extra">
+var mangaverse_ajax = {"ajax_url":"https://www.mangaweekly.com/wp-admin/admin-ajax.php","nonce":"778b0292a7","current_lang":"en","i18n":{"loading":"Loading...","load_more_chapters":"Load More Chapters","load_more_series":"Load More Series","load_more_results":"Load More Results"}};
+//# sourceURL=mangaverse-load-more-js-extra
+</script>
+
+<!-- MDM Security Shield -->
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+ext {
+    extName = 'ProComic'
+    extClass = 'keiyoushi.source.Generated'
+    extVersionCode = 106001
+}
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        minSdk 26
+        versionName '1.6.1'
+        manifestPlaceholders.extLib = '1.6'
+    }
+    sourceSets.main.java.srcDirs = []
+    sourceSets.test.java.srcDirs = []
+}
+
+def upstream = layout.buildDirectory.file('upstream/procomic.jar')
+def patched = layout.buildDirectory.file('patched/procomic-classes.jar')
+tasks.register('patchProComic') {
+    inputs.file "$rootDir/scripts/PatchProComic.java"
+    inputs.file "$rootDir/scripts/verify_procomic_plans.py"
+    inputs.file "$rootDir/common/fixtures/procomic/geometry.json"
+    outputs.file patched
+    doLast {
+        exec { commandLine 'python3', "$rootDir/scripts/verify_procomic_plans.py" }
+        def original = upstream.get().asFile
+        original.parentFile.mkdirs()
+        if (!original.exists()) {
+            exec {
+                commandLine 'curl', '-4', '-fL', '--retry', '3', '--max-time', '120', '-o', original,
+                    'https://github.com/keiyoushi/extensions/releases/download/7363e42/tachiyomi-ar.procomic-v1.6.0.jar'
+            }
+        }
+        def sha = java.security.MessageDigest.getInstance('SHA-256').digest(original.bytes).encodeHex().toString()
+        assert sha == '377b1046c3f58dc10cb74c338c6ae6a90980e0925f0ba55103d3a15304c4cf49': 'Upstream ProComic hash mismatch'
+        patched.get().asFile.parentFile.mkdirs()
+        exec {
+            commandLine "${System.getenv('JAVA_HOME')}/bin/java", '-cp', fileTree("${gradle.gradleHomeDir}/lib") { include 'asm-*.jar' }.asPath,
+                "$rootDir/scripts/PatchProComic.java", original, patched.get().asFile
+        }
+    }
+}
+dependencies { implementation files(patched).builtBy('patchProComic') }
+tasks.named('extensionJar') {
+    dependsOn 'patchProComic'
+    from { zipTree(patched.get().asFile) }
+    archiveFileName = 'tachiyomi-ar.procomic-v1.6.1-classes.jar'
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "slug": "mangarabi",
+    "name": "MangaRabi",
+    "mainClass": "MangaRabi",
+    "home": "https://mangarabi.com",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 2,
+    "versionId": 1
+  },
+  {
+    "slug": "hikayateam",
+    "name": "HikayaTeam",
+    "mainClass": "HikayaTeam",
+    "home": "https://hikayateam.com",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 2,
+    "versionId": 1
+  },
+  {
+    "slug": "mangasid",
+    "name": "MangaSid",
+    "mainClass": "MangaSid",
+    "home": "https://mangasid.com",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 1,
+    "versionId": 1
+  },
+  {
+    "slug": "assassinscans",
+    "name": "Assassin Scans",
+    "mainClass": "AssassinScans",
+    "home": "https://as-scans.net",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 1,
+    "versionId": 1
+  },
+  {
+    "slug": "kadrhub",
+    "name": "KadrHub",
+    "mainClass": "KadrHub",
+    "home": "https://kadrhub.com",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 1,
+    "versionId": 1
+  },
+  {
+    "slug": "manhwalek",
+    "name": "ManhwaLek",
+    "mainClass": "ManhwaLek",
+    "home": "https://manhwalek.com",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 1,
+    "versionId": 1
+  },
+  {
+    "slug": "mangawy",
+    "name": "Mangawy",
+    "mainClass": "Mangawy",
+    "home": "https://mangawy.org",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 1,
+    "versionId": 1
+  },
+  {
+    "slug": "man9a",
+    "name": "Man9a",
+    "mainClass": "Man9a",
+    "home": "https://man9a.net",
+    "lang": "ar",
+    "lib": "1.4",
+    "versionCode": 1,
+    "versionId": 1
+  },
+  {
+    "slug": "mangaweekly",
+    "name": "MangaWeekly",
+    "mainClass": "MangaWeekly",
+    "home": "https://www.mangaweekly.com",
+    "lang": "en",
+    "lib": "1.4",
+    "versionCode": 1,
+    "versionId": 1
+  },
+  {
+    "slug": "procomic",
+    "name": "ProComic",
+    "mainClass": "keiyoushi.source.Generated",
+    "home": "https://procomic.pro",
+    "lang": "ar",
+    "lib": "1.6",
+    "versionCode": 106001,
+    "versionId": 2,
+    "id": 8891921907305143070
+  }
+]

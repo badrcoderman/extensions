@@ -1,33 +1,41 @@
-# Validation — 2026-10-24
+# Validation — 2026-10-25
 
-Both extensions use the API 1.4 ABI, which current Mihon supports. Tachimanga provides the same extension API and accepts JVM JAR packages. Each JAR contains Java 8 classes, the merged XML Android manifest, packaged resources, and a v1 signature from the same certificate as its Android APK.
+The repository contains ten requested sources. Nine use extension API 1.4 and Java 8 classes. ProComic retains upstream's API 1.6 and Java 11 classes, source ID and URL format, with a targeted Tachimanga compatibility patch.
 
-## Passed locally
+## Checks passed
 
 ```bash
-./gradlew verifyExtensions buildExtensions
-RUN_LIVE_TESTS=1 ./gradlew :src:ar:mangarabi:testReleaseUnitTest :src:ar:hikayateam:testReleaseUnitTest
+RUN_LIVE_TESTS=1 ./gradlew verifyExtensions buildExtensions --console=plain
 python scripts/package_repository.py
 ```
 
-- 21 parser regression tests; both additional live tests passed with no skips when enabled.
-- Release Android lint passed for both modules.
-- APK builds, JVM class builds, JAR packaging, and signature verification passed for both sources.
-- Every packaged class targets Java 8 or earlier. No host API or runtime libraries are bundled in the extensions.
-- The gzip protobuf repository index round-trips successfully and contains exactly the two requested sources, with JAR and APK URLs. The legacy JSON indexes list the same sources.
+- 73 executed JUnit cases passed: 64 regression cases and nine live tests. Shared tests run in each applicable module; 12 cases for other modules were skipped. No failures or errors.
+- Release Android lint passed for all ten modules.
+- All ten Android APKs and JVM JAR class archives built successfully.
+- Packaging verifies the APK and JAR signatures against this fork's certificate, manifests, entry classes, APK DEX entry points, and class bytecode versions.
+- The gzip protobuf index round-trips and contains exactly the allowlisted sources in `sources.json`, each with APK and JAR URLs. Legacy JSON indexes list the same sources.
 
-| Live check | MangaRabi | HikayaTeam |
-| --- | --- | --- |
-| Popular catalogue and pagination | Passed | Passed |
-| Latest catalogue | Passed | Passed |
-| Search | Passed | Passed |
-| Details and cover download | Passed | Passed |
-| Full sample chapter list | 48 chapters across 5 API pages | 88 chapters across 2 API pages |
-| Sample reader | Boruto: Two Blue Vortex, chapter 38 | Devil Returns to School Days, chapter 88 |
-| Image downloads and format checks | All 8 images passed | All 3 images passed |
+| Source | Sample chapter list | Sample reader | Image checks |
+| --- | --- | --- | --- |
+| MangaRabi | 48 chapters, paginated API | Boruto: Two Blue Vortex 38 | All 8 images |
+| HikayaTeam | 88 chapters, paginated API | Devil Returns to School Days 88 | All 3 images |
+| MangaSid | 12 chapters | Mage Again 12 | 17 sections; first/middle/last downloaded |
+| Assassin Scans | 11 chapters | My Sin 11 | 17 sections; first/middle/last downloaded |
+| KadrHub | 243 chapters | The Long Way Of The Warrior 243 | 40 sections; first/middle/last downloaded |
+| ManhwaLek | 945 chapters including decimals | Demonic Emperor 927 | 5 sections; first/middle/last downloaded |
+| Mangawy | 170 chapters | Dungeon Odyssey 170 | All 15 vertical sections extracted; first/middle/last downloaded |
+| Man9a | 77 available chapters | Becoming A Family With The Duke and His Dear Son 81 | 35 sections; first/middle/last downloaded |
+| MangaWeekly | All 246 chapters through AJAX pagination | The Ember Knight 246 | 12 sections; first/middle/last downloaded |
+| ProComic | Upstream reader retained | Reported chapter 213362, number 319 | 3 initial images and 16 mapped pages extracted; all 10 pieces of its first mapped page decoded and reconstructed |
 
-MangaRabi reader status and access server actions were also checked against the live website. Regression cases cover partial readers, split Next.js Flight chunks, escaped JSON strings, placeholders, decimal chapter numbers, pagination, dates, and access-denied chapters.
+All nine live tests checked catalogs, catalog pagination, search, details, cover downloads, chapter lists and reader images. Latest updates were checked where exposed; MangaWeekly provides catalog and search browsing. Sample images from the seven new sites were also independently decoded with Pillow. Mangawy's vertical strips remain in their original order as separate pages.
 
-These checks validate the source logic, network paths, and package structure. Installation and reading inside Mihon on Android and Tachimanga on iOS were not performed; no test devices were available in this session.
+MangaRabi's preparation flow, split Flight payloads, partial readers and placeholders remain covered by regression cases. HikayaTeam's access checks and tokenized image endpoint remain covered. New fixtures exercise the actual catalog, chapter and reader formats, Nuxt reference-table decoding, lazy image attributes, decimal chapters, chapter ordering and text-chapter errors.
 
-References: [Mihon extension loader](https://github.com/mihonapp/mihon/blob/main/source-api/src/main/kotlin/eu/kanade/tachiyomi/source/online/HttpSource.kt), [Mihon supported API versions](https://github.com/mihonapp/mihon/blob/main/app/src/main/java/eu/kanade/tachiyomi/extension/util/ExtensionLoader.kt), [Tachimanga extension guide](https://tachimanga.app/help/guides/extensions_guide.html).
+## ProComic's reported error
+
+The supplied `NoSuchMethodError: android/graphics/Canvas.drawColor(I)V` identifies an unsupported call in upstream's page stitcher. The build removes exactly one invocation and verifies that none remain. Three real map geometries, including the reported chapter, cover every pixel without that background fill. Its ten downloaded pieces had no transparent pixels. See [PROCOMIC_FIX.md](PROCOMIC_FIX.md) for the pinned input, patch and evidence.
+
+These checks validate source logic, live network paths, image data and package structure. Installation and reading inside Mihon on Android and Tachimanga on iOS were not performed; no test devices were available in this session. The ProComic fix specifically addresses the supplied missing-method error.
+
+References: [Mihon extension loader](https://github.com/mihonapp/mihon/blob/main/app/src/main/java/eu/kanade/tachiyomi/extension/util/ExtensionLoader.kt), [Tachimanga extension guide](https://tachimanga.app/help/guides/extensions_guide.html), [ProComic upstream source](https://github.com/keiyoushi/extensions-source/tree/8f504748a2f6/src/ar/procomic).

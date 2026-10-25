@@ -1,0 +1,3140 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" data-theme-pref="default" dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>The Long Way Of The Warrior مانهوا مترجمة | كادر</title>
+<meta content="اقرأ مانهوا The Long Way Of The Warrior مترجمة للعربية على كادر. في النصف الثاني من القرن الثاني، تم بيع نارو، وهو محارب من ولاية كوريو، على أنه جلاد عبد…" name="description"/>
+
+<meta content="كادر" property="og:site_name"/>
+<meta content="ar_AR" property="og:locale"/>
+<meta content="book" property="og:type"/>
+<meta content="The Long Way Of The Warrior مانهوا مترجمة" property="og:title"/>
+<meta content="اقرأ مانهوا The Long Way Of The Warrior مترجمة للعربية على كادر. في النصف الثاني من القرن الثاني، تم بيع نارو، وهو محارب من ولاية كوريو، على أنه جلاد عبد…" property="og:description"/>
+<meta content="https://kadrhub.com/series/lww" property="og:url"/>
+<meta content="https://kadrhub.com/media/covers/2026/10/43875bf7d488c4f0.webp" property="og:image"/>
+<meta content="460" property="og:image:width"/>
+<meta content="667" property="og:image:height"/>
+<meta content="غلاف مانهوا The Long Way Of The Warrior" property="og:image:alt"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="The Long Way Of The Warrior مانهوا مترجمة" name="twitter:title"/>
+<meta content="اقرأ مانهوا The Long Way Of The Warrior مترجمة للعربية على كادر. في النصف الثاني من القرن الثاني، تم بيع نارو، وهو محارب من ولاية كوريو، على أنه جلاد عبد…" name="twitter:description"/>
+<meta content="https://kadrhub.com/media/covers/2026/10/43875bf7d488c4f0.webp" name="twitter:image"/>
+<meta content="غلاف مانهوا The Long Way Of The Warrior" name="twitter:image:alt"/>
+<meta content="#0a0b10" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="#f4f1ea" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="2202882f628a205c182b0f639c03342ef39a8825" name="csrf-token"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="has-bottom-nav" data-section="read" data-section-own="">
+<a class="sr-only" href="#main">تخطَّ إلى المحتوى</a>
+<div class="announce-bar" data-banner="3" hidden="">
+<div class="container"><a href="/announcements/trhyb">ترحيب</a><button aria-label="إغلاق" class="x icon-btn" data-dismiss-banner="" style="width:30px;height:30px" type="button"></button></div>
+</div>
+<header class="site-header" id="site-header">
+<div class="container">
+<a aria-label="كادر — الرئيسية" class="brand" href="/">
+<span class="brand-mark"><span>ك</span></span><span class="brand-name">كادر</span> </a>
+<div aria-label="القسم" class="mode-switch" role="group">
+<a aria-current="true" class="is-on" href="/"><span>قراءة</span></a>
+<a class="" href="/watch"><span>مشاهدة</span></a>
+</div>
+<nav aria-label="القائمة الرئيسية" class="nav">
+<a class="" href="/">الرئيسية</a>
+<a class="is-active" href="/series">المكتبة</a>
+<a class="" href="/novels">الروايات</a>
+<a class="" href="/latest">أحدث الفصول<span class="new-dot">جديد</span></a>
+<a class="" href="/community">المجتمع</a>
+<a class="" href="/leaderboard">الصدارة</a>
+<a class="" href="/store">المتجر</a>
+</nav>
+<div class="header-actions">
+<div class="dropdown header-menu">
+<button aria-haspopup="true" aria-label="كل الأقسام" class="icon-btn" data-menu-toggle="" type="button"></button>
+<div aria-label="كل الأقسام" class="menu site-menu">
+<div class="sm-head"><b>كل الأقسام</b></div>
+<nav aria-label="الأقسام" class="sm-grid">
+<a class="" href="/watch"><span class="sm-ic"></span><span>أفلام ومسلسلات</span></a>
+<a class="is-on" href="/series"><span class="sm-ic"></span><span>المكتبة</span></a>
+<a class="" href="/latest"><span class="sm-ic"></span><span>أحدث الفصول</span></a>
+<a class="" href="/novels"><span class="sm-ic"></span><span>الروايات</span></a>
+<a class="" href="/genres"><span class="sm-ic"></span><span>التصنيفات</span></a>
+<a class="" href="/community"><span class="sm-ic"></span><span>المجتمع</span></a>
+<a class="" href="/community/chat"><span class="sm-ic"></span><span>الدردشة المباشرة</span></a>
+<a class="" href="/leaderboard"><span class="sm-ic"></span><span>الصدارة</span></a>
+<a class="" href="/store/cosmetics"><span class="sm-ic"></span><span>استوديو الزينة</span></a>
+<a class="" href="/store"><span class="sm-ic"></span><span>شحن الجواهر</span></a>
+<a class="" href="/teams"><span class="sm-ic"></span><span>فرق الترجمة</span></a>
+<a class="" href="/community/events"><span class="sm-ic"></span><span>الفعاليات</span></a>
+<a class="" href="/announcements"><span class="sm-ic"></span><span>الإعلانات</span></a>
+<a class="" href="/levels"><span class="sm-ic"></span><span>المستويات</span></a>
+<a class="" href="/random" rel="nofollow"><span class="sm-ic"></span><span>عمل عشوائي</span></a>
+</nav>
+<hr/>
+<a href="/auth/signin">تسجيل الدخول</a>
+<a href="/auth/signup">إنشاء حساب مجاني</a>
+<button class="mi" data-theme-cycle="" type="button"><span>المظهر: <span data-theme-label="">تلقائي</span></span></button>
+<hr/>
+<div class="sm-links">
+<a href="/faq">الأسئلة الشائعة</a><a href="/contact">تواصل معنا</a><a href="/rules">القواعد</a><a href="/privacy">الخصوصية</a>
+</div>
+</div>
+</div>
+<button aria-label="بحث" class="search-trigger" data-search-open="" type="button">
+<span class="label">ابحث عن عمل، مؤلف…</span><kbd>/</kbd>
+</button>
+<button aria-label="تبديل المظهر" class="icon-btn" data-theme-cycle="" type="button"></button>
+<a class="btn btn-primary btn-sm" href="/auth/signin">دخول</a>
+</div>
+</div>
+</header>
+<main class="main" id="main">
+<div class="s-hero">
+<div aria-hidden="true" class="s-hero-art"><div class="s-hero-bg" style="background-image:url('/media/covers/2026/10/43875bf7d488c4f0-sm.webp')"></div></div>
+<div class="container">
+<div class="s-head">
+<div class="s-cover"><img alt="The Long Way Of The Warrior" data-zoom="" fetchpriority="high" height="450" src="/media/covers/2026/10/43875bf7d488c4f0.webp" width="300"/></div>
+<div class="s-info">
+<div class="s-tags mb-1">
+<span class="tag type-manhwa">مانهوا</span>
+<span class="tag tag-success">مستمر</span>
+<span class="tag">الترجمة مستمرة</span>
+</div>
+<h1 class="s-title">The Long Way Of The Warrior</h1>
+</div>
+<div class="s-main-mobile">
+<div class="s-stats">
+<div class="stat"><b>—</b><span>0 تقييم</span></div>
+<div class="stat"><b>4</b><span>في المفضلة</span></div>
+<div class="stat"><b>5.9 ألف</b><span>مشاهدة</span></div>
+<div class="stat"><b>243</b><span>آخر تحديث منذ يومين</span></div>
+</div>
+<div class="s-actions">
+<a class="btn btn-primary btn-lg" href="/series/lww/chapter-1">اقرأ الفصل الأول</a>
+<button class="btn btn-lg s-act" data-lib="favorite" data-series="1184" type="button"><span data-fav-label="">أضف للمفضلة</span></button>
+<div class="dropdown">
+<button class="btn btn-lg s-act" data-menu-toggle="" type="button"><span data-status-label="1184">حالة القراءة</span></button>
+<div class="menu start">
+<button class="mi" data-lib="status" data-series="1184" data-value="reading" type="button">أقرأ الآن</button>
+<button class="mi" data-lib="status" data-series="1184" data-value="plan" type="button">خطة للقراءة</button>
+<button class="mi" data-lib="status" data-series="1184" data-value="completed" type="button">أكملت</button>
+<button class="mi" data-lib="status" data-series="1184" data-value="paused" type="button">توقفت</button>
+<button class="mi" data-lib="status" data-series="1184" data-value="dropped" type="button">أسقطته</button>
+<button class="mi is-on" data-lib="status" data-series="1184" data-value="none" type="button">إزالة من مكتبتي</button>
+</div>
+</div>
+<div class="dropdown">
+<button aria-label="المزيد" class="btn btn-lg btn-icon s-act" data-menu-toggle="" type="button"><span class="s-act-more">المزيد</span></button>
+<div class="menu start" style="min-width:260px">
+<div class="small muted" style="padding:6px 12px">إشعارات هذا العمل</div>
+<button class="mi is-on" data-lib="notify" data-series="1184" data-value="all" type="button">كل الفصول</button>
+<button class="mi" data-lib="notify" data-series="1184" data-value="free" type="button">المجانية فقط</button>
+<button class="mi" data-lib="notify" data-series="1184" data-value="none" type="button">لا شيء</button>
+<hr/>
+<button class="mi" data-share="https://kadrhub.com/series/lww" data-title="The Long Way Of The Warrior" type="button">مشاركة</button>
+<button class="mi" data-report-id="1184" data-report-open="" data-report-type="series" type="button">الإبلاغ عن مشكلة</button>
+</div>
+</div>
+</div>
+<div class="s-people">
+<span>الرسام: <a href="/people/un-un-yun"><bdi>Un 운(雲)</bdi></a></span> <span>الترجمة: <a href="/teams/kadr-team">فريق كادر للترجمة</a></span> </div>
+<div class="chips mt-2"><a class="chip chip-sm" href="/genres/action">أكشن</a><a class="chip chip-sm" href="/genres/historical">تاريخي</a><a class="chip chip-sm" href="/genres/supernatural">خارق للطبيعة</a><a class="chip chip-sm" href="/genres/tragedy">مأساة</a><a class="chip chip-sm" href="/genres/athart">إثارة</a><a class="chip chip-sm" href="/genres/btl-ghyr-a-tyady">بطل غير إعتيادي</a><a class="chip chip-sm" href="/genres/dmwy">دموي</a><a class="chip chip-sm" href="/genres/mghamrat">مغامرات</a><a class="chip chip-sm" href="/genres/fnwn-qtal">فنون قتال</a><a class="chip chip-sm" href="/genres/snyn">سنين</a><a class="chip chip-sm" href="/genres/hrb">حرب</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="s-layout">
+<div data-tabs-scope="">
+<div class="tabs-line s-tabs mb-2" role="tablist">
+<button class="tab is-active" data-tab="chapters" type="button">الفصول <span class="count">243</span></button>
+<button class="tab" data-tab="about" type="button">الملخص</button>
+<button class="tab" data-tab="reviews" type="button">المراجعات <span class="count">0</span></button>
+<button class="tab" data-tab="discussion" type="button">النقاش</button>
+</div>
+<!-- Chapters -->
+<section data-tab-panel="chapters">
+<p class="synopsis is-clamped mb-1" id="syn-short" style="-webkit-line-clamp:2">في النصف الثاني من القرن الثاني، تم بيع نارو، وهو محارب من ولاية كوريو، على أنه جلاد عبد للإمبراطورية الرومانية وشن كفاحًا يائسًا من أجل الحرية.</p>
+<div class="ch-toolbar">
+<div class="input-group"><input class="input input-sm" data-ch-search="" inputmode="decimal" placeholder="انتقل لفصل برقمه…" type="search"/></div>
+<button class="btn btn-sm btn-outline" data-ch-reverse="" type="button">عكس الترتيب</button>
+</div>
+<div class="ch-groups" data-ch-groups="">
+<button class="chip chip-sm is-on" data-ch-group="0" type="button">144 – 243</button>
+<button class="chip chip-sm" data-ch-group="1" type="button">44 – 143</button>
+<button class="chip chip-sm" data-ch-group="2" type="button">1 – 43</button>
+</div>
+<div class="ch-list" data-ch-list="">
+<div data-ch-group-body="0">
+<div class="ch-row" data-num="243">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-243">فصل 243</a></div>
+<div class="meta">
+<span>منذ يومين</span>
+<span>فريق كادر للترجمة</span> <span> 2</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="242">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-242">فصل 242</a></div>
+<div class="meta">
+<span>منذ يومين</span>
+<span>فريق كادر للترجمة</span> <span> 1</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="241">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-241">فصل 241</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="240">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-240">فصل 240</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="239">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-239">فصل 239</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="238">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-238">فصل 238</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="237">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-237">فصل 237</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="236">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-236">فصل 236</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="235">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-235">فصل 235</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="234">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-234">فصل 234</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="233">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-233">فصل 233</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="232">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-232">فصل 232</a></div>
+<div class="meta">
+<span>منذ 3 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="231">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-231">فصل 231</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="230">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-230">فصل 230</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="229">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-229">فصل 229</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="228">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-228">فصل 228</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="227">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-227">فصل 227</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="226">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-226">فصل 226</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="225">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-225">فصل 225</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="224">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-224">فصل 224</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="223">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-223">فصل 223</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="222">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-222">فصل 222</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="221">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-221">فصل 221</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="220">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-220">فصل 220</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="219">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-219">فصل 219</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="218">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-218">فصل 218</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="217">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-217">فصل 217</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="216">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-216">فصل 216</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="215">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-215">فصل 215</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="214">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-214">فصل 214</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="213">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-213">فصل 213</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="212">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-212">فصل 212</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="211">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-211">فصل 211</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="210">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-210">فصل 210</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="209">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-209">فصل 209</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="208">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-208">فصل 208</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="207">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-207">فصل 207</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="206">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-206">فصل 206</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="205">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-205">فصل 205</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="204">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-204">فصل 204</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="203">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-203">فصل 203</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="202">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-202">فصل 202</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="201">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-201">فصل 201</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="200">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-200">فصل 200</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="199">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-199">فصل 199</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="198">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-198">فصل 198</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="197">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-197">فصل 197</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="196">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-196">فصل 196</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="195">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-195">فصل 195</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="194">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-194">فصل 194</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="193">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-193">فصل 193</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="192">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-192">فصل 192</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="191">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-191">فصل 191</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="190">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-190">فصل 190</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="189">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-189">فصل 189</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="188">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-188">فصل 188</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="187">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-187">فصل 187</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="186">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-186">فصل 186</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="185">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-185">فصل 185</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="184">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-184">فصل 184<span class="ttl">: لن يزعجنا أحد</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="183">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-183">فصل 183<span class="ttl">: أعظم مأدبة</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="182">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-182">فصل 182<span class="ttl">: انتظرتك طويلًا</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="181">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-181">فصل 181<span class="ttl">: أنا وصديقي</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="180">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-180">فصل 180<span class="ttl">: غان جيانغ ومو يي</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="179">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-179">فصل 179<span class="ttl">: سنرى من سيموت أولًا!</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="178">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-178">فصل 178<span class="ttl">: هل بك شيء؟</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="177">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-177">فصل 177<span class="ttl">: هل رأيتم؟</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="176">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-176">فصل 176<span class="ttl">: مئة وحش</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="175">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-175">فصل 175<span class="ttl">: دوو</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="174">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-174">فصل 174<span class="ttl">: مدرب رئيسي</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="173">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-173">فصل 173<span class="ttl">: أمر الإمبراطور</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="172">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-172">فصل 172<span class="ttl">: الأصابع</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="171">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-171">فصل 171<span class="ttl">: الكبد</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="170">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-170">فصل 170<span class="ttl">: لماذا ترتجف؟</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="169">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-169">فصل 169<span class="ttl">: دائما ما تتأخر</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="168">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-168">فصل 168<span class="ttl">: ماذا يفعل الاطباء</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="167">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-167">فصل 167<span class="ttl">: دم الهيدرا</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="166">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-166">فصل 166<span class="ttl">: تحمل؟</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="165">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-165">فصل 165<span class="ttl">: أنت حر</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="164">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-164">فصل 164<span class="ttl">: ابيدوس</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="163">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-163">فصل 163<span class="ttl">: هيه هيه هيه!!</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="162">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-162">فصل 162<span class="ttl">: الضربة الاخيرة</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="161">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-161">فصل 161<span class="ttl">: تقنيات وطني؟</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="160">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-160">فصل 160<span class="ttl">: المواجهة الحاسمة</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="159">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-159">فصل 159<span class="ttl">: فن السيف الغوري</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="158">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-158">فصل 158<span class="ttl">: بداية المباراة</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="157">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-157">فصل 157<span class="ttl">: أحب شعبي</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="156">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-156">فصل 156<span class="ttl">: المباراة المنتظرة</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="155">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-155">فصل 155<span class="ttl">: بدل دموعك</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="154">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-154">فصل 154<span class="ttl">: العنكبوت!</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="153">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-153">فصل 153<span class="ttl">: البطولة!</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="152">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-152">فصل 152<span class="ttl">: أشعر بالنعاس</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="151">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-151">فصل 151<span class="ttl">: كيف نكشف السم؟</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="150">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-150">فصل 150<span class="ttl">: داخل الكوخ</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="149">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-149">فصل 149<span class="ttl">: الشراب</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="148">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-148">فصل 148<span class="ttl">: إيصال اللفافة</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="147">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-147">فصل 147<span class="ttl">: تجسيد بلوتو</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="146">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-146">فصل 146<span class="ttl">: طلب الأشقر</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="145">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-145">فصل 145<span class="ttl">: الموت المحتوم</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="144">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-144">فصل 144<span class="ttl">: لوحة الإعلانات</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+</div>
+<div data-ch-group-body="1" hidden="">
+<div class="ch-row" data-num="143">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-143">فصل 143<span class="ttl">: قائد الحرس</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="142">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-142">فصل 142<span class="ttl">: الجلاد رقم 28</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="141">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-141">فصل 141<span class="ttl">: إن كنت أنت</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="140">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-140">فصل 140<span class="ttl">: تحالف الخواتم الصفر</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="139">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-139">فصل 139<span class="ttl">: إرياس</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="138">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-138">فصل 138<span class="ttl">: نهر ستيكس</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="137">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-137">فصل 137<span class="ttl">: رجل غريب</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="136">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-136">فصل 136<span class="ttl">: طلب شوجا</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="135">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-135">فصل 135<span class="ttl">: بركة؟</span></a></div>
+<div class="meta">
+<span>منذ 6 أيام</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="134">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-134">فصل 134<span class="ttl">: جلادًا من الدرجة الأولى</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="133">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-133">فصل 133<span class="ttl">: البطولة</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="132">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-132">فصل 132<span class="ttl">: غوري</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="131">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-131">فصل 131<span class="ttl">: سموك!</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="130">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-130">فصل 130<span class="ttl">: إرياس استيقظ</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="129">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-129">فصل 129<span class="ttl">: قسم الستيكس</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="128">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-128">فصل 128<span class="ttl">: عملاق اشعث</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="127">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-127">فصل 127<span class="ttl">: مبتدئ؟</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="126">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-126">فصل 126<span class="ttl">: الجلادون الجدد</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="125">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-125">فصل 125<span class="ttl">: سأقتلك حتما!</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="124">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-124">فصل 124<span class="ttl">: التقنية الأخيرة</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="123">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-123">فصل 123<span class="ttl">: أونوس!</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="122">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-122">فصل 122<span class="ttl">: الانتقام</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="121">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-121">فصل 121<span class="ttl">: شوجا؟</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="120">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-120">فصل 120<span class="ttl">: فتح البوابة</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="119">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-119">فصل 119<span class="ttl">: اتبعوني!</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="118">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-118">فصل 118<span class="ttl">: مقاومة</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="117">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-117">فصل 117<span class="ttl">: تهديد!!</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="116">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-116">فصل 116<span class="ttl">: الكتائب</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="115">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-115">فصل 115<span class="ttl">: إسقاطُ العرباتِ المنجلية</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="114">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-114">فصل 114<span class="ttl">: صدفةُ السلحفاة</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="113">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-113">فصل 113<span class="ttl">: الملكُ في خطِّ المواجهة</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="112">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-112">فصل 112<span class="ttl">: الموتُ "الطبيعي" لرجلٍ حر</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="111">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-111">فصل 111<span class="ttl">: رابطُ العائلةِ المكسور</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="110">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-110">فصل 110<span class="ttl">: الفرصةُ الأخيرة</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="109">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-109">فصل 109</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="108">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-108">فصل 108</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="107">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-107">فصل 107</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="106">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-106">فصل 106<span class="ttl">: النقش الذهبي</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="105">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-105">فصل 105<span class="ttl">: قائد الجيش</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="104">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-104">فصل 104</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="103">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-103">فصل 103</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="102">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-102">فصل 102</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="101">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-101">فصل 101</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="100">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-100">فصل 100</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="99">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-99">فصل 99</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="98">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-98">فصل 98</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="97">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-97">فصل 97</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="96">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-96">فصل 96</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="95">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-95">فصل 95</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="94">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-94">فصل 94</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="93">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-93">فصل 93</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="92">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-92">فصل 92</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="91">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-91">فصل 91</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="90">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-90">فصل 90</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="89">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-89">فصل 89</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="88">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-88">فصل 88</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="87">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-87">فصل 87</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="86">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-86">فصل 86</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="85">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-85">فصل 85</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="84">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-84">فصل 84</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="83">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-83">فصل 83</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="82">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-82">فصل 82</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="81">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-81">فصل 81</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="80">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-80">فصل 80</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="79">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-79">فصل 79</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="78">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-78">فصل 78</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="77">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-77">فصل 77</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="76">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-76">فصل 76</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="75">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-75">فصل 75</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="74">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-74">فصل 74</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="73">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-73">فصل 73</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="72">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-72">فصل 72<span class="ttl">: عظمه يا عباس</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="71">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-71">فصل 71</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="70">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-70">فصل 70</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="69">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-69">فصل 69</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="68">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-68">فصل 68</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="67">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-67">فصل 67<span class="ttl">: فصل جامد</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="66">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-66">فصل 66<span class="ttl">: ياه علي كسفه</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="65">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-65">فصل 65</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="64">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-64">فصل 64</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="63">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-63">فصل 63</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="62">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-62">فصل 62</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="61">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-61">فصل 61</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="60">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-60">فصل 60</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="59">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-59">فصل 59<span class="ttl">: رقم</span></a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="58">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-58">فصل 58</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="57">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-57">فصل 57</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="56">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-56">فصل 56</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="55">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-55">فصل 55</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="54">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-54">فصل 54</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="53">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-53">فصل 53</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="52">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-52">فصل 52</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="51">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-51">فصل 51</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="50">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-50">فصل 50</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="49">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-49">فصل 49</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="48">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-48">فصل 48</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="47">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-47">فصل 47</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="46">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-46">فصل 46</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="45">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-45">فصل 45</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="44">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-44">فصل 44</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+</div>
+<div data-ch-group-body="2" hidden="">
+<div class="ch-row" data-num="43">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-43">فصل 43</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="42">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-42">فصل 42</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="41">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-41">فصل 41</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="40">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-40">فصل 40</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="39">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-39">فصل 39</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="38">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-38">فصل 38</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="37">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-37">فصل 37</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="36">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-36">فصل 36</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="35">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-35">فصل 35</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="34">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-34">فصل 34</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="33">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-33">فصل 33</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="32">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-32">فصل 32</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="31">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-31">فصل 31</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="30">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-30">فصل 30</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="29">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-29">فصل 29</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="28">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-28">فصل 28</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="27">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-27">فصل 27</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="26">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-26">فصل 26</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="25">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-25">فصل 25</a></div>
+<div class="meta">
+<span>منذ أسبوع</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="24">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-24">فصل 24</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="23">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-23">فصل 23</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="22">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-22">فصل 22</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="21">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-21">فصل 21</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="20">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-20">فصل 20</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="19">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-19">فصل 19</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="18">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-18">فصل 18<span class="ttl">: آخيرًا جالكم</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="17">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-17">فصل 17<span class="ttl">: Cp</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="16">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-16">فصل 16</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="15">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-15">فصل 15</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="14">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-14">فصل 14</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="13">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-13">فصل 13<span class="ttl">: الخروج عن المألوف</span></a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="12">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-12">فصل 12</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="11">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-11">فصل 11</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="10">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-10">فصل 10</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="9">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-9">فصل 9</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="8">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-8">فصل 8</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="7">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-7">فصل 7</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="6">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-6">فصل 6</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="5">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-5">فصل 5</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="4">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-4">فصل 4</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="3">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-3">فصل 3</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="2">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-2">فصل 2</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+<div class="ch-row" data-num="1">
+<div style="min-width:0">
+<div class="num"><a href="/series/lww/chapter-1">فصل 1</a></div>
+<div class="meta">
+<span>منذ أسبوعين</span>
+<span>فريق كادر للترجمة</span> <span> 0</span>
+</div>
+</div>
+<div class="side">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About -->
+<section data-tab-panel="about" hidden="">
+<div class="panel">
+<p class="synopsis is-clamped" id="syn-full">في النصف الثاني من القرن الثاني، تم بيع نارو، وهو محارب من ولاية كوريو، على أنه جلاد عبد للإمبراطورية الرومانية وشن كفاحًا يائسًا من أجل الحرية.</p>
+<hr class="divider"/>
+<div class="stat-grid">
+<div class="stat-box"><b>243</b><span>فصول مترجمة</span></div>
+<div class="stat-box"><b>5 أكتوبر 2026</b><span>أُضيف للمنصة</span></div>
+</div>
+</div>
+</section>
+<!-- Reviews -->
+<section data-tab-panel="reviews" hidden="">
+<div class="panel mb-3">
+<div class="row gap-3 wrap" style="align-items:center">
+<div class="center score-box"><div class="big-score">—</div>
+<div aria-label="0 من 5" class="stars"></div>
+<div class="tiny muted mt-1">من 0 تقييم</div></div>
+<div class="dist grow" style="min-width:200px">
+<div class="dist-row"><span class="nowrap">5 </span><span class="dist-bar"><span style="width:0%"></span></span><span>0</span></div>
+<div class="dist-row"><span class="nowrap">4 </span><span class="dist-bar"><span style="width:0%"></span></span><span>0</span></div>
+<div class="dist-row"><span class="nowrap">3 </span><span class="dist-bar"><span style="width:0%"></span></span><span>0</span></div>
+<div class="dist-row"><span class="nowrap">2 </span><span class="dist-bar"><span style="width:0%"></span></span><span>0</span></div>
+<div class="dist-row"><span class="nowrap">1 </span><span class="dist-bar"><span style="width:0%"></span></span><span>0</span></div>
+</div>
+</div>
+<hr class="divider"/>
+<p class="small muted"><a class="link" href="/auth/signin">سجّل دخولك</a> لتقييم العمل وكتابة مراجعة.</p> </div>
+<div class="stack" data-reviews="" style="--stack:12px">
+<div class="empty">
+<div class="art"></div>
+<h3>لا مراجعات بعد</h3>
+<p>كن أول من يكتب رأيه بهذا العمل.</p> </div>
+</div>
+</section>
+<!-- Discussion -->
+<section data-tab-panel="discussion" hidden="">
+<section class="comments" data-chnum="" data-comments="" data-id="1184" data-series="1184" data-type="series" id="comments">
+<div class="section-head wrap">
+<h2 class="section-title">نقاش العمل <span class="muted small" data-c-total=""></span></h2>
+<div class="tabs" role="tablist">
+<button class="tab is-active" data-c-sort="top" type="button">الأفضل</button>
+<button class="tab" data-c-sort="new" type="button">الأحدث</button>
+<button class="tab" data-c-sort="old" type="button">الأقدم</button>
+</div>
+</div>
+<div class="notice mb-3"><span><a class="link" href="/auth/signin">سجّل دخولك</a> للمشاركة في النقاش. القراءة متاحة للجميع.</span></div>
+<div data-c-list=""><div class="spinner"></div></div>
+<div class="center mt-2"><button class="btn btn-outline btn-sm" data-c-more="" hidden="" type="button">تحميل المزيد</button></div>
+</section>
+</section>
+</div>
+<aside class="stack" style="--stack:22px"><div class="panel"><div class="panel-head"><b>قرّاء هذا العمل قرأوا أيضاً</b></div>
+<div class="ranked"><div class="ranked-item" style="grid-template-columns:52px 1fr"><span class="cv"><img alt="غلاف رواية البداية بعد النهاية" loading="lazy" src="/media/covers/2026/10/114ef4bb7db859c5-sm.webp"/></span><div><a class="t clamp-1 cover-link" href="/series/beginning-after-the-end">البداية بعد النهاية</a><div class="m">رواية · ★ 4</div></div></div><div class="ranked-item" style="grid-template-columns:52px 1fr"><span class="cv"><img alt="غلاف مانهوا Helmut: the Forsaken Child" loading="lazy" src="/media/covers/2026/10/392d5bf95700d7f2-sm.webp"/></span><div><a class="t clamp-1 cover-link" href="/series/ntnjoj">Helmut: the Forsaken Child</a><div class="m">مانهوا</div></div></div><div class="ranked-item" style="grid-template-columns:52px 1fr"><span class="cv"><img alt="غلاف مانها Demonic Emperor" loading="lazy" src="/media/covers/2026/10/a76a1331d7ea6d41-sm.webp"/></span><div><a class="t clamp-1 cover-link" href="/series/demonic-emperor">Demonic Emperor</a><div class="m">مانها</div></div></div><div class="ranked-item" style="grid-template-columns:52px 1fr"><span class="cv"><img alt="غلاف مانهوا gosu" loading="lazy" src="/media/covers/2026/10/29679d94a0052dab-sm.webp"/></span><div><a class="t clamp-1 cover-link" href="/series/zschkw">gosu</a><div class="m">مانهوا</div></div></div><div class="ranked-item" style="grid-template-columns:52px 1fr"><span class="cv"><img alt="غلاف مانها Tales of Demons and Gods" loading="lazy" src="/media/covers/2026/10/e3de317cd927bb51-sm.webp"/></span><div><a class="t clamp-1 cover-link" href="/series/tales-of-demons-and-gods">Tales of Demons and Gods</a><div class="m">مانها</div></div></div><div class="ranked-item" style="grid-template-columns:52px 1fr"><span class="cv"><img alt="غلاف رواية السجل البدائي" loading="lazy" src="/media/covers/2026/10/fa036ab620e932e5-sm.webp"/></span><div><a class="t clamp-1 cover-link" href="/series/the-primordial-record">السجل البدائي</a><div class="m">رواية</div></div></div></div>
+</div></aside> </div>
+<section class="section">
+<div class="section-head"><h2 class="section-title">أعمال مشابهة</h2></div>
+<div class="rail" data-rail=""><button aria-label="السابق" class="rail-btn prev" data-rail-prev="" type="button"></button>
+<div class="rail-track" data-rail-track=""><article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Undefeatable Swordsman" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/6b3c963ad8c5ba17-sm.webp" style="background:#3a3f74" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/ajgmtscfhvx">The Undefeatable Swordsman</a></h3>
+<div class="card-meta"><span>فصل 269</span><span class="clamp-1">أكشن، غموض</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Memoir Of The King Of War" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/ce170533389b2b9d-sm.webp" style="background:#276a8e" width="300"/>
+<span class="shade"></span>
+<span class="card-status completed" title="مكتمل"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/kow">Memoir Of The King Of War</a></h3>
+<div class="card-meta"><span>فصل 255</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Necromancer of a Renowned Sword Family" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/a99fbda6322e2855-sm.webp" style="background:#1e3158" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-necromancer-of-a-renowned-sword-family">The Necromancer of a Renowned Sword Family</a></h3>
+<div class="card-meta"><span>فصل 31</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Divine Demon’s Grand Ascension" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/6e4fb14d732abe6c-sm.webp" style="background:#592e23" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-divine-demons-grand-ascension">The Divine Demon’s Grand Ascension</a></h3>
+<div class="card-meta"><span>فصل 71</span><span class="clamp-1">أكشن، دراما</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="World Destruction War" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/dd4e1840009de9fe-sm.webp" style="background:#554e96" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/world-destruction-war">World Destruction War</a></h3>
+<div class="card-meta"><span>فصل 12</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Dark and Light Martial Emperor" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/e9e3323dfa622c62-sm.webp" style="background:#ad9fa0" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/dark-and-light-martial-emperor">Dark and Light Martial Emperor</a></h3>
+<div class="card-meta"><span>فصل 73</span><span class="clamp-1">أكشن، مغامرة</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="Zombie Fight" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/f7895e8d0ca26586-sm.webp" style="background:#524841" width="300"/>
+<span class="shade"></span>
+<span class="card-status completed" title="مكتمل"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/zombie-fight">Zombie Fight</a></h3>
+<div class="card-meta"><span>فصل 63</span><span class="clamp-1">أكشن، دراما</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Black" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/97510697cc6a16cf-sm.webp" style="background:#626069" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-black-haired-knight-king">The Black</a></h3>
+<div class="card-meta"><span>فصل 14</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manga">مانجا</span>
+<img alt="The Assassin Clan’s Youngest Returns with Five Demon Kings’ Powers" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/148762cf67b2d6c1-sm.webp" style="background:#7158a2" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/the-assassin-clans-youngest-returns-with-five-demon-kings-powers">The Assassin Clan’s Youngest Returns with Five Demon Kings’ Powers</a></h3>
+<div class="card-meta"><span>فصل 26</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+<article class="card">
+<div class="card-cover">
+<span class="type-badge type-manhwa">مانهوا</span>
+<img alt="The Heavenly Demon Can't Live A Normal Life" decoding="async" height="450" loading="lazy" src="/media/covers/2026/10/198d66c5c8264a50-sm.webp" style="background:#5c373e" width="300"/>
+<span class="shade"></span>
+<span class="card-status ongoing" title="مستمر"></span>
+</div>
+<h3 class="card-title clamp-2"><a href="/series/hdnl">The Heavenly Demon Can't Live A Normal Life</a></h3>
+<div class="card-meta"><span>فصل 209</span><span class="clamp-1">أكشن، فانتازيا</span></div>
+</article>
+</div>
+<button aria-label="التالي" class="rail-btn next" data-rail-next="" type="button"></button></div>
+</section>
+</div>
+</main>
+
+<nav aria-label="تنقل سريع" class="bottom-nav" id="bottom-nav">
+<a class="" href="/">الرئيسية</a>
+<a class="is-active" href="/series">المكتبة</a>
+<button data-search-open="" type="button">البحث</button>
+<a class="" href="/library">مكتبتي</a>
+<button aria-haspopup="true" class="bn-more" data-menu-toggle="" type="button">المزيد</button>
+<div aria-label="كل الأقسام" class="menu site-menu">
+<div class="sm-head"><b>كل الأقسام</b></div>
+<nav aria-label="الأقسام" class="sm-grid">
+<a class="" href="/watch"><span class="sm-ic"></span><span>أفلام ومسلسلات</span></a>
+<a class="is-on" href="/series"><span class="sm-ic"></span><span>المكتبة</span></a>
+<a class="" href="/latest"><span class="sm-ic"></span><span>أحدث الفصول</span></a>
+<a class="" href="/novels"><span class="sm-ic"></span><span>الروايات</span></a>
+<a class="" href="/genres"><span class="sm-ic"></span><span>التصنيفات</span></a>
+<a class="" href="/community"><span class="sm-ic"></span><span>المجتمع</span></a>
+<a class="" href="/community/chat"><span class="sm-ic"></span><span>الدردشة المباشرة</span></a>
+<a class="" href="/leaderboard"><span class="sm-ic"></span><span>الصدارة</span></a>
+<a class="" href="/store/cosmetics"><span class="sm-ic"></span><span>استوديو الزينة</span></a>
+<a class="" href="/store"><span class="sm-ic"></span><span>شحن الجواهر</span></a>
+<a class="" href="/teams"><span class="sm-ic"></span><span>فرق الترجمة</span></a>
+<a class="" href="/community/events"><span class="sm-ic"></span><span>الفعاليات</span></a>
+<a class="" href="/announcements"><span class="sm-ic"></span><span>الإعلانات</span></a>
+<a class="" href="/levels"><span class="sm-ic"></span><span>المستويات</span></a>
+<a class="" href="/random" rel="nofollow"><span class="sm-ic"></span><span>عمل عشوائي</span></a>
+</nav>
+<hr/>
+<a href="/auth/signin">تسجيل الدخول</a>
+<a href="/auth/signup">إنشاء حساب مجاني</a>
+<button class="mi" data-theme-cycle="" type="button"><span>المظهر: <span data-theme-label="">تلقائي</span></span></button>
+<hr/>
+<div class="sm-links">
+<a href="/faq">الأسئلة الشائعة</a><a href="/contact">تواصل معنا</a><a href="/rules">القواعد</a><a href="/privacy">الخصوصية</a>
+</div>
+</div>
+</nav>
+<div aria-label="البحث" aria-modal="true" class="search-overlay" id="search-overlay" role="dialog">
+<div class="modal-backdrop" data-search-close=""></div>
+<div class="search-panel">
+<form action="/search" class="search-box" method="get" role="search">
+ <input aria-autocomplete="list" aria-controls="search-results" aria-label="البحث عن عمل أو مؤلف" autocomplete="off" enterkeyhint="search" id="search-input" name="q" placeholder="اسم العمل بالعربي أو الإنجليزي أو الكوري، أو اسم المؤلف…" spellcheck="false" type="search"/>
+<button aria-label="إغلاق" class="icon-btn" data-search-close="" type="button"></button>
+</form>
+<div class="search-results" id="search-results" role="listbox">
+<div data-search-idle="">
+<div data-recent-wrap="" hidden=""><div class="sr-group"><span>آخر عمليات بحثك</span><button class="link tiny" data-recent-clear="" type="button">مسح</button></div><div class="chips" data-recent="" style="padding:6px 12px 10px"></div></div>
+<div class="sr-group"><span>عمليات البحث الشائعة</span></div>
+<div class="chips" style="padding:6px 12px 12px">
+<a class="chip chip-sm" data-search-fill="Game of thrones" href="/search?q=Game+of+thrones">Game of thrones</a><a class="chip chip-sm" data-search-fill="The" href="/search?q=The">The</a><a class="chip chip-sm" data-search-fill="One piece" href="/search?q=One+piece">One piece</a><a class="chip chip-sm" data-search-fill="One" href="/search?q=One">One</a><a class="chip chip-sm" data-search-fill="game of" href="/search?q=game+of">game of</a><a class="chip chip-sm" data-search-fill="Black" href="/search?q=Black">Black</a><a class="chip chip-sm" data-search-fill="The God Of Death" href="/search?q=The+God+Of+Death">The God Of Death</a><a class="chip chip-sm" data-search-fill="Spi" href="/search?q=Spi">Spi</a> </div>
+<div class="sr-empty small">ابدأ الكتابة، النتائج تظهر فوراً. يمكنك كتابة الاسم بأي لغة أو حتى مع خطأ إملائي.</div>
+</div>
+<div data-search-out=""></div>
+</div>
+<div class="sr-foot"><span><kbd>↑</kbd> <kbd>↓</kbd> للتنقل</span><span><kbd>Enter</kbd> للفتح</span><span><kbd>Esc</kbd> للإغلاق</span></div>
+</div>
+</div>
+<div aria-labelledby="report-title" aria-modal="true" class="modal sheet" id="report-modal" role="dialog">
+<div class="modal-backdrop" data-modal-close=""></div>
+<div class="modal-box">
+<div class="modal-head"><h3 id="report-title"> إبلاغ</h3><button aria-label="إغلاق" class="icon-btn" data-modal-close="" type="button"></button></div>
+<form data-report-form="">
+<input name="target_type" type="hidden"/>
+<input name="target_id" type="hidden"/>
+<input name="context_url" type="hidden"/>
+<div class="field"><span>السبب</span>
+<div class="chips" data-reasons="">
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="abuse"/><span class="chip chip-sm">إساءة</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="spoiler"/><span class="chip chip-sm">حرق غير معلَّم</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="spam"/><span class="chip chip-sm">إعلان أو سبام</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="inappropriate"/><span class="chip chip-sm">محتوى غير لائق</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="missing_pages"/><span class="chip chip-sm">صور ناقصة أو مكسورة</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="wrong_order"/><span class="chip chip-sm">ترتيب خاطئ</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="bad_translation"/><span class="chip chip-sm">ترجمة سيئة</span></label>
+<label data-reason-for="chapter series"><input class="sr-only" name="reason" required="" type="radio" value="wrong_chapter"/><span class="chip chip-sm">فصل خاطئ</span></label>
+<label data-reason-for="site chapter series"><input class="sr-only" name="reason" required="" type="radio" value="bug"/><span class="chip chip-sm">مشكلة تقنية</span></label>
+<label data-reason-for="site chapter series"><input class="sr-only" name="reason" required="" type="radio" value="copyright"/><span class="chip chip-sm">حقوق ملكية</span></label>
+<label data-reason-for="comment post user review chat_message"><input class="sr-only" name="reason" required="" type="radio" value="other"/><span class="chip chip-sm">أخرى</span></label>
+</div>
+</div>
+<label class="field"><span>تفاصيل (اختياري)</span><textarea class="textarea" maxlength="1000" name="details" placeholder="مثال: الصورة رقم ١٢ لا تظهر" rows="3"></textarea></label>
+<div data-report-captcha=""><div aria-hidden="true" class="hp"><label>اترك هذا الحقل فارغاً<input autocomplete="off" name="website" tabindex="-1" type="text"/></label></div><label class="field captcha-q"><span>تحقق سريع: كم ناتج 2 + 7؟</span><input autocomplete="off" class="input" inputmode="numeric" name="captcha" required="" type="text"/></label></div> <button class="btn btn-primary btn-block" type="submit">إرسال البلاغ</button>
+<p class="muted tiny mt-2 center">سنُعلمك بنتيجة البلاغ عند معالجته.</p>
+</form>
+</div>
+</div>
+<template id="gift-modal-tpl"><div aria-labelledby="gift-title" aria-modal="true" class="modal gift-modal" data-gift-invite="1" id="gift-modal" role="dialog">
+<div class="modal-backdrop" data-modal-close=""></div>
+<div class="modal-box">
+<div aria-hidden="true" class="gift-burst"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div aria-hidden="true" class="gift-gem"></div>
+<h3 id="gift-title">هدية لكل عضو جديد</h3>
+<div class="gift-amount"><bdi dir="ltr">+250</bdi> <small>جواهر</small></div>
+<p class="gift-msg">أنشئ حسابك الآن ووثّق بريدك، فتصلك الهدية في محفظتك. العرض حتى 2026/10/30.</p>
+<div class="gift-actions">
+<a autofocus="" class="btn btn-primary" href="/auth/signup">أنشئ حسابي</a>
+<button class="btn btn-ghost" data-modal-close="" type="button">لاحقاً</button>
+</div>
+<button aria-label="إغلاق" class="icon-btn gift-close" data-modal-close="" type="button"></button>
+</div>
+</div>
+</template><a aria-label="شات القراءة" class="community-launcher" data-community-launch="" href="/community/chat" title="إلى المجتمع"></a><div aria-live="polite" class="toasts" id="toasts"></div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+[
+  {
+    "chapter": "201716",
+    "dim": [
+      720,
+      5000
+    ],
+    "rects": [
+      {
+        "left": 0,
+        "top": 0,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 144,
+        "top": 0,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 288,
+        "top": 0,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 432,
+        "top": 0,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 576,
+        "top": 0,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 0,
+        "top": 2500,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 144,
+        "top": 2500,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 288,
+        "top": 2500,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 432,
+        "top": 2500,
+        "width": 144,
+        "height": 2500
+      },
+      {
+        "left": 576,
+        "top": 2500,
+        "width": 144,
+        "height": 2500
+      }
+    ]
+  },
+  {
+    "chapter": "33464",
+    "dim": [
+      720,
+      3780
+    ],
+    "rects": [
+      {
+        "left": 0,
+        "top": 0,
+        "width": 720,
+        "height": 1890
+      },
+      {
+        "left": 0,
+        "top": 1890,
+        "width": 720,
+        "height": 1890
+      }
+    ]
+  },
+  {
+    "chapter": "213362",
+    "dim": [
+      800,
+      1380
+    ],
+    "rects": [
+      {
+        "left": 0,
+        "top": 0,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 160,
+        "top": 0,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 320,
+        "top": 0,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 480,
+        "top": 0,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 640,
+        "top": 0,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 0,
+        "top": 690,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 160,
+        "top": 690,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 320,
+        "top": 690,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 480,
+        "top": 690,
+        "width": 160,
+        "height": 690
+      },
+      {
+        "left": 640,
+        "top": 690,
+        "width": 160,
+        "height": 690
+      }
+    ]
+  }
+]
