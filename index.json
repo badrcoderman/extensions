@@ -2,11 +2,11 @@
   {
     "name": "Tachiyomi: MangaRabi",
     "pkg": "eu.kanade.tachiyomi.extension.ar.mangarabi",
-    "apk": "tachiyomi-ar.mangarabi-v1.4.3.apk",
-    "jar": "tachiyomi-ar.mangarabi-v1.4.3.jar",
+    "apk": "tachiyomi-ar.mangarabi-v1.4.4.apk",
+    "jar": "tachiyomi-ar.mangarabi-v1.4.4.jar",
     "lang": "ar",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 1,
     "sources": [
       {
@@ -21,11 +21,11 @@
   {
     "name": "Tachiyomi: HikayaTeam",
     "pkg": "eu.kanade.tachiyomi.extension.ar.hikayateam",
-    "apk": "tachiyomi-ar.hikayateam-v1.4.3.apk",
-    "jar": "tachiyomi-ar.hikayateam-v1.4.3.jar",
+    "apk": "tachiyomi-ar.hikayateam-v1.4.4.apk",
+    "jar": "tachiyomi-ar.hikayateam-v1.4.4.jar",
     "lang": "ar",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 1,
     "sources": [
       {
@@ -40,11 +40,11 @@
   {
     "name": "Tachiyomi: MangaSid",
     "pkg": "eu.kanade.tachiyomi.extension.ar.mangasid",
-    "apk": "tachiyomi-ar.mangasid-v1.4.2.apk",
-    "jar": "tachiyomi-ar.mangasid-v1.4.2.jar",
+    "apk": "tachiyomi-ar.mangasid-v1.4.3.apk",
+    "jar": "tachiyomi-ar.mangasid-v1.4.3.jar",
     "lang": "ar",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
@@ -59,11 +59,11 @@
   {
     "name": "Tachiyomi: Assassin Scans",
     "pkg": "eu.kanade.tachiyomi.extension.ar.assassinscans",
-    "apk": "tachiyomi-ar.assassinscans-v1.4.2.apk",
-    "jar": "tachiyomi-ar.assassinscans-v1.4.2.jar",
+    "apk": "tachiyomi-ar.assassinscans-v1.4.3.apk",
+    "jar": "tachiyomi-ar.assassinscans-v1.4.3.jar",
     "lang": "ar",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
@@ -78,11 +78,11 @@
   {
     "name": "Tachiyomi: KadrHub",
     "pkg": "eu.kanade.tachiyomi.extension.ar.kadrhub",
-    "apk": "tachiyomi-ar.kadrhub-v1.4.2.apk",
-    "jar": "tachiyomi-ar.kadrhub-v1.4.2.jar",
+    "apk": "tachiyomi-ar.kadrhub-v1.4.3.apk",
+    "jar": "tachiyomi-ar.kadrhub-v1.4.3.jar",
     "lang": "ar",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
@@ -97,11 +97,11 @@
   {
     "name": "Tachiyomi: ManhwaLek",
     "pkg": "eu.kanade.tachiyomi.extension.ar.manhwalek",
-    "apk": "tachiyomi-ar.manhwalek-v1.4.2.apk",
-    "jar": "tachiyomi-ar.manhwalek-v1.4.2.jar",
+    "apk": "tachiyomi-ar.manhwalek-v1.4.3.apk",
+    "jar": "tachiyomi-ar.manhwalek-v1.4.3.jar",
     "lang": "ar",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
@@ -116,11 +116,11 @@
   {
     "name": "Tachiyomi: Mangawy",
     "pkg": "eu.kanade.tachiyomi.extension.ar.mangawy",
-    "apk": "tachiyomi-ar.mangawy-v1.4.2.apk",
-    "jar": "tachiyomi-ar.mangawy-v1.4.2.jar",
+    "apk": "tachiyomi-ar.mangawy-v1.4.3.apk",
+    "jar": "tachiyomi-ar.mangawy-v1.4.3.jar",
     "lang": "ar",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
@@ -135,11 +135,11 @@
   {
     "name": "Tachiyomi: Man9a",
     "pkg": "eu.kanade.tachiyomi.extension.ar.man9a",
-    "apk": "tachiyomi-ar.man9a-v1.4.2.apk",
-    "jar": "tachiyomi-ar.man9a-v1.4.2.jar",
+    "apk": "tachiyomi-ar.man9a-v1.4.3.apk",
+    "jar": "tachiyomi-ar.man9a-v1.4.3.jar",
     "lang": "ar",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
@@ -154,11 +154,11 @@
   {
     "name": "Tachiyomi: MangaWeekly",
     "pkg": "eu.kanade.tachiyomi.extension.ar.mangaweekly",
-    "apk": "tachiyomi-ar.mangaweekly-v1.4.2.apk",
-    "jar": "tachiyomi-ar.mangaweekly-v1.4.2.jar",
+    "apk": "tachiyomi-ar.mangaweekly-v1.4.3.apk",
+    "jar": "tachiyomi-ar.mangaweekly-v1.4.3.jar",
     "lang": "en",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
@@ -173,11 +173,11 @@
   {
     "name": "Tachiyomi: ProComic",
     "pkg": "eu.kanade.tachiyomi.extension.ar.procomic",
-    "apk": "tachiyomi-ar.procomic-v1.6.3.apk",
-    "jar": "tachiyomi-ar.procomic-v1.6.3.jar",
+    "apk": "tachiyomi-ar.procomic-v1.6.4.apk",
+    "jar": "tachiyomi-ar.procomic-v1.6.4.jar",
     "lang": "ar",
-    "code": 106003,
-    "version": "1.6.3",
+    "code": 106004,
+    "version": "1.6.4",
     "nsfw": 1,
     "sources": [
       {
