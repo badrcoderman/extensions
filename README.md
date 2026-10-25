@@ -13,7 +13,7 @@ A focused fork of [keiyoushi/extensions](https://github.com/keiyoushi/extensions
 | Mangawy | [mangawy.org](https://mangawy.org) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangawy-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangawy-v1.4.1.apk) |
 | Man9a | [man9a.net](https://man9a.net) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.man9a-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.man9a-v1.4.1.apk) |
 | MangaWeekly | [www.mangaweekly.com](https://www.mangaweekly.com) | en | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.mangaweekly-v1.4.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.mangaweekly-v1.4.1.apk) |
-| ProComic | [procomic.pro](https://procomic.pro) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.procomic-v1.6.1.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.procomic-v1.6.1.apk) |
+| ProComic | [procomic.pro](https://procomic.pro) | ar | [JAR](https://raw.githubusercontent.com/badrcoderman/extensions/repo/jar/tachiyomi-ar.procomic-v1.6.2.jar) | [APK](https://raw.githubusercontent.com/badrcoderman/extensions/repo/apk/tachiyomi-ar.procomic-v1.6.2.apk) |
 
 ## Install
 

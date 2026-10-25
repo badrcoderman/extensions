@@ -20,7 +20,7 @@ Three real plans, including the reported chapter `213362`, a shuffled ten-piece 
 - Upstream source: [ProComic at commit 8f504748a2f6](https://github.com/keiyoushi/extensions-source/tree/8f504748a2f6/src/ar/procomic).
 - Original JAR: [ProComic 1.6.0, release 7363e42](https://github.com/keiyoushi/extensions/releases/download/7363e42/tachiyomi-ar.procomic-v1.6.0.jar).
 - SHA-256: `377b1046c3f58dc10cb74c338c6ae6a90980e0925f0ba55103d3a15304c4cf49`.
-- Fork version: **1.6.1**, code **106001**, API **1.6**.
+- Fork version: **1.6.2**, code **106002**, API **1.6**.
 - Source ID: **8891921907305143070**, unchanged.
 
 The same patched classes are packaged as a signed JAR and compiled to Android DEX for the signed APK. They use this fork's signing certificate, so replacing an upstream installation requires uninstalling its extension package first.
@@ -28,3 +28,7 @@ The same patched classes are packaged as a signed JAR and compiled to Android DE
 ## Testing limits
 
 The user-provided error confirms the missing method. Automated checks verify the patch and package structure; earlier network checks validated catalogs, chapters, reader data, CDN signing and image pieces. An iOS device is unavailable here, so this document does not claim a successful reading session inside Tachimanga. Any second error requires its complete message for a separate diagnosis.
+
+## Required-class hotfix (1.6.2)
+
+The 1.6.1 JAR accidentally omitted `eu/kanade/tachiyomi/a/a/a/R.class`: a generic resource exclusion matched an obfuscated implementation class. Version 1.6.2 excludes resource classes only inside the application's own resource package. Packaging now verifies that all 125 upstream implementation classes remain in the signed JAR. The reported `NoClassDefFoundError` identifies this missing class.

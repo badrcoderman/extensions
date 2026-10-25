@@ -106,6 +106,11 @@ def main():
             assert "AndroidManifest.xml" in jar.namelist()
             main = config['mainClass'].replace('.', '/') + '.class' if '.' in config['mainClass'] else f"eu/kanade/tachiyomi/extension/ar/{slug}/{config['mainClass']}.class"
             assert main in jar.namelist()
+            if slug == 'procomic':
+                with zipfile.ZipFile(module / 'build/upstream/procomic.jar') as original:
+                    expected_classes = {path for path in original.namelist() if path.endswith('.class')}
+                actual_classes = {path for path in jar.namelist() if path.endswith('.class')}
+                assert expected_classes <= actual_classes, f"Required ProComic classes missing: {sorted(expected_classes - actual_classes)}"
             for path in jar.namelist():
                 if path.endswith(".class"):
                     data = jar.read(path)

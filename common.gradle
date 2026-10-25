@@ -63,7 +63,9 @@ tasks.register('extensionJar', Jar) {
     archiveFileName = "tachiyomi-ar.${project.name}-v1.4.${project.ext.extVersionCode}-classes.jar"
     destinationDirectory = layout.buildDirectory.dir('outputs/jar')
     from layout.buildDirectory.dir('tmp/kotlin-classes/release')
-    exclude '**/R.class', '**/R$*.class', '**/BuildConfig.class', 'META-INF/*.kotlin_module'
+    // Obfuscated upstream code may legitimately contain a class named R.
+    def resourcePackage = android.namespace.replace('.', '/')
+    exclude "${resourcePackage}/R.class", "${resourcePackage}/R\$*.class", "${resourcePackage}/BuildConfig.class", 'META-INF/*.kotlin_module'
     preserveFileTimestamps = false
     reproducibleFileOrder = true
 }
