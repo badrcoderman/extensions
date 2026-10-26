@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "source_commit": "e6ba19d76bca782a9f5cb913df547aeba07bc43a",
+  "published_commit": "5a46045",
+  "ci_run": "https://github.com/badrcoderman/extensions/actions/runs/40305881879",
+  "junit": {"declared": 257, "executed": 236, "skipped": 21, "failures": 0, "errors": 0},
+  "report_privacy_tests_passed": 2,
+  "published_source_count": 10,
+  "published_package_hashes_verified": 20,
+  "procomic": {
+    "version": "1.6.5",
+    "upstream_classes_preserved": 125,
+    "published_helpers_matching_local_test_build": 83,
+    "published_jar_suwayomi_graphics_fixture": {
+      "fixture": "Six shuffled PNG pieces, 200 ms server delay per transfer",
+      "dimensions_and_all_destination_colors": "PASS",
+      "transferred_bytes_identical": true,
+      "serial_ms": 1482,
+      "parallel_ms": 765,
+      "observed_parallel_transfers": 3,
+      "scope": "Controlled PNG fixture in the provided Suwayomi graphics runtime; does not verify AVIF or complete live reading"
+    },
+    "live_check": {
+      "catalog_http_status": 200,
+      "reader_requires_turnstile": true,
+      "protocol_check": "FAILED before deferred-media/map verification"
+    }
+  },
+  "all_sites_live_pass": false,
+  "live_limitations": [
+    "Assassin Scans returned an unsuccessful HTTP response in two GitHub live-check attempts; tracked in issue #2.",
+    "An interrupted local live run encountered DNS failures for Man9a and MangaRabi and did not complete the full suite."
+  ],
+  "physical_device_independently_tested": false
+}

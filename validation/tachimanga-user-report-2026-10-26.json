@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-26",
+  "host": "Tachimanga on iOS",
+  "extension": "Sandbox Diagnostics",
+  "version": "1.4.1",
+  "evidence_type": "user_reported",
+  "independently_observed": false,
+  "results": [
+    {"probe": "jvm", "outcome": "PASS"},
+    {"probe": "storage", "outcome": "ALLOWED"},
+    {"probe": "network", "outcome": "UNAVAILABLE", "detail": "Not supplied"},
+    {"probe": "process", "outcome": "UNAVAILABLE", "detail": "Not supplied"},
+    {"probe": "failure", "message": "Sandbox test: intentional recoverable source error", "host_recovery": "Not yet confirmed"}
+  ],
+  "interpretation": "The JVM canary ran and a newly created temporary file was accessible. UNAVAILABLE does not establish that a capability was denied. The final error is intentional; continued host responsiveness remains to be confirmed. These results do not establish a sandbox escape or complete iOS compatibility."
+}
