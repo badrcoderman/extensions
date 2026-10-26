@@ -51,4 +51,4 @@ A shuffled six-piece PNG page was assembled successfully using the actual Suwayo
 
 ## Runtime audit update (1.6.5)
 
-Map geometry must now cover the canvas exactly without gaps or overlaps. Map response, piece-body, piece-count and canvas-allocation limits prevent unchecked growth in these extension-controlled paths. A cancellable shared canvas budget limits concurrent allocations. The upstream decoder remains in use; its internal allocations are outside that canvas budget. Host connection-limit changes apply to new transfers on the same client. See [AUDIT.md](AUDIT.md) for the findings, limits, regression cases and separate Tachimanga laboratory package.
+Map geometry must now cover the canvas exactly without gaps or overlaps. Map response, piece-body, piece-count and canvas-allocation limits prevent unchecked growth in these extension-controlled paths. A cancellable shared canvas budget limits concurrent allocations. The upstream decoder remains in use; its internal allocations are outside that canvas budget. Host connection-limit changes apply to new transfers on the same client. See [AUDIT.md](AUDIT.md) for the findings, limits and regression cases.

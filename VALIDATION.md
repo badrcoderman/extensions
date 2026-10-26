@@ -4,16 +4,14 @@ The repository contains ten requested sources. Nine use extension API 1.4 and Ja
 
 ## Current audit release
 
-[Release build 40305881879](https://github.com/badrcoderman/extensions/actions/runs/40305881879) passed and published the ten updated JAR/APK pairs in commit `5a46045`. MangaRabi and HikayaTeam are 1.4.5, the other seven API 1.4 sources are 1.4.4, and ProComic is 1.6.5. Source IDs and the production signer are preserved. The laboratory source remains outside the production index.
+[Release build 40305881879](https://github.com/badrcoderman/extensions/actions/runs/40305881879) passed and published the ten updated JAR/APK pairs in commit `5a46045`. MangaRabi and HikayaTeam are 1.4.5, the other seven API 1.4 sources are 1.4.4, and ProComic is 1.6.5. Source IDs and the production signer are preserved.
 
-- 236 executed JUnit cases passed: 226 production regressions and 10 laboratory regressions. The run declared 257 cases and skipped 21 (nine live checks and twelve inapplicable cases), with zero failures or errors. The two Python automatic-report privacy/deduplication tests also passed.
+- 226 production JUnit cases passed. Nine live checks and twelve inapplicable cases were skipped, with zero failures or errors. The two Python automatic-report privacy/deduplication tests also passed.
 - Android release lint, all ten APK builds and all ten JAR builds passed. Packaging verified signatures, bytecode, manifests and index contents. All twenty published files match `SHA256SUMS`.
-- The focused local release build passed all 18 ProComic network/download regressions and all 10 laboratory regressions. The published ProComic helper classes match the locally tested classes, and all 125 upstream classes, including the required `R` class, remain present.
+- The focused local release build passed all 18 ProComic network/download regressions. The published ProComic helper classes match the locally tested classes, and all 125 upstream classes, including the required `R` class, remain present.
 - The published ProComic JAR is checked with the actual provided Suwayomi graphics runtime using six shuffled PNG pieces. Dimensions, all destinations, decoded colors, identical transferred bytes and the three-transfer bound passed. This fixture does not exercise the host's missing AVIF decoder.
 
 Live access is reported separately. The full live GitHub run failed its Assassin Scans HTTP check twice; [automatic issue #2](https://github.com/badrcoderman/extensions/issues/2) tracks it. The interrupted local live run also encountered DNS failures for Man9a and MangaRabi and did not complete all nine checks. On 2026-10-26, the ProComic catalog returned HTTP 200, but the reported reader's deferred-media session required Turnstile, so the public protocol check failed before deferred maps could be tested. There is no fresh all-sites live pass for this release.
-
-The signed laboratory JAR passed the isolated desktop host checks in [the desktop evidence](validation/sandbox-2026-10-25.json). The user subsequently reported JVM PASS, temporary file ALLOWED, network UNAVAILABLE, process UNAVAILABLE and the intentional error in Tachimanga on iOS. These [user-reported results](validation/tachimanga-user-report-2026-10-26.json) do not independently establish network/process denial or host recovery after the error. No physical device was attached for independent verification.
 
 [AUDIT.md](AUDIT.md) describes the new runtime fixes and their limits. The following sections retain earlier validation and sample results from 2026-10-25; they do not replace the current live-access limitations above.
 

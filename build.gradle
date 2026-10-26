@@ -10,7 +10,3 @@ tasks.register('verifyExtensions') {
 tasks.register('buildExtensions') {
     dependsOn requestedSources.collectMany { [":src:ar:${it.slug}:assembleRelease", ":src:ar:${it.slug}:extensionJar"] }
 }
-if (findProject(':sandbox') != null) {
-    tasks.register('verifySandbox') { dependsOn ':sandbox:testReleaseUnitTest', ':sandbox:lintRelease' }
-    tasks.register('buildSandbox') { dependsOn ':sandbox:assembleRelease', ':sandbox:extensionJar' }
-}

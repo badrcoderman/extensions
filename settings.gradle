@@ -19,5 +19,3 @@ rootProject.name = 'ArabicExtensions'
 new groovy.json.JsonSlurper().parse(file('sources.json')).each { source ->
     include ":src:ar:${source.slug}"
 }
-// Laboratory packages are built explicitly and never enter the reader repository index.
-if (providers.gradleProperty('includeSandbox').isPresent()) include ':sandbox'

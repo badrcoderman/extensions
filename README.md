@@ -54,10 +54,6 @@ Daily and manually triggered [source health checks](https://github.com/badrcoder
 
 [VALIDATION.md](VALIDATION.md) records parser, live website, image and package checks. The downloaded Suwayomi 2.4.2366 app was used for real JAR installation and reading checks. All nine API 1.4 sources passed. ProComic loaded the reported chapter but its AVIF piece decoder failed in stock Suwayomi. Mihon and Tachimanga device testing still requires an Android/iOS device.
 
-## Opt-in sandbox diagnostics
-
-The separate [laboratory extension](sandbox/README.md) provides fixed JVM, temporary-file, private-network, process and recoverable-error canaries for an owned sandbox. Its JAR targets Tachimanga; a matching APK supports comparison in Mihon. Probes run only when their reader pages are requested. The test package uses a separate signer and is excluded from the normal source indexes. An ALLOWED capability is not evidence of a sandbox escape. Actual iOS capability results require the user's Tachimanga sandbox.
-
 ## Build and update
 
 Requires JDK 17, Android SDK 34 / build-tools 34.0.0, curl, and Python with `protobuf>=7.35.1,<8`.
