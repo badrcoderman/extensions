@@ -54,6 +54,22 @@ class NewSitesTest {
         }
     }
 
+    @Test fun mangaSidGatedTwoPageChapterReportsUsefulError() {
+        assumeTrue(slug == "mangasid")
+        val gatedHtml = """
+            <astro-island component-url="/_astro/ChapterImageViewer.O1rn0Ro6.js" props='{"imageUrls":[1,[[0,"https://img.mangasid.com/1.webp"],[0,"https://img.mangasid.com/2.webp"],[0,{"url":[0,""],"pending":[0,true]}]],"gateMode":[0,"on"]}'></astro-island>
+            <div data-page="1"><img src="https://img.mangasid.com/1.webp"></div>
+            <div data-page="2"><img src="https://img.mangasid.com/2.webp"></div>
+            <div data-page="3"><img src=""></div>
+        """.trimIndent()
+        try {
+            MangaSidSite.pages(gatedHtml, "https://mangasid.com/reader/test/1")
+            fail("Gated 2-page chapter was accepted as complete")
+        } catch (e: IllegalStateException) {
+            assertEquals(Failure.ACCESS.arabic, e.message)
+        }
+    }
+
     @Test fun liveBrowseSearchChaptersAndSampleImages() {
         assumeTrue(System.getenv("RUN_LIVE_TESTS") == "1" && slug in sites)
         val site = sites[slug]!!

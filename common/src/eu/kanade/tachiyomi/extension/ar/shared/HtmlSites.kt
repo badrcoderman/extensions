@@ -27,7 +27,18 @@ object MangaSidSite : Site("MangaSid", "https://mangasid.com") {
             val number = path.substringAfterLast('/').toFloatOrNull() ?: -1f
             ChapterEntry(path, "الفصل ${path.substringAfterLast('/')}", number, 0)
         }.distinctBy { it.url }.sortedByDescending { it.number }
-    override fun pages(body: String, url: String) = document(body, url).select("[data-page] img").mapNotNull { it.image() }.distinct()
+    override fun pages(body: String, url: String): List<String> {
+        val doc = document(body, url)
+        val slots = doc.select("[data-page] img")
+        val images = slots.mapNotNull { it.image() }
+        val props = doc.selectFirst("astro-island[component-url*=ChapterImageViewer]")?.attr("props").orEmpty()
+        check(
+            !(slots.size > images.size && images.isNotEmpty()) &&
+                !props.contains("\"pending\":[0,true]") &&
+                !props.contains("\"gateMode\":[0,\"on\"]"),
+        ) { Failure.ACCESS.arabic }
+        return images.distinct()
+    }
 }
 
 object KadrHubSite : Site("KadrHub", "https://kadrhub.com") {
