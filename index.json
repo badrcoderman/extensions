@@ -40,11 +40,11 @@
   {
     "name": "Tachiyomi: MangaSid",
     "pkg": "eu.kanade.tachiyomi.extension.ar.mangasid",
-    "apk": "tachiyomi-ar.mangasid-v1.4.4.apk",
-    "jar": "tachiyomi-ar.mangasid-v1.4.4.jar",
+    "apk": "tachiyomi-ar.mangasid-v1.4.5.apk",
+    "jar": "tachiyomi-ar.mangasid-v1.4.5.jar",
     "lang": "ar",
-    "code": 4,
-    "version": "1.4.4",
+    "code": 5,
+    "version": "1.4.5",
     "nsfw": 1,
     "sources": [
       {
