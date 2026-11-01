@@ -107,7 +107,8 @@ def main():
             main = config['mainClass'].replace('.', '/') + '.class' if '.' in config['mainClass'] else f"eu/kanade/tachiyomi/extension/ar/{slug}/{config['mainClass']}.class"
             assert main in jar.namelist()
             if slug == 'procomic':
-                with zipfile.ZipFile(module / 'build/upstream/procomic.jar') as original:
+                upstream_jar = ROOT / 'common/fixtures/procomic/procomic-upstream.jar'
+                with zipfile.ZipFile(upstream_jar) as original:
                     expected_classes = {path for path in original.namelist() if path.endswith('.class')}
                 actual_classes = {path for path in jar.namelist() if path.endswith('.class')}
                 assert expected_classes <= actual_classes, f"Required ProComic classes missing: {sorted(expected_classes - actual_classes)}"
